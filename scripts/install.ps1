@@ -4,7 +4,7 @@
 # One-command install for the governed fork of Hermes Agent.
 #
 # Usage:
-#   iex (irm https://raw.githubusercontent.com/your-org/hermes-spl/main/scripts/install.ps1)
+#   iex (irm https://raw.githubusercontent.com/HammazoneRecords/HermesSPL/main/scripts/install.ps1)
 #
 # Or download and run:
 #   .\install.ps1
