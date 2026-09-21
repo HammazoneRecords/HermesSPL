@@ -24,7 +24,7 @@ NC='\033[0m'
 BOLD='\033[1m'
 
 # Configuration
-FORK_REPO="https://github.com/your-org/hermes-spl.git"
+FORK_REPO="https://github.com/HammazoneRecords/HermesSPL.git"
 BRANCH="main"
 HERMES_SPL_HOME="${HERMES_SPL_HOME:-$HOME/.hermes-spl}"
 INSTALL_DIR="$HERMES_SPL_HOME/hermes-spl"

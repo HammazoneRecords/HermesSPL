@@ -13,7 +13,7 @@
 
 param(
     [string]$Branch = "main",
-    [string]$ForkRepo = "https://github.com/your-org/hermes-spl.git",
+    [string]$ForkRepo = "https://github.com/HammazoneRecords/HermesSPL.git",
     [string]$HermesHome = "$env:LOCALAPPDATA\hermes-spl",
     [switch]$SkipSetup,
     [switch]$NonInteractive
