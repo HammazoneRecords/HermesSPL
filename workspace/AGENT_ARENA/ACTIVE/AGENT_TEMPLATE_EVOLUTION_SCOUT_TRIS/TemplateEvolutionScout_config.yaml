@@ -1,0 +1,14 @@
+agent: TemplateEvolutionScout
+reports_to: Hermes
+actor_class: Scout/Translator
+status: scaffolded_not_activated
+model:
+  provider: null
+  name: null
+scope:
+  write_root: /root/MW_CENTRAL/agent_space/agent-TemplateEvolutionScout_Hermes
+  read_only_by_default: true
+  secret_paths_forbidden: true
+reporting:
+  task_status_file: TemplateEvolutionScout_TASK_STATUS.md
+  logs_dir: TemplateEvolutionScout_logs

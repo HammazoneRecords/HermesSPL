@@ -1,0 +1,340 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "description": "Single source of truth for all agent name resolution. Every script/matrix references this. Canonical name = UPPER_SNAKE_CASE. Profile dirs = lowercase no-underscore.",
+    "usage": "Load this file, look up by canonical name, use paths/profile/tri/agent_space to get exact paths."
+  },
+  "agents": {
+    "APPCTX": {
+      "canonical": "APPCTX",
+      "category": "core",
+      "paths": {
+        "agent_space": "ANDROMALIUS/AGENT_ARENA/ACTIVE/AGENT_APPCTX_TRIS",
+        "tri": "ANDROMALIUS/TRISMIGISTUS/COMPONENTS/agents/APPCTX",
+        "profile": "~/.hermes/profiles/appctx"
+      },
+      "name_variants": {
+        "agent_space_dir": "AGENT_APPCTX_TRIS",
+        "tri_dir": "APPCTX",
+        "profile_dir": "appctx",
+        "soul_file": "Appctx_SOUL.md"
+      }
+    },
+    "CHAT_EXCAVATION_SCOUT": {
+      "canonical": "CHAT_EXCAVATION_SCOUT",
+      "category": "scout",
+      "paths": {
+        "agent_space": "ANDROMALIUS/AGENT_ARENA/ACTIVE/AGENT_CHAT_EXCAVATION_SCOUT_TRIS",
+        "tri": "ANDROMALIUS/TRISMIGISTUS/COMPONENTS/agents/CHAT_EXCAVATION_SCOUT",
+        "profile": "~/.hermes/profiles/chatexcavationscout"
+      },
+      "name_variants": {
+        "agent_space_dir": "AGENT_CHAT_EXCAVATION_SCOUT_TRIS",
+        "tri_dir": "CHAT_EXCAVATION_SCOUT",
+        "profile_dir": "chatexcavationscout",
+        "soul_file": "ChatExcavationScout_SOUL.md"
+      }
+    },
+    "FACTCHECK": {
+      "canonical": "FACTCHECK",
+      "category": "core",
+      "paths": {
+        "agent_space": "ANDROMALIUS/AGENT_ARENA/ACTIVE/AGENT_FACTCHECK_TRIS",
+        "tri": "ANDROMALIUS/TRISMIGISTUS/COMPONENTS/agents/FACTCHECK",
+        "profile": "~/.hermes/profiles/factcheck"
+      },
+      "name_variants": {
+        "agent_space_dir": "AGENT_FACTCHECK_TRIS",
+        "tri_dir": "FACTCHECK",
+        "profile_dir": "factcheck",
+        "soul_file": "Factcheck_SOUL.md"
+      }
+    },
+    "GODSEYE": {
+      "canonical": "GODSEYE",
+      "category": "core",
+      "paths": {
+        "agent_space": "ANDROMALIUS/AGENT_ARENA/ACTIVE/AGENT_GODSEYE_TRIS",
+        "tri": "ANDROMALIUS/TRISMIGISTUS/COMPONENTS/agents/GODSEYE",
+        "profile": "~/.hermes/profiles/godseye"
+      },
+      "name_variants": {
+        "agent_space_dir": "AGENT_GODSEYE_TRIS",
+        "tri_dir": "GODSEYE",
+        "profile_dir": "godseye",
+        "soul_file": "Godseye_SOUL.md"
+      }
+    },
+    "HERMESSPL": {
+      "canonical": "HERMESSPL",
+      "category": "core",
+      "paths": {
+        "agent_space": "ANDROMALIUS/AGENT_ARENA/ACTIVE/AGENT_HERMESSPL_TRIS",
+        "tri": "ANDROMALIUS/TRISMIGISTUS/COMPONENTS/agents/HERMESSPL",
+        "profile": "~/.hermes/profiles/hermesspl"
+      },
+      "name_variants": {
+        "agent_space_dir": "AGENT_HERMESSPL_TRIS",
+        "tri_dir": "HERMESSPL",
+        "profile_dir": "hermesspl",
+        "soul_file": "Hermesspl_SOUL.md"
+      }
+    },
+    "JHANOS_ASSESSOR": {
+      "canonical": "JHANOS_ASSESSOR",
+      "category": "jhanos_gate",
+      "paths": {
+        "agent_space": "ANDROMALIUS/AGENT_ARENA/ACTIVE/AGENT_JHANOS_ASSESSOR_TRIS",
+        "tri": "ANDROMALIUS/TRISMIGISTUS/COMPONENTS/agents/JHANOS_ASSESSOR",
+        "profile": "~/.hermes/profiles/jhanosassessor"
+      },
+      "name_variants": {
+        "agent_space_dir": "AGENT_JHANOS_ASSESSOR_TRIS",
+        "tri_dir": "JHANOS_ASSESSOR",
+        "profile_dir": "jhanosassessor",
+        "soul_file": "JhanosAssessor_SOUL.md"
+      }
+    },
+    "JHANOS_BARA": {
+      "canonical": "JHANOS_BARA",
+      "category": "jhanos_gate",
+      "paths": {
+        "agent_space": "ANDROMALIUS/AGENT_ARENA/ACTIVE/AGENT_JHANOS_BARA_TRIS",
+        "tri": "ANDROMALIUS/TRISMIGISTUS/COMPONENTS/agents/JHANOS_BARA",
+        "profile": "~/.hermes/profiles/jhanosbara"
+      },
+      "name_variants": {
+        "agent_space_dir": "AGENT_JHANOS_BARA_TRIS",
+        "tri_dir": "JHANOS_BARA",
+        "profile_dir": "jhanosbara",
+        "soul_file": "JhanosBara_SOUL.md"
+      }
+    },
+    "JHANOS_ECHO": {
+      "canonical": "JHANOS_ECHO",
+      "category": "jhanos_gate",
+      "paths": {
+        "agent_space": "ANDROMALIUS/AGENT_ARENA/ACTIVE/AGENT_JHANOS_ECHO_TRIS",
+        "tri": "ANDROMALIUS/TRISMIGISTUS/COMPONENTS/agents/JHANOS_ECHO",
+        "profile": "~/.hermes/profiles/jhanosecho"
+      },
+      "name_variants": {
+        "agent_space_dir": "AGENT_JHANOS_ECHO_TRIS",
+        "tri_dir": "JHANOS_ECHO",
+        "profile_dir": "jhanosecho",
+        "soul_file": "JhanosEcho_SOUL.md"
+      }
+    },
+    "JHANOS_KHEM": {
+      "canonical": "JHANOS_KHEM",
+      "category": "jhanos_gate",
+      "paths": {
+        "agent_space": "ANDROMALIUS/AGENT_ARENA/ACTIVE/AGENT_JHANOS_KHEM_TRIS",
+        "tri": "ANDROMALIUS/TRISMIGISTUS/COMPONENTS/agents/JHANOS_KHEM",
+        "profile": "~/.hermes/profiles/jhanoskhem"
+      },
+      "name_variants": {
+        "agent_space_dir": "AGENT_JHANOS_KHEM_TRIS",
+        "tri_dir": "JHANOS_KHEM",
+        "profile_dir": "jhanoskhem",
+        "soul_file": "JhanosKhem_SOUL.md"
+      }
+    },
+    "JHANOS_LOMI": {
+      "canonical": "JHANOS_LOMI",
+      "category": "jhanos_gate",
+      "paths": {
+        "agent_space": "ANDROMALIUS/AGENT_ARENA/ACTIVE/AGENT_JHANOS_LOMI_TRIS",
+        "tri": "ANDROMALIUS/TRISMIGISTUS/COMPONENTS/agents/JHANOS_LOMI",
+        "profile": "~/.hermes/profiles/jhanoslomi"
+      },
+      "name_variants": {
+        "agent_space_dir": "AGENT_JHANOS_LOMI_TRIS",
+        "tri_dir": "JHANOS_LOMI",
+        "profile_dir": "jhanoslomi",
+        "soul_file": "JhanosLomi_SOUL.md"
+      }
+    },
+    "JHANOS_ORON": {
+      "canonical": "JHANOS_ORON",
+      "category": "jhanos_gate",
+      "paths": {
+        "agent_space": "ANDROMALIUS/AGENT_ARENA/ACTIVE/AGENT_JHANOS_ORON_TRIS",
+        "tri": "ANDROMALIUS/TRISMIGISTUS/COMPONENTS/agents/JHANOS_ORON",
+        "profile": "~/.hermes/profiles/jhanosoron"
+      },
+      "name_variants": {
+        "agent_space_dir": "AGENT_JHANOS_ORON_TRIS",
+        "tri_dir": "JHANOS_ORON",
+        "profile_dir": "jhanosoron",
+        "soul_file": "JhanosOron_SOUL.md"
+      }
+    },
+    "JHANOS_SYLA": {
+      "canonical": "JHANOS_SYLA",
+      "category": "jhanos_gate",
+      "paths": {
+        "agent_space": "ANDROMALIUS/AGENT_ARENA/ACTIVE/AGENT_JHANOS_SYLA_TRIS",
+        "tri": "ANDROMALIUS/TRISMIGISTUS/COMPONENTS/agents/JHANOS_SYLA",
+        "profile": "~/.hermes/profiles/jhanossyla"
+      },
+      "name_variants": {
+        "agent_space_dir": "AGENT_JHANOS_SYLA_TRIS",
+        "tri_dir": "JHANOS_SYLA",
+        "profile_dir": "jhanossyla",
+        "soul_file": "JhanosSyla_SOUL.md"
+      }
+    },
+    "JHANOS_TARA": {
+      "canonical": "JHANOS_TARA",
+      "category": "jhanos_gate",
+      "paths": {
+        "agent_space": "ANDROMALIUS/AGENT_ARENA/ACTIVE/AGENT_JHANOS_TARA_TRIS",
+        "tri": "ANDROMALIUS/TRISMIGISTUS/COMPONENTS/agents/JHANOS_TARA",
+        "profile": "~/.hermes/profiles/jhanostara"
+      },
+      "name_variants": {
+        "agent_space_dir": "AGENT_JHANOS_TARA_TRIS",
+        "tri_dir": "JHANOS_TARA",
+        "profile_dir": "jhanostara",
+        "soul_file": "JhanosTara_SOUL.md"
+      }
+    },
+    "JHANOS_VORAK": {
+      "canonical": "JHANOS_VORAK",
+      "category": "jhanos_gate",
+      "paths": {
+        "agent_space": "ANDROMALIUS/AGENT_ARENA/ACTIVE/AGENT_JHANOS_VORAK_TRIS",
+        "tri": "ANDROMALIUS/TRISMIGISTUS/COMPONENTS/agents/JHANOS_VORAK",
+        "profile": "~/.hermes/profiles/jhanosvorak"
+      },
+      "name_variants": {
+        "agent_space_dir": "AGENT_JHANOS_VORAK_TRIS",
+        "tri_dir": "JHANOS_VORAK",
+        "profile_dir": "jhanosvorak",
+        "soul_file": "JhanosVorak_SOUL.md"
+      }
+    },
+    "JHANOS_ZAYN": {
+      "canonical": "JHANOS_ZAYN",
+      "category": "jhanos_gate",
+      "paths": {
+        "agent_space": "ANDROMALIUS/AGENT_ARENA/ACTIVE/AGENT_JHANOS_ZAYN_TRIS",
+        "tri": "ANDROMALIUS/TRISMIGISTUS/COMPONENTS/agents/JHANOS_ZAYN",
+        "profile": "~/.hermes/profiles/jhanoszayn"
+      },
+      "name_variants": {
+        "agent_space_dir": "AGENT_JHANOS_ZAYN_TRIS",
+        "tri_dir": "JHANOS_ZAYN",
+        "profile_dir": "jhanoszayn",
+        "soul_file": "JhanosZayn_SOUL.md"
+      }
+    },
+    "ONU": {
+      "canonical": "ONU",
+      "category": "core",
+      "paths": {
+        "agent_space": "ANDROMALIUS/AGENT_ARENA/ACTIVE/AGENT_ONU_TRIS",
+        "tri": "ANDROMALIUS/TRISMIGISTUS/COMPONENTS/agents/ONU",
+        "profile": "~/.hermes/profiles/onu"
+      },
+      "name_variants": {
+        "agent_space_dir": "AGENT_ONU_TRIS",
+        "tri_dir": "ONU",
+        "profile_dir": "onu",
+        "soul_file": "Onu_SOUL.md"
+      }
+    },
+    "SOLOBIC_SCRIBE": {
+      "canonical": "SOLOBIC_SCRIBE",
+      "category": "core",
+      "paths": {
+        "agent_space": "ANDROMALIUS/AGENT_ARENA/ACTIVE/AGENT_SOLOBIC_SCRIBE_TRIS",
+        "tri": "ANDROMALIUS/TRISMIGISTUS/COMPONENTS/agents/SOLOBIC_SCRIBE",
+        "profile": "~/.hermes/profiles/solobicscribe"
+      },
+      "name_variants": {
+        "agent_space_dir": "AGENT_SOLOBIC_SCRIBE_TRIS",
+        "tri_dir": "SOLOBIC_SCRIBE",
+        "profile_dir": "solobicscribe",
+        "soul_file": "SolobicScribe_SOUL.md"
+      }
+    },
+    "SOLOBILITY": {
+      "canonical": "SOLOBILITY",
+      "category": "core",
+      "paths": {
+        "agent_space": "ANDROMALIUS/AGENT_ARENA/ACTIVE/AGENT_SOLOBILITY_TRIS",
+        "tri": "ANDROMALIUS/TRISMIGISTUS/COMPONENTS/agents/SOLOBILITY",
+        "profile": "~/.hermes/profiles/solobility"
+      },
+      "name_variants": {
+        "agent_space_dir": "AGENT_SOLOBILITY_TRIS",
+        "tri_dir": "SOLOBILITY",
+        "profile_dir": "solobility",
+        "soul_file": "Solobility_SOUL.md"
+      }
+    },
+    "TCP": {
+      "canonical": "TCP",
+      "category": "core",
+      "paths": {
+        "agent_space": "ANDROMALIUS/AGENT_ARENA/ACTIVE/AGENT_TCP_TRIS",
+        "tri": "ANDROMALIUS/TRISMIGISTUS/COMPONENTS/agents/TCP",
+        "profile": "~/.hermes/profiles/tcp"
+      },
+      "name_variants": {
+        "agent_space_dir": "AGENT_TCP_TRIS",
+        "tri_dir": "TCP",
+        "profile_dir": "tcp",
+        "soul_file": "Tcp_SOUL.md"
+      }
+    },
+    "TCP_CHECKER": {
+      "canonical": "TCP_CHECKER",
+      "category": "core",
+      "paths": {
+        "agent_space": "ANDROMALIUS/AGENT_ARENA/ACTIVE/AGENT_TCP_CHECKER_TRIS",
+        "tri": "ANDROMALIUS/TRISMIGISTUS/COMPONENTS/agents/TCP_CHECKER",
+        "profile": "~/.hermes/profiles/tcpchecker"
+      },
+      "name_variants": {
+        "agent_space_dir": "AGENT_TCP_CHECKER_TRIS",
+        "tri_dir": "TCP_CHECKER",
+        "profile_dir": "tcpchecker",
+        "soul_file": "TcpChecker_SOUL.md"
+      }
+    },
+    "TEMPLATE_EVOLUTION_SCOUT": {
+      "canonical": "TEMPLATE_EVOLUTION_SCOUT",
+      "category": "scout",
+      "paths": {
+        "agent_space": "ANDROMALIUS/AGENT_ARENA/ACTIVE/AGENT_TEMPLATE_EVOLUTION_SCOUT_TRIS",
+        "tri": "ANDROMALIUS/TRISMIGISTUS/COMPONENTS/agents/TEMPLATE_EVOLUTION_SCOUT",
+        "profile": "~/.hermes/profiles/templateevolutionscout"
+      },
+      "name_variants": {
+        "agent_space_dir": "AGENT_TEMPLATE_EVOLUTION_SCOUT_TRIS",
+        "tri_dir": "TEMPLATE_EVOLUTION_SCOUT",
+        "profile_dir": "templateevolutionscout",
+        "soul_file": "TemplateEvolutionScout_SOUL.md"
+      }
+    },
+    "MEMORY_CURATOR": {
+      "canonical": "MEMORY_CURATOR",
+      "category": "core",
+      "paths": {
+        "agent_space": "ANDROMALIUS/TRISMIGISTUS/COMPONENTS/agents/MEMORY_CURATOR",
+        "tri": "ANDROMALIUS/TRISMIGISTUS/COMPONENTS/agents/MEMORY_CURATOR",
+        "profile": "~/.hermes/profiles/memorycurator"
+      },
+      "name_variants": {
+        "agent_space_dir": "AGENT_MEMORY_CURATOR_TRIS",
+        "tri_dir": "MEMORY_CURATOR",
+        "profile_dir": "memorycurator",
+        "soul_file": "MemoryCurator_SOUL.md"
+      },
+      "notes": "Controller-scoped agent. No separate agent-space folder. TRIS dir IS the operational workspace."
+    }
+  }
+}

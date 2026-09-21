@@ -1,0 +1,24 @@
+model:
+  default: meituan/longcat-2.0:free
+  provider: nous
+plugins:
+  enabled: []
+agent: {}
+
+# ── Scope Enforcement (auto-generated 2026-09-15) ──────────────────
+scope:
+  agent_space: /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/AGENT_ARENA/ACTIVE/AGENT_JHANOS_TARA_TRIS
+  allowed_writes:
+    - "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/AGENT_ARENA/ACTIVE/AGENT_JHANOS_TARA_TRIS/*"
+  allowed_reads:
+    - "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/AGENT_ARENA/ACTIVE/AGENT_JHANOS_TARA_TRIS/*"
+    - "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/MATRIX/*"
+    - "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/KNOWLEDGE_LIBRARY/*"
+    - "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/TRISMIGISTUS/COMPONENTS/controller/policy/*"
+  identity_files_read_only:
+    - "*SOUL*.md"
+    - "*SCOPE*.md"
+    - "*MEMORY*.md"
+    - "config.yaml"
+    - "state.md"
+  reports_to: TRISMIGISTUS

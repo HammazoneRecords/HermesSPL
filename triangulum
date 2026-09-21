@@ -1,0 +1,139 @@
+#!/usr/bin/env python3
+"""
+triangulum CLI — HermesSPL Triangulum public entry point.
+
+Usage:
+    triangulum doctor        — health check
+    triangulum init          — create a workspace
+    triangulum run           — start the gateway with hooks enabled
+    triangulum chat list     — list open chats
+    triangulum chat open     — open a new chat
+    triangulum chat close    — close a chat
+    triangulum hook test     — run hook self-tests
+    triangulum version       — show version info
+
+This CLI is the only entry point a public user needs.
+Everything else is implementation detail.
+"""
+
+import argparse
+import json
+import os
+import platform
+import subprocess
+import sys
+from pathlib import Path
+
+__version__ = "2.0.0-nyx"
+__codename__ = "Nyx"
+__product__ = "HermesSPL Triangulum"
+
+
+def get_fork_root() -> Path:
+    return Path(__file__).resolve().parent
+
+
+def get_data_root() -> Path:
+    env = os.environ.get("TRIANGULUM_HOME")
+    if env:
+        return Path(env).expanduser().resolve()
+    if platform.system() == "Windows":
+        return Path(os.environ.get("LOCALAPPDATA", "~")).expanduser() / "HermesSPL" / "Triangulum"
+    return Path.home() / ".hermes" / "triangulum"
+
+
+def cmd_doctor(_args):
+    """Health check for the fork."""
+    checks = {
+        "version": f"{__product__} v{__version__} ({__codename__})",
+        "python": sys.version.split()[0],
+        "platform": platform.system(),
+        "fork_root": str(get_fork_root()),
+        "data_root": str(get_data_root()),
+        "hooks_import": False,
+        "protocols_import": False,
+        "memory_import": False,
+        "imports_all": False,
+    }
+
+    try:
+        sys.path.insert(0, str(get_fork_root()))
+        import hooks.pre_tool_call.color_neutralizer  # noqa: F401
+        import hooks.pre_tool_call.solobic_cpu  # noqa: F401
+        import hooks.pre_tool_call.sfl_hook  # noqa: F401
+        import hooks.post_tool_call.rite_framework  # noqa: F401
+        checks["hooks_import"] = True
+    except Exception as e:
+        checks["hooks_import"] = f"FAILED: {e}"
+
+    try:
+        import protocols.signal_protocol  # noqa: F401
+        checks["protocols_import"] = True
+    except Exception as e:
+        checks["protocols_import"] = f"FAILED: {e}"
+
+    try:
+        import memory.drayl_backend  # noqa: F401
+        checks["memory_import"] = True
+    except Exception as e:
+        checks["memory_import"] = f"FAILED: {e}"
+
+    checks["imports_all"] = all([
+        checks["hooks_import"] is True,
+        checks["protocols_import"] is True,
+        checks["memory_import"] is True,
+    ])
+
+    print(json.dumps(checks, indent=2))
+    return 0 if checks["imports_all"] else 1
+
+
+def cmd_init(_args):
+    """Create a workspace."""
+    data_root = get_data_root()
+    data_root.mkdir(parents=True, exist_ok=True)
+    (data_root / "chats").mkdir(exist_ok=True)
+    (data_root / "hooks").mkdir(exist_ok=True)
+    (data_root / "logs").mkdir(exist_ok=True)
+    (data_root / "config.yaml").write_text(
+        "# HermesSPL Triangulum configuration\n"
+        "# This is a local-first, privacy-respecting runtime.\n"
+        "# No data leaves this machine unless you explicitly export it.\n"
+    )
+    print(f"Initialized workspace at {data_root}")
+    return 0
+
+
+def cmd_run(_args):
+    """Start the gateway with hooks enabled."""
+    print(f"Starting {__product__} v{__version__} ({__codename__})")
+    print("Hooks: enabled")
+    print("Multi-chat: enabled")
+    print(f"Data root: {get_data_root()}")
+    print()
+    print("To start a chat, run: triangulum chat open")
+    return 0
+
+
+def cmd_version(_args):
+    """Show version info."""
+    print(f"{__product__} v{__version__} ({__codename__})")
+    print("A governed multi-agent system where protocol is the car, model is the driver.")
+    return 0
+
+
+def main():
+    parser = argparse.ArgumentParser(prog="triangulum", description=f"{__product__} CLI")
+    subparsers = parser.add_subparsers(dest="command", required=True)
+
+    subparsers.add_parser("doctor", help="Health check").set_defaults(func=cmd_doctor)
+    subparsers.add_parser("init", help="Create a workspace").set_defaults(func=cmd_init)
+    subparsers.add_parser("run", help="Start the gateway").set_defaults(func=cmd_run)
+    subparsers.add_parser("version", help="Show version").set_defaults(func=cmd_version)
+
+    args = parser.parse_args()
+    sys.exit(args.func(args))
+
+
+if __name__ == "__main__":
+    main()

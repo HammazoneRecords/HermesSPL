@@ -1,0 +1,24 @@
+{
+  "openai-codex": [
+    "/root/.hermes/profiles/jhanosxcustodian/auth.json",
+    null,
+    null,
+    "/root/.hermes/auth.json",
+    [
+      1789238520160692939,
+      17165
+    ],
+    null
+  ],
+  "xai-oauth": [
+    "/root/.hermes/profiles/jhanosassessor/auth.json",
+    null,
+    null,
+    "/root/.hermes/auth.json",
+    [
+      1789494183623612309,
+      20237
+    ],
+    null
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "bundle_hash": "sha256:9e18bd75e7fd729125fe3249b1c2d067b37a2e92fd29074015952badbd43f11d",
+  "scanner_version": "skills-guard-v2",
+  "source": "project-local",
+  "source_url": "",
+  "verdict": "safe",
+  "trust_level": "community",
+  "findings": [],
+  "rules": [],
+  "scanned_at": "2026-09-12T18:48:55.502482+00:00",
+  "summary": "godseye-monitor: clean scan, no threats detected",
+  "fresh": true
+}

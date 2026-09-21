@@ -1,0 +1,21 @@
+model:
+  default: meituan/longcat-2.0:free
+  provider: nous
+  base_url: ''
+  aliases:
+    brainstorm: openai/gpt-5.5
+    specs: openai/gpt-5.5
+    solar: upstage/solar-pro4
+    longcat: meituan/longcat-2.0
+    longcat-2: meituan/longcat-2.0
+    chatgpt: openai/gpt-5.5
+    vision: openai/gpt-5.5
+    video: openai/gpt-5.5
+    consult: openai/gpt-5.5
+plugins:
+  enabled: []
+_config_version: 41
+agent: {}
+onboarding:
+  seen:
+    tool_progress_prompt: true

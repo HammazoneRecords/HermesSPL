@@ -1,0 +1,261 @@
+2026-09-20 23:35:36,791 [INFO] ============================================================
+2026-09-20 23:35:36,791 [INFO] AUTOPILOT ORCHESTRATOR v1.0.0
+2026-09-20 23:35:36,791 [INFO] Fork: /root/MW_CENTRAL/EARTH-MOON/hermes-spl-fork
+2026-09-20 23:35:36,791 [INFO] Pluto: /root/MW_CENTRAL/PLUTO
+2026-09-20 23:35:36,792 [INFO] ============================================================
+2026-09-20 23:35:36,792 [INFO] 
+2026-09-20 23:35:36,792 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:36,792 [INFO] Phase 1: Agent Initialization (22 agents)
+2026-09-20 23:35:36,792 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:36,792 [INFO] Initializing 23 agents from naming authority...
+2026-09-20 23:35:36,793 [INFO]   ✅ APPCTX (core) — READY
+2026-09-20 23:35:36,793 [WARNING]   ⚠️  BOOK_WRITER (creative) — PARTIAL (aspace=True tri=False profile=False)
+2026-09-20 23:35:36,793 [INFO]   ✅ CHAT_EXCAVATION_SCOUT (scout) — READY
+2026-09-20 23:35:36,793 [INFO]   ✅ FACTCHECK (core) — READY
+2026-09-20 23:35:36,794 [INFO]   ✅ GODSEYE (core) — READY
+2026-09-20 23:35:36,794 [INFO]   ✅ HERMESSPL (core) — READY
+2026-09-20 23:35:36,794 [INFO]   ✅ JHANOS_ASSESSOR (jhanos_gate) — READY
+2026-09-20 23:35:36,795 [INFO]   ✅ JHANOS_BARA (jhanos_gate) — READY
+2026-09-20 23:35:36,795 [INFO]   ✅ JHANOS_ECHO (jhanos_gate) — READY
+2026-09-20 23:35:36,795 [INFO]   ✅ JHANOS_KHEM (jhanos_gate) — READY
+2026-09-20 23:35:36,796 [INFO]   ✅ JHANOS_LOMI (jhanos_gate) — READY
+2026-09-20 23:35:36,796 [INFO]   ✅ JHANOS_ORON (jhanos_gate) — READY
+2026-09-20 23:35:36,796 [INFO]   ✅ JHANOS_SYLA (jhanos_gate) — READY
+2026-09-20 23:35:36,796 [INFO]   ✅ JHANOS_TARA (jhanos_gate) — READY
+2026-09-20 23:35:36,797 [INFO]   ✅ JHANOS_VORAK (jhanos_gate) — READY
+2026-09-20 23:35:36,797 [INFO]   ✅ JHANOS_ZAYN (jhanos_gate) — READY
+2026-09-20 23:35:36,797 [INFO]   ✅ MEMORY_CURATOR (core) — READY
+2026-09-20 23:35:36,797 [INFO]   ✅ ONU (core) — READY
+2026-09-20 23:35:36,797 [INFO]   ✅ SOLOBIC_SCRIBE (core) — READY
+2026-09-20 23:35:36,798 [INFO]   ✅ SOLOBILITY (core) — READY
+2026-09-20 23:35:36,798 [INFO]   ✅ TCP (core) — READY
+2026-09-20 23:35:36,799 [INFO]   ✅ TCP_CHECKER (core) — READY
+2026-09-20 23:35:36,799 [INFO]   ✅ TEMPLATE_EVOLUTION_SCOUT (scout) — READY
+2026-09-20 23:35:36,799 [INFO] Agent summary: 22 ready, 1 partial, 0 missing
+2026-09-20 23:35:36,799 [INFO] 
+2026-09-20 23:35:36,799 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:36,799 [INFO] Phase 2: Hook Verification
+2026-09-20 23:35:36,799 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:36,799 [INFO] Verifying hooks from /root/MW_CENTRAL/EARTH-MOON/hermes-spl-fork/config_scope_hooks.yaml
+2026-09-20 23:35:36,818 [WARNING]   ⚠️  pre_tool_call hook MISSING: /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/Y-MINDWAVE/H3_SYSTEM/07_HOOKS/00_SHELL/pluto_pre_tool_guard.py
+2026-09-20 23:35:36,819 [WARNING]   ⚠️  pre_tool_call hook MISSING: /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/Y-MINDWAVE/H3_SYSTEM/07_HOOKS/00_SHELL/pluto_scope_guard.py
+2026-09-20 23:35:36,821 [WARNING]   ⚠️  pre_tool_call hook MISSING: /root/MW_CENTRAL/TRIANGULUM/hermes-spl-fork/cron/rite_enforcer.py
+2026-09-20 23:35:36,822 [WARNING]   ⚠️  post_tool_call hook MISSING: /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/Y-MINDWAVE/H3_SYSTEM/07_HOOKS/00_SHELL/pluto_post_tool_audit.py
+2026-09-20 23:35:36,822 [WARNING]   ⚠️  post_tool_call hook MISSING: /root/MW_CENTRAL/TRIANGULUM/hermes-spl-fork/cron/rite_enforcer.py
+2026-09-20 23:35:36,822 [INFO] Hook summary: 0 verified, 5 missing
+2026-09-20 23:35:36,822 [INFO] 
+2026-09-20 23:35:36,823 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:36,824 [INFO] Phase 3: TCP Check
+2026-09-20 23:35:36,824 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:36,824 [INFO] Checking TCP agent state...
+2026-09-20 23:35:36,824 [INFO]   ✅ TCP agent found at /root/MW_CENTRAL/PLUTO/AGENT_ARENA/ACTIVE/AGENT_TCP_TRIS
+2026-09-20 23:35:36,824 [INFO]      config.yaml: True, state.md: True
+2026-09-20 23:35:36,824 [INFO]   ✅ TCP_CHECKER found at /root/MW_CENTRAL/PLUTO/AGENT_ARENA/ACTIVE/AGENT_TCP_CHECKER_TRIS
+2026-09-20 23:35:36,825 [INFO]      config: False, state: True
+2026-09-20 23:35:36,825 [INFO] 
+2026-09-20 23:35:36,825 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:36,825 [INFO] Phase 4: Work-Time Tracking
+2026-09-20 23:35:36,825 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:36,825 [INFO] Starting work-time tracking...
+2026-09-20 23:35:36,835 [INFO]   Session: sess-00c9d0d9b0c6
+2026-09-20 23:35:36,835 [INFO]   Task: autopilot_initialization (task-f46e0ca857)
+2026-09-20 23:35:36,836 [INFO]   Log: /root/MW_CENTRAL/EARTH-MOON/hermes-spl-fork/.hermes-spl/work_time/tcp_2026-09-20.jsonl
+2026-09-20 23:35:36,836 [INFO] 
+2026-09-20 23:35:36,836 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:36,836 [INFO] Phase 5: User Preference Capture
+2026-09-20 23:35:36,836 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:36,836 [INFO] Beginning user preference capture...
+2026-09-20 23:35:36,836 [INFO]   Created new preferences file: /root/MW_CENTRAL/EARTH-MOON/hermes-spl-fork/.hermes-spl/user_preferences.json
+2026-09-20 23:35:36,837 [INFO]   Captured environment signals: 22 agents detected
+2026-09-20 23:35:36,837 [INFO] 
+2026-09-20 23:35:36,837 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:36,837 [INFO] Phase 6: Readiness Report
+2026-09-20 23:35:36,837 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:36,838 [INFO] 
+2026-09-20 23:35:36,838 [INFO] ============================================================
+2026-09-20 23:35:36,838 [INFO] AUTOPILOT COMPLETE
+2026-09-20 23:35:36,838 [INFO] ============================================================
+2026-09-20 23:35:36,838 [INFO] Status: operational
+2026-09-20 23:35:36,838 [INFO] Agents: 22 ready, 1 partial, 0 missing
+2026-09-20 23:35:36,838 [INFO] Hooks: 0 verified, 5 missing
+2026-09-20 23:35:36,838 [INFO] TCP ready: True
+2026-09-20 23:35:36,838 [INFO] Session: sess-00c9d0d9b0c6
+2026-09-20 23:35:36,838 [INFO] Report: /root/MW_CENTRAL/EARTH-MOON/hermes-spl-fork/.hermes-spl/readiness_report.json
+2026-09-20 23:35:36,838 [INFO] Log: /root/MW_CENTRAL/EARTH-MOON/hermes-spl-fork/.hermes-spl/autopilot.log
+2026-09-20 23:35:36,838 [INFO] ============================================================
+2026-09-20 23:35:43,631 [INFO] ============================================================
+2026-09-20 23:35:43,636 [INFO] AUTOPILOT ORCHESTRATOR v1.0.0
+2026-09-20 23:35:43,636 [INFO] Fork: /root/MW_CENTRAL/EARTH-MOON/hermes-spl-fork
+2026-09-20 23:35:43,636 [INFO] Pluto: /root/MW_CENTRAL/PLUTO
+2026-09-20 23:35:43,636 [INFO] ============================================================
+2026-09-20 23:35:43,638 [INFO] Autopilot already initialized (marker exists). Use --force to re-run.
+2026-09-20 23:35:56,609 [INFO] ============================================================
+2026-09-20 23:35:56,609 [INFO] AUTOPILOT ORCHESTRATOR v1.0.0
+2026-09-20 23:35:56,609 [INFO] Fork: /root/MW_CENTRAL/EARTH-MOON/hermes-spl-fork
+2026-09-20 23:35:56,610 [INFO] Pluto: /root/MW_CENTRAL/PLUTO
+2026-09-20 23:35:56,610 [INFO] ============================================================
+2026-09-20 23:35:56,610 [INFO] 
+2026-09-20 23:35:56,610 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:56,610 [INFO] Phase 1: Agent Initialization (22 agents)
+2026-09-20 23:35:56,610 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:56,610 [INFO] Initializing 23 agents from naming authority...
+2026-09-20 23:35:56,610 [INFO]   ✅ APPCTX (core) — READY
+2026-09-20 23:35:56,611 [WARNING]   ⚠️  BOOK_WRITER (creative) — PARTIAL (aspace=True tri=False profile=False)
+2026-09-20 23:35:56,611 [INFO]   ✅ CHAT_EXCAVATION_SCOUT (scout) — READY
+2026-09-20 23:35:56,611 [INFO]   ✅ FACTCHECK (core) — READY
+2026-09-20 23:35:56,611 [INFO]   ✅ GODSEYE (core) — READY
+2026-09-20 23:35:56,612 [INFO]   ✅ HERMESSPL (core) — READY
+2026-09-20 23:35:56,612 [INFO]   ✅ JHANOS_ASSESSOR (jhanos_gate) — READY
+2026-09-20 23:35:56,612 [INFO]   ✅ JHANOS_BARA (jhanos_gate) — READY
+2026-09-20 23:35:56,612 [INFO]   ✅ JHANOS_ECHO (jhanos_gate) — READY
+2026-09-20 23:35:56,612 [INFO]   ✅ JHANOS_KHEM (jhanos_gate) — READY
+2026-09-20 23:35:56,613 [INFO]   ✅ JHANOS_LOMI (jhanos_gate) — READY
+2026-09-20 23:35:56,613 [INFO]   ✅ JHANOS_ORON (jhanos_gate) — READY
+2026-09-20 23:35:56,613 [INFO]   ✅ JHANOS_SYLA (jhanos_gate) — READY
+2026-09-20 23:35:56,613 [INFO]   ✅ JHANOS_TARA (jhanos_gate) — READY
+2026-09-20 23:35:56,613 [INFO]   ✅ JHANOS_VORAK (jhanos_gate) — READY
+2026-09-20 23:35:56,614 [INFO]   ✅ JHANOS_ZAYN (jhanos_gate) — READY
+2026-09-20 23:35:56,614 [INFO]   ✅ MEMORY_CURATOR (core) — READY
+2026-09-20 23:35:56,614 [INFO]   ✅ ONU (core) — READY
+2026-09-20 23:35:56,614 [INFO]   ✅ SOLOBIC_SCRIBE (core) — READY
+2026-09-20 23:35:56,615 [INFO]   ✅ SOLOBILITY (core) — READY
+2026-09-20 23:35:56,615 [INFO]   ✅ TCP (core) — READY
+2026-09-20 23:35:56,616 [INFO]   ✅ TCP_CHECKER (core) — READY
+2026-09-20 23:35:56,616 [INFO]   ✅ TEMPLATE_EVOLUTION_SCOUT (scout) — READY
+2026-09-20 23:35:56,616 [INFO] Agent summary: 22 ready, 1 partial, 0 missing
+2026-09-20 23:35:56,616 [INFO] 
+2026-09-20 23:35:56,617 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:56,617 [INFO] Phase 2: Hook Verification
+2026-09-20 23:35:56,617 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:56,617 [INFO] Verifying hooks from /root/MW_CENTRAL/EARTH-MOON/hermes-spl-fork/config_scope_hooks.yaml
+2026-09-20 23:35:56,634 [WARNING]   ⚠️  pre_tool_call hook MISSING: /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/Y-MINDWAVE/H3_SYSTEM/07_HOOKS/00_SHELL/pluto_pre_tool_guard.py
+2026-09-20 23:35:56,634 [WARNING]   ⚠️  pre_tool_call hook MISSING: /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/Y-MINDWAVE/H3_SYSTEM/07_HOOKS/00_SHELL/pluto_scope_guard.py
+2026-09-20 23:35:56,634 [WARNING]   ⚠️  pre_tool_call hook MISSING: /root/MW_CENTRAL/TRIANGULUM/hermes-spl-fork/cron/rite_enforcer.py
+2026-09-20 23:35:56,634 [WARNING]   ⚠️  post_tool_call hook MISSING: /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/Y-MINDWAVE/H3_SYSTEM/07_HOOKS/00_SHELL/pluto_post_tool_audit.py
+2026-09-20 23:35:56,634 [WARNING]   ⚠️  post_tool_call hook MISSING: /root/MW_CENTRAL/TRIANGULUM/hermes-spl-fork/cron/rite_enforcer.py
+2026-09-20 23:35:56,634 [INFO] Hook summary: 0 verified, 5 missing
+2026-09-20 23:35:56,634 [INFO] 
+2026-09-20 23:35:56,634 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:56,634 [INFO] Phase 3: TCP Check
+2026-09-20 23:35:56,635 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:56,635 [INFO] Checking TCP agent state...
+2026-09-20 23:35:56,635 [INFO]   ✅ TCP agent found at /root/MW_CENTRAL/PLUTO/AGENT_ARENA/ACTIVE/AGENT_TCP_TRIS
+2026-09-20 23:35:56,635 [INFO]      config.yaml: True, state.md: True
+2026-09-20 23:35:56,635 [INFO]   ✅ TCP_CHECKER found at /root/MW_CENTRAL/PLUTO/AGENT_ARENA/ACTIVE/AGENT_TCP_CHECKER_TRIS
+2026-09-20 23:35:56,635 [INFO]      config: False, state: True
+2026-09-20 23:35:56,635 [INFO] 
+2026-09-20 23:35:56,635 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:56,635 [INFO] Phase 4: Work-Time Tracking
+2026-09-20 23:35:56,635 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:56,635 [INFO] Starting work-time tracking...
+2026-09-20 23:35:56,645 [INFO]   Session: sess-67b3e26d0d0f
+2026-09-20 23:35:56,645 [INFO]   Task: autopilot_initialization (task-dd1329b538)
+2026-09-20 23:35:56,645 [INFO]   Log: /root/MW_CENTRAL/EARTH-MOON/hermes-spl-fork/.hermes-spl/work_time/tcp_2026-09-20.jsonl
+2026-09-20 23:35:56,645 [INFO] 
+2026-09-20 23:35:56,645 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:56,645 [INFO] Phase 5: User Preference Capture
+2026-09-20 23:35:56,646 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:56,646 [INFO] Beginning user preference capture...
+2026-09-20 23:35:56,646 [INFO]   Loaded existing preferences (updated_at: 2026-09-20T21:35:36+00:00)
+2026-09-20 23:35:56,646 [INFO]   Captured environment signals: 22 agents detected
+2026-09-20 23:35:56,646 [INFO] 
+2026-09-20 23:35:56,646 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:56,647 [INFO] Phase 6: Readiness Report
+2026-09-20 23:35:56,647 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:35:56,647 [INFO] 
+2026-09-20 23:35:56,647 [INFO] ============================================================
+2026-09-20 23:35:56,647 [INFO] AUTOPILOT COMPLETE
+2026-09-20 23:35:56,647 [INFO] ============================================================
+2026-09-20 23:35:56,647 [INFO] Status: operational
+2026-09-20 23:35:56,647 [INFO] Agents: 22 ready, 1 partial, 0 missing
+2026-09-20 23:35:56,647 [INFO] Hooks: 0 verified, 5 missing
+2026-09-20 23:35:56,647 [INFO] TCP ready: True
+2026-09-20 23:35:56,647 [INFO] Session: sess-67b3e26d0d0f
+2026-09-20 23:35:56,647 [INFO] Report: /root/MW_CENTRAL/EARTH-MOON/hermes-spl-fork/.hermes-spl/readiness_report.json
+2026-09-20 23:35:56,647 [INFO] Log: /root/MW_CENTRAL/EARTH-MOON/hermes-spl-fork/.hermes-spl/autopilot.log
+2026-09-20 23:35:56,647 [INFO] ============================================================
+2026-09-20 23:36:18,506 [INFO] ============================================================
+2026-09-20 23:36:18,506 [INFO] AUTOPILOT ORCHESTRATOR v1.0.0
+2026-09-20 23:36:18,506 [INFO] Fork: /root/MW_CENTRAL/EARTH-MOON/hermes-spl-fork
+2026-09-20 23:36:18,506 [INFO] Pluto: /root/MW_CENTRAL/PLUTO
+2026-09-20 23:36:18,506 [INFO] ============================================================
+2026-09-20 23:36:18,506 [INFO] 
+2026-09-20 23:36:18,506 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:36:18,506 [INFO] Phase 1: Agent Initialization (22 agents)
+2026-09-20 23:36:18,506 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:36:18,507 [INFO] Initializing 23 agents from naming authority...
+2026-09-20 23:36:18,507 [INFO]   ✅ APPCTX (core) — READY
+2026-09-20 23:36:18,507 [WARNING]   ⚠️  BOOK_WRITER (creative) — PARTIAL (aspace=True tri=False profile=False)
+2026-09-20 23:36:18,508 [INFO]   ✅ CHAT_EXCAVATION_SCOUT (scout) — READY
+2026-09-20 23:36:18,508 [INFO]   ✅ FACTCHECK (core) — READY
+2026-09-20 23:36:18,508 [INFO]   ✅ GODSEYE (core) — READY
+2026-09-20 23:36:18,509 [INFO]   ✅ HERMESSPL (core) — READY
+2026-09-20 23:36:18,509 [INFO]   ✅ JHANOS_ASSESSOR (jhanos_gate) — READY
+2026-09-20 23:36:18,509 [INFO]   ✅ JHANOS_BARA (jhanos_gate) — READY
+2026-09-20 23:36:18,509 [INFO]   ✅ JHANOS_ECHO (jhanos_gate) — READY
+2026-09-20 23:36:18,509 [INFO]   ✅ JHANOS_KHEM (jhanos_gate) — READY
+2026-09-20 23:36:18,510 [INFO]   ✅ JHANOS_LOMI (jhanos_gate) — READY
+2026-09-20 23:36:18,510 [INFO]   ✅ JHANOS_ORON (jhanos_gate) — READY
+2026-09-20 23:36:18,510 [INFO]   ✅ JHANOS_SYLA (jhanos_gate) — READY
+2026-09-20 23:36:18,510 [INFO]   ✅ JHANOS_TARA (jhanos_gate) — READY
+2026-09-20 23:36:18,510 [INFO]   ✅ JHANOS_VORAK (jhanos_gate) — READY
+2026-09-20 23:36:18,511 [INFO]   ✅ JHANOS_ZAYN (jhanos_gate) — READY
+2026-09-20 23:36:18,511 [INFO]   ✅ MEMORY_CURATOR (core) — READY
+2026-09-20 23:36:18,511 [INFO]   ✅ ONU (core) — READY
+2026-09-20 23:36:18,512 [INFO]   ✅ SOLOBIC_SCRIBE (core) — READY
+2026-09-20 23:36:18,512 [INFO]   ✅ SOLOBILITY (core) — READY
+2026-09-20 23:36:18,512 [INFO]   ✅ TCP (core) — READY
+2026-09-20 23:36:18,512 [INFO]   ✅ TCP_CHECKER (core) — READY
+2026-09-20 23:36:18,513 [INFO]   ✅ TEMPLATE_EVOLUTION_SCOUT (scout) — READY
+2026-09-20 23:36:18,513 [INFO] Agent summary: 22 ready, 1 partial, 0 missing
+2026-09-20 23:36:18,513 [INFO] 
+2026-09-20 23:36:18,513 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:36:18,513 [INFO] Phase 2: Hook Verification
+2026-09-20 23:36:18,513 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:36:18,513 [INFO] Verifying hooks from /root/MW_CENTRAL/EARTH-MOON/hermes-spl-fork/config_scope_hooks.yaml
+2026-09-20 23:36:18,534 [WARNING]   ⚠️  pre_tool_call hook MISSING: /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/Y-MINDWAVE/H3_SYSTEM/07_HOOKS/00_SHELL/pluto_pre_tool_guard.py
+2026-09-20 23:36:18,534 [WARNING]   ⚠️  pre_tool_call hook MISSING: /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/Y-MINDWAVE/H3_SYSTEM/07_HOOKS/00_SHELL/pluto_scope_guard.py
+2026-09-20 23:36:18,534 [WARNING]   ⚠️  pre_tool_call hook MISSING: /root/MW_CENTRAL/TRIANGULUM/hermes-spl-fork/cron/rite_enforcer.py
+2026-09-20 23:36:18,534 [WARNING]   ⚠️  post_tool_call hook MISSING: /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/Y-MINDWAVE/H3_SYSTEM/07_HOOKS/00_SHELL/pluto_post_tool_audit.py
+2026-09-20 23:36:18,534 [WARNING]   ⚠️  post_tool_call hook MISSING: /root/MW_CENTRAL/TRIANGULUM/hermes-spl-fork/cron/rite_enforcer.py
+2026-09-20 23:36:18,534 [INFO] Hook summary: 0 verified, 5 missing
+2026-09-20 23:36:18,534 [INFO] 
+2026-09-20 23:36:18,534 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:36:18,534 [INFO] Phase 3: TCP Check
+2026-09-20 23:36:18,534 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:36:18,534 [INFO] Checking TCP agent state...
+2026-09-20 23:36:18,535 [INFO]   ✅ TCP agent found at /root/MW_CENTRAL/PLUTO/AGENT_ARENA/ACTIVE/AGENT_TCP_TRIS
+2026-09-20 23:36:18,535 [INFO]      config.yaml: True, state.md: True
+2026-09-20 23:36:18,535 [INFO]   ✅ TCP_CHECKER found at /root/MW_CENTRAL/PLUTO/AGENT_ARENA/ACTIVE/AGENT_TCP_CHECKER_TRIS
+2026-09-20 23:36:18,535 [INFO]      config: False, state: True
+2026-09-20 23:36:18,535 [INFO] 
+2026-09-20 23:36:18,535 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:36:18,535 [INFO] Phase 4: Work-Time Tracking
+2026-09-20 23:36:18,535 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:36:18,535 [INFO] Starting work-time tracking...
+2026-09-20 23:36:18,587 [INFO]   Session: sess-3dccfcd880e4
+2026-09-20 23:36:18,588 [INFO]   Task: autopilot_initialization (task-ae908c263b)
+2026-09-20 23:36:18,588 [INFO]   Log: /root/MW_CENTRAL/EARTH-MOON/hermes-spl-fork/.hermes-spl/work_time/tcp_2026-09-20.jsonl
+2026-09-20 23:36:18,588 [INFO] 
+2026-09-20 23:36:18,588 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:36:18,588 [INFO] Phase 5: User Preference Capture
+2026-09-20 23:36:18,588 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:36:18,588 [INFO] Beginning user preference capture...
+2026-09-20 23:36:18,589 [INFO]   Loaded existing preferences (updated_at: 2026-09-20T21:35:56+00:00)
+2026-09-20 23:36:18,590 [INFO]   Captured environment signals: 22 agents detected
+2026-09-20 23:36:18,591 [INFO] 
+2026-09-20 23:36:18,592 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:36:18,592 [INFO] Phase 6: Readiness Report
+2026-09-20 23:36:18,592 [INFO] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-09-20 23:36:18,592 [INFO] 
+2026-09-20 23:36:18,592 [INFO] ============================================================
+2026-09-20 23:36:18,592 [INFO] AUTOPILOT COMPLETE
+2026-09-20 23:36:18,592 [INFO] ============================================================
+2026-09-20 23:36:18,592 [INFO] Status: operational
+2026-09-20 23:36:18,592 [INFO] Agents: 22 ready, 1 partial, 0 missing
+2026-09-20 23:36:18,592 [INFO] Hooks: 0 verified, 5 missing
+2026-09-20 23:36:18,593 [INFO] TCP ready: True
+2026-09-20 23:36:18,593 [INFO] Session: sess-3dccfcd880e4
+2026-09-20 23:36:18,593 [INFO] Report: /root/MW_CENTRAL/EARTH-MOON/hermes-spl-fork/.hermes-spl/readiness_report.json
+2026-09-20 23:36:18,593 [INFO] Log: /root/MW_CENTRAL/EARTH-MOON/hermes-spl-fork/.hermes-spl/autopilot.log
+2026-09-20 23:36:18,593 [INFO] ============================================================

@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-09-20T21:36:18+00:00",
+  "summary": {
+    "total_agents": 23,
+    "ready": 22,
+    "partial": 1,
+    "missing": 0,
+    "hooks_verified": 0,
+    "hooks_missing": 5,
+    "tcp_ready": true,
+    "work_tracking_active": true
+  },
+  "agents": {
+    "ready": [
+      "APPCTX",
+      "CHAT_EXCAVATION_SCOUT",
+      "FACTCHECK",
+      "GODSEYE",
+      "HERMESSPL",
+      "JHANOS_ASSESSOR",
+      "JHANOS_BARA",
+      "JHANOS_ECHO",
+      "JHANOS_KHEM",
+      "JHANOS_LOMI",
+      "JHANOS_ORON",
+      "JHANOS_SYLA",
+      "JHANOS_TARA",
+      "JHANOS_VORAK",
+      "JHANOS_ZAYN",
+      "MEMORY_CURATOR",
+      "ONU",
+      "SOLOBIC_SCRIBE",
+      "SOLOBILITY",
+      "TCP",
+      "TCP_CHECKER",
+      "TEMPLATE_EVOLUTION_SCOUT"
+    ],
+    "partial": [
+      "BOOK_WRITER"
+    ],
+    "missing": []
+  },
+  "session": {
+    "session_id": "sess-3dccfcd880e4",
+    "started_at": "2026-09-20T21:36:18+00:00"
+  },
+  "status": "operational"
+}

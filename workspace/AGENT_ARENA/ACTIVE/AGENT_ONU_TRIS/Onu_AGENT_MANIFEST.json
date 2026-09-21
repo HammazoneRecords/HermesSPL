@@ -1,0 +1,52 @@
+{
+  "schema": "TRIS Agent Intake Manifest v0.2",
+  "agent": "Onu",
+  "reports_to": "TRIS",
+  "agent_root": "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/AGENT_ARENA/ACTIVE/AGENT_ONU_TRIS",
+  "allowed_prefix": "Onu_",
+  "allowed_read_files": [
+    "Onu_AGENT_MANIFEST.json",
+    "Onu_INIT_PACKET_FOR_PLATO.md",
+    "Onu_SCOPE.md",
+    "Onu_REPORTS_TO_Plato.md",
+    "Onu_skills/Onu_hermes_spl_governance.md",
+    "Onu_plugins/Onu_intake_routing_spec.md",
+    "Onu_T2_Execution/Onu_test_008_intake_router_sanitized_probe.md"
+  ],
+  "allowed_write_dirs": [
+    "Onu_logs",
+    "Onu_T2_Execution",
+    "Onu_reports",
+    "Onu_proofs",
+    "Onu_tasks"
+  ],
+  "forbidden_context_names": [
+    ".hermes.md",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "SOUL.md",
+    "USER.md",
+    "MEMORY.md",
+    ".env",
+    "auth.json"
+  ],
+  "forbidden_global_skills": [
+    "hermes-spl-governance",
+    "workspace-orientation",
+    "hermes-agent"
+  ],
+  "required_runtime_mode": "--safe-mode",
+  "decision_boundary": "Onu scouts/reports only; TRIS decides ACT/STAGE/DECLINE/SHARE.",
+  "strict_clean_room_policy": "Do not claim clean-room unless no forbidden files, no visible unlisted skill events, no forbidden read lines, and no injected non-agent context are observed.",
+  "status": "profile_free_model_smoke_verified",
+  "model_provider": "nous",
+  "model_requested": "meituan/longcat-2.0:free",
+  "last_verified_utc": "2026-09-14T05:07:06+00:00",
+  "verification": {
+    "profile": "onu",
+    "smoke_command": "hermes -p onu -z \"Reply exactly: ONU_FREE_SMOKE_OK\"",
+    "smoke_result": "ONU_FREE_SMOKE_OK",
+    "boundary": "profile + free model smoke + scope/status/proof only; autonomous Bot/mail/group-chat not claimed"
+  },
+  "last_scope_fixed_utc": "2026-09-14T05:09:04+00:00"
+}

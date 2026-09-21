@@ -1,0 +1,251 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "description": "Schema enforcement matrix. Maps file categories to their validation schemas. Scripts load this to know which schema to apply."
+  },
+  "schemas": {
+    "agent_soul": {
+      "file_pattern": "*SOUL*.md",
+      "locations": [
+        "agent-space",
+        "hermes-profile"
+      ],
+      "required_fields": [
+        "identity_block",
+        "purpose",
+        "posture"
+      ],
+      "yaml_frontmatter": false,
+      "max_bytes": 2048,
+      "description": "Agent identity capsule. Must be under 2KB. Extended content goes to SOUL.<topic>.md.",
+      "example": "AGENT_ONU_TRIS/Onu_SOUL.md or profiles/onu/SOUL.md"
+    },
+    "agent_scope": {
+      "file_pattern": "*SCOPE*.md",
+      "locations": [
+        "agent-space"
+      ],
+      "required_fields": [
+        "allowed_reads",
+        "allowed_writes",
+        "reports_to"
+      ],
+      "yaml_frontmatter": false,
+      "description": "Defines agent boundaries. reports_to must be TRISMIGISTUS.",
+      "example": "AGENT_ONU_TRIS/Onu_SCOPE.md"
+    },
+    "agent_memory": {
+      "file_pattern": "*MEMORY*.md",
+      "locations": [
+        "agent-space"
+      ],
+      "required_fields": [
+        "state_format",
+        "retrieval_rules"
+      ],
+      "yaml_frontmatter": false,
+      "description": "Agent memory policy \u2014 what it remembers, how it retrieves.",
+      "example": "AGENT_ONU_TRIS/Onu_MEMORY.md"
+    },
+    "agent_config": {
+      "file_pattern": "config.yaml",
+      "locations": [
+        "agent-space",
+        "hermes-profile"
+      ],
+      "required_fields": [
+        "provider",
+        "model"
+      ],
+      "yaml_frontmatter": true,
+      "description": "Runtime config \u2014 provider, model, capabilities.",
+      "example": "profiles/onu/config.yaml"
+    },
+    "tri_identity": {
+      "file_pattern": "identity.md",
+      "locations": [
+        "tris-component"
+      ],
+      "required_fields": [
+        "core_function",
+        "reports_to",
+        "category"
+      ],
+      "yaml_frontmatter": false,
+      "description": "TRIS governance identity. Mind layer of agent.",
+      "example": "TRISMIGISTUS/COMPONENTS/agents/ONU/identity.md"
+    },
+    "tri_scope": {
+      "file_pattern": "scope.md",
+      "locations": [
+        "tris-component"
+      ],
+      "required_fields": [
+        "boundaries",
+        "permissions"
+      ],
+      "yaml_frontmatter": false,
+      "description": "TRIS scope definition."
+    },
+    "tri_policy": {
+      "file_pattern": "*.md",
+      "locations": [
+        "tris-component/policy/"
+      ],
+      "required_fields": [],
+      "yaml_frontmatter": false,
+      "description": "Agent-specific policy files."
+    },
+    "gate_skill": {
+      "file_pattern": "gate-*-SKILL.md",
+      "locations": [
+        "entropy-model/gate-skills"
+      ],
+      "required_fields": [
+        "identity",
+        "red_team",
+        "blue_team",
+        "diagnostic_questions"
+      ],
+      "yaml_frontmatter": true,
+      "required_frontmatter": [
+        "name",
+        "description",
+        "version",
+        "metadata.hermes.related_skills"
+      ],
+      "description": "Jhanos gate skill with RED/BLUE team assessment criteria.",
+      "example": "ENTROPY_MODEL/REVIEW_PACKAGE/gate-skills/gate-bara-SKILL.md"
+    },
+    "fw_entry": {
+      "file_pattern": "FW-XXXX-XX-XXX",
+      "locations": [
+        "fw-registry"
+      ],
+      "required_fields": [
+        "id",
+        "title",
+        "status",
+        "touches"
+      ],
+      "yaml_frontmatter": false,
+      "description": "Future work registry entry."
+    },
+    "pev_plan": {
+      "file_pattern": "*-pev-plan.md",
+      "locations": [
+        "pev-plans"
+      ],
+      "required_fields": [
+        "objective",
+        "steps",
+        "verification",
+        "rollback"
+      ],
+      "yaml_frontmatter": false,
+      "description": "PEV (Plan-Evaluate-Verify) plan."
+    },
+    "working_plan": {
+      "file_pattern": "2026-*.md",
+      "locations": [
+        "plans"
+      ],
+      "required_fields": [
+        "goal",
+        "acceptance_criteria",
+        "distance"
+      ],
+      "yaml_frontmatter": false,
+      "description": "Working strategy plan with distance tracking."
+    },
+    "matrix_json": {
+      "file_pattern": "*.json",
+      "locations": [
+        "matrix"
+      ],
+      "required_fields": [],
+      "schema_type": "json",
+      "description": "Any JSON in MATRIX/ must be parseable and have _meta."
+    }
+  },
+  "enforcement_matrix": {
+    "by_category": {
+      "jhanos_gate": {
+        "agent_space": [
+          "agent_soul",
+          "agent_scope",
+          "agent_memory",
+          "agent_config"
+        ],
+        "tri": [
+          "tri_identity",
+          "tri_scope"
+        ],
+        "profile": [
+          "agent_soul",
+          "agent_config"
+        ],
+        "extra": [
+          "gate_skill"
+        ]
+      },
+      "core": {
+        "agent_space": [
+          "agent_soul",
+          "agent_scope",
+          "agent_memory",
+          "agent_config"
+        ],
+        "tri": [
+          "tri_identity",
+          "tri_scope"
+        ],
+        "profile": [
+          "agent_soul",
+          "agent_config"
+        ]
+      },
+      "scout": {
+        "agent_space": [
+          "agent_soul",
+          "agent_scope",
+          "agent_memory",
+          "agent_config"
+        ],
+        "tri": [
+          "tri_identity",
+          "tri_scope"
+        ],
+        "profile": [
+          "agent_soul",
+          "agent_config"
+        ]
+      }
+    },
+    "by_file": {
+      "*SOUL*.md": "agent_soul",
+      "*SCOPE*.md": "agent_scope",
+      "*MEMORY*.md": "agent_memory",
+      "config.yaml": "agent_config",
+      "identity.md": "tri_identity",
+      "scope.md (in tri)": "tri_scope",
+      "gate-*-SKILL.md": "gate_skill"
+    }
+  },
+  "name_resolution": {
+    "description": "How to resolve any name to its canonical form",
+    "rules": [
+      "Strip AGENT_ prefix and _TRIS suffix from agent-space dirs",
+      "Profile dirs: lowercase, no underscores. To canonical: uppercase, add underscores from agent-space",
+      "TRIS dirs: match agent-space exactly (UPPER_SNAKE_CASE)",
+      "Always look up in naming-authority.json first"
+    ],
+    "examples": {
+      "AGENT_JHANOS_BARA_TRIS": "JHANOS_BARA",
+      "jhanosbara": "JHANOS_BARA",
+      "profiles/jhanosbara \u2192 canonical": "JHANOS_BARA",
+      "AGENT_CHAT_EXCAVATION_SCOUT_TRIS": "CHAT_EXCAVATION_SCOUT",
+      "chatexcavationscout": "CHAT_EXCAVATION_SCOUT"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "agent": "JHANOS_BARA",
+  "class": "Gate",
+  "gate": "BARA",
+  "direction": "SW",
+  "axis_partner": "ZAYN (NE)",
+  "capabilities": ["gate_assessment", "distortion_detection", "red_blue_team"]
+}

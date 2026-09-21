@@ -1,0 +1,16 @@
+name: hermes-spl-scope
+version: 1.0.0
+description: "HermesSPL scope enforcement — cross-agent write protection, identity file lockdown, governance file protection"
+author: HermesSPL
+kind: context_engine
+platforms:
+  - linux
+  - macos
+  - windows
+metadata:
+  hermes:
+    plugin_type: context_engine
+    engine_name: hermes-spl-scope
+    provides_hooks:
+      - pre_tool_call
+    tags: [hermes-spl, scope, guard, protection, agent-space]

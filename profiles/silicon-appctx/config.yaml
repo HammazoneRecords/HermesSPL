@@ -1,0 +1,33 @@
+model:
+  default: deepseek-v4-flash
+  provider: deepseek
+  base_url: ''
+terminal:
+  cwd: /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX
+skills:
+  trusted_project_dirs:
+    - /root/MW_CENTRAL
+    - /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX
+plugins:
+  enabled: []
+_config_version: 44
+agent: {}
+hooks: {}
+
+# ── Scope Enforcement (auto-generated 2026-09-15) ──────────────────
+scope:
+  agent_space: /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/AGENT_ARENA/ACTIVE/AGENT_APPCTX_TRIS
+  allowed_writes:
+    - "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/AGENT_ARENA/ACTIVE/AGENT_APPCTX_TRIS/*"
+  allowed_reads:
+    - "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/AGENT_ARENA/ACTIVE/AGENT_APPCTX_TRIS/*"
+    - "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/MATRIX/*"
+    - "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/KNOWLEDGE_LIBRARY/*"
+    - "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/TRISMIGISTUS/COMPONENTS/controller/policy/*"
+  identity_files_read_only:
+    - "*SOUL*.md"
+    - "*SCOPE*.md"
+    - "*MEMORY*.md"
+    - "config.yaml"
+    - "state.md"
+  reports_to: TRISMIGISTUS

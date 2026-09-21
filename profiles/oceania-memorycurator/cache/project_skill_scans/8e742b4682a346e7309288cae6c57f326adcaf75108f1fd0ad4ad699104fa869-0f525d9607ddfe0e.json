@@ -1,0 +1,13 @@
+{
+  "bundle_hash": "sha256:8e742b4682a346e7309288cae6c57f326adcaf75108f1fd0ad4ad699104fa869",
+  "scanner_version": "skills-guard-v2",
+  "source": "project-local",
+  "source_url": "",
+  "verdict": "safe",
+  "trust_level": "community",
+  "findings": [],
+  "rules": [],
+  "scanned_at": "2026-09-12T18:48:55.256308+00:00",
+  "summary": "connect-better-auth: clean scan, no threats detected",
+  "fresh": true
+}

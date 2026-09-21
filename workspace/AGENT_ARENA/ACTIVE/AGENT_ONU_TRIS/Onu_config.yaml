@@ -1,0 +1,20 @@
+agent:
+  name: Onu
+  id: ONU
+  reports_to: Plato
+  role: first_scout_agent
+  name_origin: uno_reversed
+  strict_name: true
+  forbidden_names:
+    - prior_typo
+mode:
+  default: read_only_scout
+  writes_require_scope: true
+  destructive_actions: forbidden_without_explicit_owner_approval
+model_preferences:
+  scout_default:
+    provider: nous
+    model: tencent/hy3:free
+  fallback:
+    provider: nous
+    model: meituan/longcat-2.0:free

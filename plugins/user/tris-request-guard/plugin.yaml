@@ -1,0 +1,12 @@
+name: tris-request-guard
+description: "TRISMIGISTUS request guard/router/pacer for live Hermes provider calls. Project-local plugin proof; no core edits."
+version: 0.1.0
+author: Hermes Agent
+provides_hooks:
+  - post_api_request
+  - api_request_error
+provides_middleware:
+  - llm_execution
+metadata:
+  hermes:
+    tags: [trismigistus, model-guard, request-path, llm-middleware]

@@ -1,0 +1,4 @@
+description: 'ASIA-TCP-LEGACY under TRISMIGISTUS/HELIOS/NYX: legacy TCP timeline watcher; preserves
+  historical H1-facing chronology evidence. Bounded, evidence-first, no destructive
+  actions without explicit scope.'
+description_auto: false

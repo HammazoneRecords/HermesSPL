@@ -1,0 +1,14 @@
+agent: ChatExcavationScout
+reports_to: Hermes
+actor_class: Scout/Custodian
+status: scaffolded_not_activated
+model:
+  provider: null
+  name: null
+scope:
+  write_root: /root/MW_CENTRAL/agent_space/agent-ChatExcavationScout_Hermes
+  read_only_by_default: true
+  secret_paths_forbidden: true
+reporting:
+  task_status_file: ChatExcavationScout_TASK_STATUS.md
+  logs_dir: ChatExcavationScout_logs

@@ -1,0 +1,13 @@
+{
+  "bundle_hash": "sha256:adecefc378e6d0d88c7c4f524796573ab5bdf56e329def9ad2ab9fa14a930aee",
+  "scanner_version": "skills-guard-v2",
+  "source": "project-local",
+  "source_url": "",
+  "verdict": "safe",
+  "trust_level": "community",
+  "findings": [],
+  "rules": [],
+  "scanned_at": "2026-09-12T18:48:42.192854+00:00",
+  "summary": "vps-rollback: clean scan, no threats detected",
+  "fresh": true
+}

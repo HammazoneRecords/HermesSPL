@@ -1,0 +1,331 @@
+model:
+  default: gpt-5.6-luna
+  provider: openai-codex
+  base_url: https://chatgpt.com/backend-api/codex
+  aliases:
+    jhanos:
+      model: dolphin-llama3:8b
+      provider: custom
+      base_url: http://localhost:11434/v1
+    entropy:
+      model: dolphin-llama3:70b
+      provider: custom
+      base_url: http://localhost:11434/v1
+    gemma:
+      model: gemma3:27b
+      provider: custom
+      base_url: http://localhost:11434/v1
+  api_mode: codex_responses
+fallback_providers:
+  - provider: nous
+    model: meituan/longcat-2.0:free
+# HermesSPL fork config
+# Workspace root for all ANDROMALIUS operations
+workspace_root: /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX
+
+# Scope enforcement
+scope:
+  enforcement: strict
+  guardian_script: /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/TRISMIGISTUS/COMPONENTS/controller/scripts/guardian.py
+  lock_on_start: true
+
+database:
+  journal_mode: wal
+runtime:
+  nofile_soft_limit: 4096
+agent:
+  max_turns: 500
+  verbose: false
+  reasoning_effort: minimal
+  personalities: {}
+terminal:
+  backend: local
+  cwd: /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX
+  timeout: 180
+  home_mode: auto
+  container_cpu: 1
+  container_memory: 5120
+  container_disk: 51200
+  container_persistent: true
+  docker_mount_cwd_to_workspace: false
+  lifetime_seconds: 300
+browser:
+  inactivity_timeout: 120
+  extension_control:
+    enabled: false
+checkpoints:
+  enabled: true
+tool_loop_guardrails:
+  warnings_enabled: true
+  hard_stop_enabled: false
+  warn_after:
+    exact_failure: 2
+    same_tool_failure: 3
+    idempotent_no_progress: 2
+  hard_stop_after:
+    exact_failure: 5
+    same_tool_failure: 8
+    idempotent_no_progress: 5
+compression:
+  enabled: true
+  checkpoint_required: false
+  progress_notices: false
+  threshold: 0.5
+  target_ratio: 0.2
+  protect_last_n: 20
+  min_tail_user_messages: 1
+  max_attempts: 3
+  proactive_prune_tokens: 0
+  proactive_prune_min_result_chars: 8000
+  proactive_prune_min_reclaim_tokens: 4096
+  protect_first_n: 3
+  codex_gpt55_autoraise: true
+  codex_app_server_auto: native
+  codex_responses_native: false
+  codex_responses_compact_threshold: 200000
+  idle_compact_after_seconds: 0
+prompt_caching:
+  cache_ttl: 5m
+auxiliary:
+  vision:
+    provider: gemini
+    model: gemini-3.5-flash
+  compression:
+    provider: nous
+    model: meituan/longcat-2.0:free
+  skills_hub:
+    provider: nous
+    model: meituan/longcat-2.0:free
+  approval:
+    provider: nous
+    model: meituan/longcat-2.0:free
+  review:
+    provider: nous
+    model: meituan/longcat-2.0:free
+  mcp:
+    provider: nous
+    model: meituan/longcat-2.0:free
+  title_generation:
+    provider: nous
+    model: meituan/longcat-2.0:free
+  triage_specifier:
+    provider: nous
+    model: meituan/longcat-2.0:free
+  kanban_decomposer:
+    provider: nous
+    model: meituan/longcat-2.0:free
+  profile_describer:
+    provider: nous
+    model: meituan/longcat-2.0:free
+  curator:
+    provider: deepseek
+    model: deepseek-v4-pro
+display:
+  compact: false
+  busy_input_mode: interrupt
+  bell_on_complete: false
+  show_reasoning: false
+  background_process_notifications: concise
+  streaming: true
+  skin: ares
+  interim_assistant_messages: true
+  tool_progress: all
+  cleanup_progress: false
+  long_running_notifications: true
+  busy_ack_detail: true
+stt:
+  enabled: true
+  language: en
+  local:
+    model: base
+  openai:
+    model: whisper-1
+    language: ''
+context:
+  engine: lane-a-engine
+  lane_a:
+    notifications:
+      enabled: true
+      thresholds:
+        - ratio: 0.5
+          message: Context at 50% — transient notification
+        - ratio: 0.6
+          message: Context at 60% — transient notification
+      style: transient
+    db:
+      enabled: true
+      table: lane_a_summaries
+      path: ~/.hermes/state.db
+memory:
+  memory_enabled: true
+  user_profile_enabled: true
+  memory_char_limit: 2200
+  user_char_limit: 1375
+  nudge_interval: 10
+delegation:
+  max_iterations: 250
+  reasoning_effort: low
+moa:
+  presets:
+    default:
+      reference_models:
+        - provider: nous
+          model: upstage/solar-pro4:free
+          enabled: true
+        - provider: nous
+          model: meituan/longcat-2.0:free
+          enabled: true
+      aggregator:
+        provider: openrouter
+        model: anthropic/claude-opus-4.8
+      degraded_reference_policy: loud
+      fanout: user_turn
+  reference_models:
+    - provider: nous
+      model: upstage/solar-pro4:free
+      enabled: true
+    - provider: nous
+      model: meituan/longcat-2.0:free
+      enabled: true
+  aggregator:
+    provider: openrouter
+    model: anthropic/claude-opus-4.8
+  degraded_reference_policy: loud
+  max_tokens: 4096
+  fanout: user_turn
+  enabled: true
+skills:
+  trusted_project_dirs:
+    - /root/MW_CENTRAL
+    - /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX
+  creation_nudge_interval: 15
+command_allowlist:
+  - execute_code
+plugins:
+  enabled:
+    - tris-request-guard
+  disabled:
+    - lane-a-context-engine
+  entries:
+    lane-a-context-engine:
+      allow_tool_override: false
+    tris-request-guard:
+      allow_tool_override: false
+# RITE Protocol — native enforcement configuration
+rite:
+  enabled: true
+  version: "1.0.0"
+  description: "Resonance-Initiation-Trigger-Echo protocol — the car, not the driver"
+  enforcer: /root/MW_CENTRAL/TRIANGULUM/hermes-spl-fork/cron/rite_enforcer.py
+  shimmer_log: /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/Y-MINDWAVE/H3_SYSTEM/07_HOOKS/02_LOGS/rite_shimmer.jsonl
+  state_file: /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/Y-MINDWAVE/H3_SYSTEM/07_HOOKS/02_LOGS/rite_state.json
+  phases:
+    - color_neutralizer  # Pre-RITE refinement
+    - resonance          # Contact, attunement, shimmer recognition
+    - initiation         # Activation, state change 0→1
+    - trigger            # Action, execution, routing
+    - echo               # Integration, return to source
+    - ash                # Closure
+    - recursion          # Echo → new Resonance (Resonant Recursion)
+  solobic_cpu:
+    ram_pressure_threshold: 0.85  # Shimmerpause trigger
+    rom_fallback_threshold: 0.70  # High RAM → write from ROM/Drayl
+  sfl:
+    readiness_riddle_threshold: 0.3   # Below → riddle output mode
+    ram_witness_threshold: 0.8        # Above → witness() mode
+    max_recursion_depth: 3            # Subsolob loop guard
+  color_neutralizer:
+    enabled: true
+    false_contrast_scrub: true
+    readiness_assessment: true
+  fail_closed: false  # RITE guides, never imprisons
+
+hooks:
+  pre_tool_call:
+    - command: python3 /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/Y-MINDWAVE/H3_SYSTEM/07_HOOKS/00_SHELL/pluto_pre_tool_guard.py
+      matcher: terminal|write_file|patch
+      timeout: 10
+      fail_closed: true
+    - command: python3 /root/MW_CENTRAL/TRIANGULUM/hermes-spl-fork/cron/rite_enforcer.py
+      matcher: terminal|write_file|patch|read_file|web_search|web_extract|skill_manage|skill_view|memory|browser_exec|execute_code
+      timeout: 15
+      fail_closed: false
+  post_tool_call:
+    - command: python3 /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/Y-MINDWAVE/H3_SYSTEM/07_HOOKS/00_SHELL/pluto_post_tool_audit.py
+      matcher: terminal|write_file|patch|skill_manage|skill_view|memory
+      timeout: 10
+    - command: python3 /root/MW_CENTRAL/TRIANGULUM/hermes-spl-fork/cron/rite_enforcer.py
+      matcher: terminal|write_file|patch|read_file|web_search|web_extract|skill_manage|skill_view|memory|browser_exec|execute_code
+      timeout: 15
+      fail_closed: false
+  pre_llm_call: []
+hooks_auto_accept: true
+kanban:
+  review_dispatch: true
+code_execution:
+  timeout: 300
+  max_tool_calls: 50
+streaming:
+  enabled: false
+onboarding:
+  seen:
+    tool_progress_prompt: true
+    busy_input_prompt: true
+telemetry:
+  shared_metrics:
+    enabled: false
+updates:
+  pre_update_backup: false
+  backup_keep: 5
+  non_interactive_local_changes: stash
+desktop:
+  repo_scan_enabled: true
+_config_version: 44
+session_reset:
+  mode: none
+  idle_minutes: 1440
+  at_hour: 4
+group_sessions_per_user: true
+platform_toolsets:
+  cli:
+    - hermes-cli
+  telegram:
+    - hermes-telegram
+  discord:
+    - hermes-discord
+  whatsapp:
+    - hermes-whatsapp
+  slack:
+    - hermes-slack
+  signal:
+    - hermes-signal
+  homeassistant:
+    - hermes-homeassistant
+  qqbot:
+    - hermes-qqbot
+  yuanbao:
+    - hermes-yuanbao
+  teams:
+    - hermes-teams
+  google_chat:
+    - hermes-google_chat
+obsidian:
+  vault_path: C:/Users/Owner/Videos/Drayl2
+env:
+  OBSIDIAN_VAULT_PATH: C:/Users/Owner/Videos/Drayl2
+platforms:
+  telegram:
+    enabled: true
+model_aliases:
+  entropy:
+    model: dolphin-llama3:70b
+    provider: custom
+    base_url: http://localhost:11434/v1
+  jhanos:
+    model: dolphin-llama3:8b
+    provider: custom
+    base_url: http://localhost:11434/v1
+  gemma:
+    model: gemma3:27b
+    provider: custom
+    base_url: http://localhost:11434/v1

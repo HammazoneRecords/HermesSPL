@@ -1,0 +1,13 @@
+{
+  "bundle_hash": "sha256:6ca3f6347869a9f737600dd3316ee5c1146e45ece994f0fdf4a555345db61506",
+  "scanner_version": "skills-guard-v2",
+  "source": "project-local",
+  "source_url": "",
+  "verdict": "safe",
+  "trust_level": "community",
+  "findings": [],
+  "rules": [],
+  "scanned_at": "2026-09-14T03:47:30.466079+00:00",
+  "summary": "export-ads: clean scan, no threats detected",
+  "fresh": true
+}

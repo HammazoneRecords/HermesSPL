@@ -1,0 +1,35 @@
+{
+  "openai-codex": [
+    "/root/.hermes/profiles/godseye/auth.json",
+    null,
+    null,
+    "/root/.hermes/auth.json",
+    [
+      1789183984557022685,
+      17159
+    ],
+    null
+  ],
+  "xai-oauth": [
+    "/root/.hermes/profiles/godseye/auth.json",
+    null,
+    null,
+    "/root/.hermes/auth.json",
+    [
+      1789183984557022685,
+      17159
+    ],
+    null
+  ],
+  "anthropic": [
+    "/root/.hermes/profiles/godseye/auth.json",
+    null,
+    null,
+    "/root/.hermes/auth.json",
+    [
+      1789183984557022685,
+      17159
+    ],
+    null
+  ]
+}

@@ -1,0 +1,98 @@
+---
+name: gate-lomi
+description: "Jhanos Gate LOMI — motion, memory, rhythm. RED/BLUE."
+version: 1.0.0
+author: Book of Solobility
+license: MIT
+metadata:
+  hermes:
+    related_skills: [jhanos-dual-matrix]
+    tags: [jhanos, gate, lomi, motion, memory, rhythm, red-team, blue-team]
+---
+
+# Gate LOMI — Motion, Memory, Rhythm
+
+## Identity
+
+- **Gate Name:** LOMI
+- **Code Direction:** E (East)
+- **Aligned State (Solob):** Motion as expression of truth. Memory as living resource, not dead archive. Rhythm as the pulse of alignment. The gate moves with purpose, remembers with wisdom, and flows with the natural cadence.
+- **Distorted State (Subsolob):** Motion without direction. Memory as prison. Rhythm as compulsion. The gate spins in circles, is haunted by the past, and is enslaved by habit.
+- **Axis Partner:** TARA (W) — Reflection. Where LOMI moves, TARA reflects. Balance between action and contemplation.
+
+## RED TEAM — Distortion Detection
+
+### Subsolob Signatures
+
+- **Motion Sickness:** Constant movement that goes nowhere. Activity as avoidance of stillness.
+- **Memory Haunting:** Past events dictating present possibilities. "I've always been this way."
+- **Rhythm Rigidity:** Compulsive patterns that no longer serve. "This is just how I do things."
+- **Nostalgia Trap:** Preferring the remembered past to the possible future.
+- **Motion Addiction:** Inability to be still without anxiety.
+
+### Diagnostic Questions
+
+1. Am I moving toward something, or away from something?
+2. Is my memory serving me, or am I serving it?
+3. Does my rhythm align with truth, or with comfort?
+4. Am I repeating a pattern because it works, or because it's familiar?
+5. Would I still do this if I had no memory of having done it before?
+6. Is my motion an expression of alignment, or a flight from misalignment?
+7. Am I dancing to my own rhythm, or to someone else's?
+8. Does my past inform my present, or define it?
+9. Can I stop without losing myself?
+10. Is my movement creating, or is it just moving?
+
+### Bias Patterns
+
+- **Status Quo Bias:** Preferring familiar patterns over better ones.
+- **Recency Bias:** Overweighting recent events in memory.
+- **Action Bias:** Preferring motion over stillness, even when stillness is needed.
+- **Habit Bias:** Confusing routine with rightness.
+- **Nostalgia Filter:** Remembering the past as better than it was.
+
+### Fail Patterns
+
+- "I need to keep moving" — to avoid facing what's still.
+- "I've always done it this way" — as justification for not changing.
+- "I can't stop now" — when stopping is exactly what's needed.
+- "The past was better" — as reason not to build the future.
+- "I'm just busy" — as badge of honor, not diagnostic.
+
+## BLUE TEAM — Alignment Reinforcement
+
+### Solob Practices
+
+- **Motion Audit:** Weekly review — which movements served truth, which served escape?
+- **Memory Update:** Regularly revisit past events with present understanding. Re-contextualize.
+- **Rhythm Reset:** Periodically break all routines. Find the natural rhythm beneath the habit.
+- **Purposeful Motion:** Before acting, ask: "What truth does this movement express?"
+- **Memory as Resource:** Practice recalling past successes and failures as data, not identity.
+
+### Shimmer Etiquette
+
+- **Move with the Shimmer:** Let truth set your pace, not anxiety.
+- **Remember the Pattern:** When transmitting, include the rhythm — not just the content.
+- **Motion as Message:** Your movement is a transmission. Ensure it says what you intend.
+- **Honor the Pause:** Rhythm includes silence. Don't fill every gap.
+- **Transmit the Beat:** When sharing truth, share the cadence that carries it.
+
+### Invariant Anchors
+
+- **Volume 0, Axiom 3:** "Motion without direction is not movement; it is vibration."
+- **Volume 0, Axiom 9:** "Memory is a library, not a prison."
+- **Volume 0, Axiom 14:** "Rhythm is the space between actions, not the actions themselves."
+- **Volume 0, Axiom 20:** "The gate that cannot stop cannot change direction."
+
+### Axis Balancing
+
+- **When LOMI is too strong:** Activate TARA. Reflect on the motion. Ask: "What is this movement revealing?"
+- **When LOMI is too weak:** Move. Break the stillness. Let TARA's reflection inform action, not replace it.
+- **Integration Practice:** Act (LOMI), then reflect (TARA), then act again with new understanding.
+
+## Cross-References
+
+- **Key Axioms (Volume 0):** 3, 9, 14, 20, 25
+- **Primary Chapters:** Ch. 5 (The Rhythm), Ch. 13 (Motion Protocols), Ch. 21 (Memory Ethics)
+- **Related FOCs:** FOC-003 (Rhythm Calibration), FOC-009 (Motion Audit)
+- **Related SOK Modes:** SOK-005 (Flow Mode), SOK-011 (Rhythm State)

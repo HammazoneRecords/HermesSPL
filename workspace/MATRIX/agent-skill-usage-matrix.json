@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "created": "2026-09-15T00:33:37.995075Z",
+    "description": "Agent \u00d7 Skill \u00d7 Usage matrix \u2014 the bungee cord. Tracks which agents use which skills, invocation signals, and capability routing.",
+    "update_protocol": "Curator (Tier 2) updates usage counts. Structural changes (add/remove skills) require Tier 3 human approval."
+  },
+  "agents": {
+    "appctx": {
+      "profile_path": "/root/.hermes/profiles/appctx",
+      "config_exists": true,
+      "soul_exists": true,
+      "provider": "deepseek",
+      "model": null,
+      "skills": [],
+      "class": "unknown",
+      "reports_to": "trismigistus",
+      "invocation_signals": []
+    },
+    "chatexcavationscout": {
+      "profile_path": "/root/.hermes/profiles/chatexcavationscout",
+      "config_exists": true,
+      "soul_exists": true,
+      "provider": "google",
+      "model": null,
+      "skills": [
+        "session-librarian"
+      ],
+      "class": "Gate/Custodian",
+      "reports_to": "trismigistus",
+      "invocation_signals": []
+    },
+    "factcheck": {
+      "profile_path": "/root/.hermes/profiles/factcheck",
+      "config_exists": true,
+      "soul_exists": true,
+      "provider": "openai-codex",
+      "model": "gpt-5.6-luna",
+      "skills": [],
+      "class": "Gate/Custodian",
+      "reports_to": "trismigistus",
+      "invocation_signals": []
+    },
+    "godseye": {
+      "profile_path": "/root/.hermes/profiles/godseye",
+      "config_exists": true,
+      "soul_exists": true,
+      "provider": "nous",
+      "model": null,
+      "skills": [
+        "plan"
+      ],
+      "class": "Gate/Custodian",
+      "reports_to": "trismigistus",
+      "invocation_signals": []
+    },
+    "hermesspl": {
+      "profile_path": "/root/.hermes/profiles/hermesspl",
+      "config_exists": true,
+      "soul_exists": true,
+      "provider": "nous",
+      "model": null,
+      "skills": [
+        "web-search"
+      ],
+      "class": "unknown",
+      "reports_to": "trismigistus",
+      "invocation_signals": []
+    },
+    "jhanosgate": {
+      "profile_path": "/root/.hermes/profiles/jhanosgate",
+      "config_exists": true,
+      "soul_exists": true,
+      "provider": "nous",
+      "model": null,
+      "skills": [],
+      "class": "Gate/Custodian",
+      "reports_to": "trismigistus",
+      "invocation_signals": []
+    },
+    "jhanosxcustodian": {
+      "profile_path": "/root/.hermes/profiles/jhanosxcustodian",
+      "config_exists": true,
+      "soul_exists": true,
+      "provider": "nous",
+      "model": null,
+      "skills": [],
+      "class": "Gate/Custodian",
+      "reports_to": "trismigistus",
+      "invocation_signals": []
+    },
+    "memorycurator": {
+      "profile_path": "/root/.hermes/profiles/memorycurator",
+      "config_exists": true,
+      "soul_exists": true,
+      "provider": "nous",
+      "model": null,
+      "skills": [
+        "coding"
+      ],
+      "class": "Gate/Custodian",
+      "reports_to": "trismigistus",
+      "invocation_signals": []
+    },
+    "onu": {
+      "profile_path": "/root/.hermes/profiles/onu",
+      "config_exists": true,
+      "soul_exists": true,
+      "provider": "nous",
+      "model": null,
+      "skills": [
+        "coding",
+        "testing"
+      ],
+      "class": "Gate/Custodian",
+      "reports_to": "trismigistus",
+      "invocation_signals": []
+    },
+    "shadowjhanosgate": {
+      "profile_path": "/root/.hermes/profiles/shadowjhanosgate",
+      "config_exists": true,
+      "soul_exists": true,
+      "provider": "google",
+      "model": null,
+      "skills": [],
+      "class": "Gate/Custodian",
+      "reports_to": "trismigistus",
+      "invocation_signals": []
+    },
+    "solobility": {
+      "profile_path": "/root/.hermes/profiles/solobility",
+      "config_exists": true,
+      "soul_exists": true,
+      "provider": "deepseek",
+      "model": null,
+      "skills": [],
+      "class": "Gate/Custodian",
+      "reports_to": "trismigistus",
+      "invocation_signals": []
+    },
+    "tcp01": {
+      "profile_path": "/root/.hermes/profiles/tcp01",
+      "config_exists": true,
+      "soul_exists": true,
+      "provider": "nous",
+      "model": null,
+      "skills": [],
+      "class": "Gate/Custodian",
+      "reports_to": "trismigistus",
+      "invocation_signals": []
+    },
+    "tcplegacy": {
+      "profile_path": "/root/.hermes/profiles/tcplegacy",
+      "config_exists": true,
+      "soul_exists": true,
+      "provider": "nous",
+      "model": null,
+      "skills": [
+        "session-librarian"
+      ],
+      "class": "Gate/Custodian",
+      "reports_to": "trismigistus",
+      "invocation_signals": []
+    },
+    "templateevolutionscout": {
+      "profile_path": "/root/.hermes/profiles/templateevolutionscout",
+      "config_exists": true,
+      "soul_exists": true,
+      "provider": "google",
+      "model": null,
+      "skills": [],
+      "class": "Gate/Custodian",
+      "reports_to": "trismigistus",
+      "invocation_signals": []
+    }
+  },
+  "skills_index": {
+    "context-window-verification": {
+      "path": "/root/.hermes/skills/context-window-verification",
+      "used_by": [],
+      "has_references": false,
+      "has_templates": false
+    },
+    "hermes-state-investigation": {
+      "path": "/root/.hermes/skills/hermes-state-investigation",
+      "used_by": [],
+      "has_references": false,
+      "has_templates": false
+    },
+    "philosophy-content-creation": {
+      "path": "/root/.hermes/skills/philosophy-content-creation",
+      "used_by": [],
+      "has_references": true,
+      "has_templates": false
+    },
+    "programmatic-image-analysis": {
+      "path": "/root/.hermes/skills/programmatic-image-analysis",
+      "used_by": [],
+      "has_references": false,
+      "has_templates": false
+    },
+    "remote-llm-inference": {
+      "path": "/root/.hermes/skills/remote-llm-inference",
+      "used_by": [],
+      "has_references": false,
+      "has_templates": false
+    },
+    "workspace-orientation": {
+      "path": "/root/.hermes/skills/workspace-orientation",
+      "used_by": [],
+      "has_references": true,
+      "has_templates": false
+    }
+  },
+  "capability_routes": {
+    "memory_curation": "memorycurator",
+    "fact_verification": "factcheck",
+    "visualization_design": "godseye",
+    "writing_content": "solobility",
+    "gate_chronology": "tcp01",
+    "scouting_reconnaissance": "onu",
+    "hermes_spl_execution": "hermesspl",
+    "chat_excavation": "chatexcavationscout",
+    "jhanos_gate": "jhanosgate",
+    "shadow_jhanos": "shadowjhanosgate",
+    "jhanos_custodian": "jhanosxcustodian",
+    "template_evolution": "templateevolutionscout",
+    "app_context": "appctx",
+    "legacy_tcp": "tcplegacy"
+  }
+}

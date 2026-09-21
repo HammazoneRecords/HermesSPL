@@ -1,0 +1,16 @@
+{
+  "approvals": [
+    {
+      "approved_at": "2026-09-13T00:24:01.922545Z",
+      "command": "python3 /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/.hermes/plans/proof/tris_live_request_hook.py",
+      "event": "pre_api_request",
+      "script_mtime_at_approval": "2026-09-13T00:16:52.692538Z"
+    },
+    {
+      "approved_at": "2026-09-13T00:24:01.934505Z",
+      "command": "python3 /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/.hermes/plans/proof/tris_live_request_hook.py",
+      "event": "post_api_request",
+      "script_mtime_at_approval": "2026-09-13T00:16:52.692538Z"
+    }
+  ]
+}

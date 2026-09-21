@@ -1,0 +1,8 @@
+{
+  "agent": "JHANOS_KHEM",
+  "class": "Gate",
+  "gate": "KHEM",
+  "direction": "S",
+  "axis_partner": "SYLA (N)",
+  "capabilities": ["gate_assessment", "distortion_detection", "red_blue_team"]
+}

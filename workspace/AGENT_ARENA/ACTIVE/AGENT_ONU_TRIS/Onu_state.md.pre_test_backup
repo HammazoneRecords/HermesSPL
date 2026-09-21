@@ -1,0 +1,17 @@
+# Onu State
+
+**Agent:** ONU  
+**Updated:** 2026-08-30T21:42:12Z
+
+---
+
+## Current state
+
+- Status: initialized under Plato.
+- Root: `D:/MW_CENTRAL/agent_space/agent-ONU_Plato`.
+- Default lane: read-only scout.
+- Current checkpoint: workspace transition from old clutter has been scouted; `D:/MW_CENTRAL` is live; old C Desktop path absent.
+
+## Next allowed action
+
+Only run scoped read-only inventory unless Plato assigns a specific write task.

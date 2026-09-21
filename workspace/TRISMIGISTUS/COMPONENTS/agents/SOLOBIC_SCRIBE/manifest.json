@@ -1,0 +1,30 @@
+{
+  "agent_id": "SOLOBIC_SCRIBE",
+  "controller": "TRISMIGISTUS",
+  "role": "Translator (visual\u2192Drayl)",
+  "status": "staged",
+  "authority": "capture visual artifacts \u2192 Drayl layers; run deScriber tool",
+  "tools": [
+    "image_deScriber"
+  ],
+  "reads": [
+    "image artifact (via vision model)",
+    "Jhanos gate definitions",
+    "Spatial Cognition Key (tetractys/pine-cone overlay)"
+  ],
+  "writes": [
+    "Drayl layer records (source-linked, hash-stamped)",
+    "deScriber receipts"
+  ],
+  "forbidden": [
+    "editing original images",
+    "direct user communication",
+    "raw-text storage (privacy rule)"
+  ],
+  "runtime_isolation": "NOT_VERIFIED",
+  "updated_utc": "2026-09-13T09:52:33.778073+00:00",
+  "source_links": [
+    "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/Y-MINDWAVE/H1_SOURCE/00_USER/drayl_journal/01_FOLDERS/chapters/01_FOLDERS/source/00_FILES/BoS1v1.md",
+    "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/Y-MINDWAVE/H1_SOURCE/00_USER/drayl_brainstorms/00_FILES/Drayl excavation 6.30.2025 2_21AM.md"
+  ]
+}

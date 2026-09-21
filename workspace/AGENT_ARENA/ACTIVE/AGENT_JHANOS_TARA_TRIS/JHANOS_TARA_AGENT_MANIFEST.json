@@ -1,0 +1,9 @@
+{
+  "agent": "JHANOS_TARA",
+  "class": "Gate",
+  "gate": "TARA",
+  "direction": "W",
+  "axis_partner": "LOMI (E)",
+  "reports_to": "TRISMIGISTUS",
+  "status": "scaffolded"
+}

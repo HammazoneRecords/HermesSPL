@@ -1,0 +1,21 @@
+model:
+  default: deepseek-v4-flash
+  provider: deepseek
+  base_url: ''
+terminal:
+  cwd: /root/MW_CENTRAL/EARTH-MOON/HELIOS/NYX
+skills:
+  trusted_project_dirs:
+    - /root/MW_CENTRAL
+    - /root/MW_CENTRAL/EARTH-MOON/HELIOS/NYX
+plugins:
+  enabled: []
+_config_version: 44
+agent: {}
+hooks:
+  pre_api_request:
+    - command: python3 /root/MW_CENTRAL/EARTH-MOON/HELIOS/NYX/.hermes/plans/proof/tris_live_request_hook.py
+      timeout: 15
+  post_api_request:
+    - command: python3 /root/MW_CENTRAL/EARTH-MOON/HELIOS/NYX/.hermes/plans/proof/tris_live_request_hook.py
+      timeout: 15

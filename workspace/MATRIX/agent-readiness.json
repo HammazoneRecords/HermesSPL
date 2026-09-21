@@ -1,0 +1,326 @@
+[
+  {
+    "name": "FACTCHECK",
+    "agent_space_pct": 100.0,
+    "tri_pct": 100.0,
+    "profile_pct": 100.0,
+    "overall": 100.0,
+    "status": "\u2705 READY",
+    "missing": {
+      "agent_space": [],
+      "tri": [],
+      "profile": []
+    }
+  },
+  {
+    "name": "GODSEYE",
+    "agent_space_pct": 100.0,
+    "tri_pct": 100.0,
+    "profile_pct": 100.0,
+    "overall": 100.0,
+    "status": "\u2705 READY",
+    "missing": {
+      "agent_space": [],
+      "tri": [],
+      "profile": []
+    }
+  },
+  {
+    "name": "ONU",
+    "agent_space_pct": 100.0,
+    "tri_pct": 100.0,
+    "profile_pct": 100.0,
+    "overall": 100.0,
+    "status": "\u2705 READY",
+    "missing": {
+      "agent_space": [],
+      "tri": [],
+      "profile": []
+    }
+  },
+  {
+    "name": "SOLOBILITY",
+    "agent_space_pct": 100.0,
+    "tri_pct": 100.0,
+    "profile_pct": 100.0,
+    "overall": 100.0,
+    "status": "\u2705 READY",
+    "missing": {
+      "agent_space": [],
+      "tri": [],
+      "profile": []
+    }
+  },
+  {
+    "name": "APPCTX",
+    "agent_space_pct": 83.33333333333334,
+    "tri_pct": 100.0,
+    "profile_pct": 100.0,
+    "overall": 94.44444444444446,
+    "status": "\u2705 READY",
+    "missing": {
+      "agent_space": [
+        "TASK_STATUS.md"
+      ],
+      "tri": [],
+      "profile": []
+    }
+  },
+  {
+    "name": "HERMESSPL",
+    "agent_space_pct": 83.33333333333334,
+    "tri_pct": 100.0,
+    "profile_pct": 100.0,
+    "overall": 94.44444444444446,
+    "status": "\u2705 READY",
+    "missing": {
+      "agent_space": [
+        "TASK_STATUS.md"
+      ],
+      "tri": [],
+      "profile": []
+    }
+  },
+  {
+    "name": "TCP",
+    "agent_space_pct": 83.33333333333334,
+    "tri_pct": 100.0,
+    "profile_pct": 100.0,
+    "overall": 94.44444444444446,
+    "status": "\u2705 READY",
+    "missing": {
+      "agent_space": [
+        "TASK_STATUS.md"
+      ],
+      "tri": [],
+      "profile": []
+    }
+  },
+  {
+    "name": "CHAT_EXCAVATION_SCOUT",
+    "agent_space_pct": 100.0,
+    "tri_pct": 100.0,
+    "profile_pct": 0.0,
+    "overall": 66.66666666666667,
+    "status": "\u26a0\ufe0f PARTIAL",
+    "missing": {
+      "agent_space": [],
+      "tri": [],
+      "profile": [
+        "config.yaml",
+        "SOUL.md"
+      ]
+    }
+  },
+  {
+    "name": "JHANOS_ASSESSOR",
+    "agent_space_pct": 100.0,
+    "tri_pct": 100.0,
+    "profile_pct": 0.0,
+    "overall": 66.66666666666667,
+    "status": "\u26a0\ufe0f PARTIAL",
+    "missing": {
+      "agent_space": [],
+      "tri": [],
+      "profile": [
+        "config.yaml",
+        "SOUL.md"
+      ]
+    }
+  },
+  {
+    "name": "JHANOS_BARA",
+    "agent_space_pct": 100.0,
+    "tri_pct": 100.0,
+    "profile_pct": 0.0,
+    "overall": 66.66666666666667,
+    "status": "\u26a0\ufe0f PARTIAL",
+    "missing": {
+      "agent_space": [],
+      "tri": [],
+      "profile": [
+        "config.yaml",
+        "SOUL.md"
+      ]
+    }
+  },
+  {
+    "name": "JHANOS_ECHO",
+    "agent_space_pct": 100.0,
+    "tri_pct": 100.0,
+    "profile_pct": 0.0,
+    "overall": 66.66666666666667,
+    "status": "\u26a0\ufe0f PARTIAL",
+    "missing": {
+      "agent_space": [],
+      "tri": [],
+      "profile": [
+        "config.yaml",
+        "SOUL.md"
+      ]
+    }
+  },
+  {
+    "name": "JHANOS_KHEM",
+    "agent_space_pct": 100.0,
+    "tri_pct": 100.0,
+    "profile_pct": 0.0,
+    "overall": 66.66666666666667,
+    "status": "\u26a0\ufe0f PARTIAL",
+    "missing": {
+      "agent_space": [],
+      "tri": [],
+      "profile": [
+        "config.yaml",
+        "SOUL.md"
+      ]
+    }
+  },
+  {
+    "name": "JHANOS_LOMI",
+    "agent_space_pct": 100.0,
+    "tri_pct": 100.0,
+    "profile_pct": 0.0,
+    "overall": 66.66666666666667,
+    "status": "\u26a0\ufe0f PARTIAL",
+    "missing": {
+      "agent_space": [],
+      "tri": [],
+      "profile": [
+        "config.yaml",
+        "SOUL.md"
+      ]
+    }
+  },
+  {
+    "name": "JHANOS_ORON",
+    "agent_space_pct": 100.0,
+    "tri_pct": 100.0,
+    "profile_pct": 0.0,
+    "overall": 66.66666666666667,
+    "status": "\u26a0\ufe0f PARTIAL",
+    "missing": {
+      "agent_space": [],
+      "tri": [],
+      "profile": [
+        "config.yaml",
+        "SOUL.md"
+      ]
+    }
+  },
+  {
+    "name": "JHANOS_SYLA",
+    "agent_space_pct": 100.0,
+    "tri_pct": 100.0,
+    "profile_pct": 0.0,
+    "overall": 66.66666666666667,
+    "status": "\u26a0\ufe0f PARTIAL",
+    "missing": {
+      "agent_space": [],
+      "tri": [],
+      "profile": [
+        "config.yaml",
+        "SOUL.md"
+      ]
+    }
+  },
+  {
+    "name": "JHANOS_TARA",
+    "agent_space_pct": 100.0,
+    "tri_pct": 100.0,
+    "profile_pct": 0.0,
+    "overall": 66.66666666666667,
+    "status": "\u26a0\ufe0f PARTIAL",
+    "missing": {
+      "agent_space": [],
+      "tri": [],
+      "profile": [
+        "config.yaml",
+        "SOUL.md"
+      ]
+    }
+  },
+  {
+    "name": "JHANOS_VORAK",
+    "agent_space_pct": 100.0,
+    "tri_pct": 100.0,
+    "profile_pct": 0.0,
+    "overall": 66.66666666666667,
+    "status": "\u26a0\ufe0f PARTIAL",
+    "missing": {
+      "agent_space": [],
+      "tri": [],
+      "profile": [
+        "config.yaml",
+        "SOUL.md"
+      ]
+    }
+  },
+  {
+    "name": "JHANOS_ZAYN",
+    "agent_space_pct": 100.0,
+    "tri_pct": 100.0,
+    "profile_pct": 0.0,
+    "overall": 66.66666666666667,
+    "status": "\u26a0\ufe0f PARTIAL",
+    "missing": {
+      "agent_space": [],
+      "tri": [],
+      "profile": [
+        "config.yaml",
+        "SOUL.md"
+      ]
+    }
+  },
+  {
+    "name": "SOLOBIC_SCRIBE",
+    "agent_space_pct": 100.0,
+    "tri_pct": 100.0,
+    "profile_pct": 0.0,
+    "overall": 66.66666666666667,
+    "status": "\u26a0\ufe0f PARTIAL",
+    "missing": {
+      "agent_space": [],
+      "tri": [],
+      "profile": [
+        "config.yaml",
+        "SOUL.md"
+      ]
+    }
+  },
+  {
+    "name": "TEMPLATE_EVOLUTION_SCOUT",
+    "agent_space_pct": 100.0,
+    "tri_pct": 100.0,
+    "profile_pct": 0.0,
+    "overall": 66.66666666666667,
+    "status": "\u26a0\ufe0f PARTIAL",
+    "missing": {
+      "agent_space": [],
+      "tri": [],
+      "profile": [
+        "config.yaml",
+        "SOUL.md"
+      ]
+    }
+  },
+  {
+    "name": "TCP_CHECKER",
+    "agent_space_pct": 66.66666666666666,
+    "tri_pct": 100.0,
+    "profile_pct": 0.0,
+    "overall": 55.55555555555555,
+    "status": "\u274c INCOMPLETE",
+    "missing": {
+      "agent_space": [
+        "MEMORY.md",
+        "config.yaml"
+      ],
+      "tri": [],
+      "profile": [
+        "config.yaml",
+        "SOUL.md"
+      ]
+    }
+  }
+]

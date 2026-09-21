@@ -1,0 +1,13 @@
+{
+  "bundle_hash": "sha256:a84e56fcb8174c2f005370a8e7ccecd4948e3d6dfdf21a81b204d5e33623df06",
+  "scanner_version": "skills-guard-v2",
+  "source": "project-local",
+  "source_url": "",
+  "verdict": "safe",
+  "trust_level": "community",
+  "findings": [],
+  "rules": [],
+  "scanned_at": "2026-09-12T18:48:41.774781+00:00",
+  "summary": "mw-session-close: clean scan, no threats detected",
+  "fresh": true
+}

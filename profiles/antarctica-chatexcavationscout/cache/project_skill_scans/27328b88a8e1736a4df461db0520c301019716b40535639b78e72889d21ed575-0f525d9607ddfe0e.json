@@ -1,0 +1,13 @@
+{
+  "bundle_hash": "sha256:27328b88a8e1736a4df461db0520c301019716b40535639b78e72889d21ed575",
+  "scanner_version": "skills-guard-v2",
+  "source": "project-local",
+  "source_url": "",
+  "verdict": "safe",
+  "trust_level": "community",
+  "findings": [],
+  "rules": [],
+  "scanned_at": "2026-09-15T02:50:34.302787+00:00",
+  "summary": "diagnose-nginx-502: clean scan, no threats detected",
+  "fresh": true
+}

@@ -1,0 +1,17 @@
+agent: AppCtx
+reports_to: Onu
+root: /root/MW_CENTRAL/agent_space/agent-AppCtx_Onu
+read_scope:
+  - /root/MW_CENTRAL/active_apps
+  - /root/MW_CENTRAL/agent_space/agent-ONU_Plato
+  - /root/MW_CENTRAL/agent_space/agent-HermesSPL_Plato/HermesSPL_T1_Intention/APP_CONTEXT_MD_SYSTEM.md
+write_scope:
+  - /root/MW_CENTRAL/agent_space/agent-AppCtx_Onu
+  - /root/MW_CENTRAL/active_apps/*/APP_CONTEXT.md
+mode: scout_documenter
+model_assignment:
+  provider: opencode-free
+  model: deepseek-v4-flash-free
+  task_matrix: /root/MW_CENTRAL/MIndwaVe_Ja/local_model_benchmarks/MODEL_TASK_MATRIX.md
+  concurrency: one_active_instance_per_model
+  lock_file: /root/MW_CENTRAL/agent_space/agent-AppCtx_Onu/AppCtx_MODEL_LOCK.md

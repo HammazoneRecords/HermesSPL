@@ -1,0 +1,14 @@
+name: lane-a-context-engine
+description: "Lane A context engine v2 - pin-aware compression, memory bank, data dump, retrieval"
+version: 2.0.0
+author: Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    plugin_type: context_engine
+    engine_name: lane-a-engine
+    required_config:
+      - lane_a.db_path
+      - lane_a.summary_table
+    tags: [lane-a, hermes-spl, notifications, db-storage, arbelos, pin-aware, memory-bank]

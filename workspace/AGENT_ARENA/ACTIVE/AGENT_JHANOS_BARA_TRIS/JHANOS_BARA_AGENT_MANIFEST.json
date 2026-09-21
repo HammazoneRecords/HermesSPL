@@ -1,0 +1,9 @@
+{
+  "agent": "JHANOS_BARA",
+  "class": "Gate",
+  "gate": "BARA",
+  "direction": "SW",
+  "axis_partner": "ZAYN (NE)",
+  "reports_to": "TRISMIGISTUS",
+  "status": "scaffolded"
+}

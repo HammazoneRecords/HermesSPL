@@ -1,0 +1,13 @@
+{
+  "bundle_hash": "sha256:584b3fac94dce33679295c1bd8d2890fcf77fa347c61bd170471e87218bd5fde",
+  "scanner_version": "skills-guard-v2",
+  "source": "project-local",
+  "source_url": "",
+  "verdict": "safe",
+  "trust_level": "community",
+  "findings": [],
+  "rules": [],
+  "scanned_at": "2026-09-15T02:50:34.299633+00:00",
+  "summary": "diagnose-docker-container: clean scan, no threats detected",
+  "fresh": true
+}

@@ -1,0 +1,25 @@
+{
+  "bundle_hash": "sha256:63c96282605636351394b222f2ac6268b5ed8e36fe6bcf1b350be12c4a5c7de4",
+  "scanner_version": "skills-guard-v2",
+  "source": "project-local",
+  "source_url": "",
+  "verdict": "safe",
+  "trust_level": "community",
+  "findings": [
+    {
+      "pattern_id": "agent_config_ref",
+      "severity": "low",
+      "category": "persistence",
+      "file": "SKILL.md",
+      "line": 50,
+      "match": "| Restructure CLAUDE.md | CON-020 (check subclaude links) |",
+      "description": "references agent config files (informational; only modification intent is scored)"
+    }
+  ],
+  "rules": [
+    "agent_config_ref"
+  ],
+  "scanned_at": "2026-09-12T18:49:15.550333+00:00",
+  "summary": "constraints: safe \u2014 1 finding(s) in persistence",
+  "fresh": true
+}

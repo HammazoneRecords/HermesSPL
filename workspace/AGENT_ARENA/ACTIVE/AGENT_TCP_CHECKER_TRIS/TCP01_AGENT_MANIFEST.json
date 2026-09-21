@@ -1,0 +1,24 @@
+{
+  "agent": "TCP01",
+  "reports_to": "TRIS",
+  "class": "Gate/Custodian",
+  "status": "profile_free_model_smoke_verified",
+  "root": "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/AGENT_ARENA/ACTIVE/AGENT_TCP01_TRIS",
+  "write_scope": "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/AGENT_ARENA/ACTIVE/AGENT_TCP01_TRIS",
+  "source_legacy_root": "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/agents-arena/agent-TCP01_Self",
+  "template_history": "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/AGENT_ARENA/ACTIVE/AGENT_TCP01_TRIS/TEMPLATE_HISTORY",
+  "model_requested": "upstage/solar-pro4:free",
+  "created_utc": "2026-09-12T07:17:22.813808+00:00",
+  "model_provider": "nous",
+  "profile": "tcp01",
+  "profile_home": "/root/.hermes/profiles/tcp01",
+  "last_verified_utc": "2026-09-14T04:08:10+00:00",
+  "verification": {
+    "profile": "tcp01",
+    "model": "upstage/solar-pro4:free",
+    "provider": "nous",
+    "smoke_command": "hermes -p tcp01 -z \"Reply exactly: TCP01_FREE_SMOKE_OK\"",
+    "smoke_result": "TCP01_FREE_SMOKE_OK",
+    "boundary": "profile + free model smoke + scope/status/proof only; autonomous Bot/mail/group-chat not claimed"
+  }
+}

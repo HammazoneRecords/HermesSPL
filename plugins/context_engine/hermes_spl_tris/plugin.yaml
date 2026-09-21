@@ -1,0 +1,17 @@
+name: hermes-spl-tris
+version: 1.0.0
+description: "HermesSPL TRISMIGISTUS coordinator — agent routing, gate assessment, entropy contrast"
+author: HermesSPL
+kind: context_engine
+platforms:
+  - linux
+  - macos
+  - windows
+metadata:
+  hermes:
+    plugin_type: context_engine
+    engine_name: hermes-spl-tris
+    provides_hooks:
+      - pre_tool_call
+      - post_tool_call
+    tags: [hermes-spl, tris, coordinator, routing, jhanos, gate]

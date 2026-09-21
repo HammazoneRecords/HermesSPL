@@ -1,0 +1,5 @@
+{
+  "agent": "JHANOS_ECHO",
+  "class": "Gate/Custodian",
+  "capabilities": ["entropy_analysis", "contrast_gate", "runpod_assessment", "spl_echo"]
+}

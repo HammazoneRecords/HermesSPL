@@ -1,0 +1,13 @@
+{
+  "bundle_hash": "sha256:e05d17e0989e944a111cea5f1e57c085d1fac4d74db8dce6ced5395e5afad163",
+  "scanner_version": "skills-guard-v2",
+  "source": "project-local",
+  "source_url": "",
+  "verdict": "safe",
+  "trust_level": "community",
+  "findings": [],
+  "rules": [],
+  "scanned_at": "2026-09-15T17:43:42.172322+00:00",
+  "summary": "solobic-trigger-routing: clean scan, no threats detected",
+  "fresh": true
+}

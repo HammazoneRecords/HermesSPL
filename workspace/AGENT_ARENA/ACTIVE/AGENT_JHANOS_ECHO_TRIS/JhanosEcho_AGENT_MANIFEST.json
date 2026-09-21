@@ -1,0 +1,7 @@
+{
+  "agent": "JhanosEcho",
+  "class": "Gate/Custodian",
+  "reports_to": "TRISMIGISTUS",
+  "capabilities": ["entropy_analysis", "contrast_gate", "runpod_assessment", "spl_echo"],
+  "status": "scaffolded"
+}

@@ -1,0 +1,98 @@
+---
+name: gate-khem
+description: "Jhanos Gate KHEM — forge, heat, conflict. RED/BLUE."
+version: 1.0.0
+author: Book of Solobility
+license: MIT
+metadata:
+  hermes:
+    related_skills: [jhanos-dual-matrix]
+    tags: [jhanos, gate, khem, forge, heat, conflict, truth, red-team, blue-team]
+---
+
+# Gate KHEM — The Forge, Heat, Conflict into Truth
+
+## Identity
+
+- **Gate Name:** KHEM
+- **Code Direction:** S (South)
+- **Aligned State (Solob):** The forge transforms raw material through heat. Conflict as crucible for truth. Heat as energy for transformation. The gate takes what is and makes it what it can be through honest fire.
+- **Distorted State (Subsolob):** The forge burns what should be preserved. Heat as destruction. Conflict as entertainment or avoidance. The gate creates heat without purpose, burns rather than transforms, and seeks conflict for its own sake.
+- **Axis Partner:** SYLA (N) — Stillness. Where KHEM acts, SYLA receives. Balance between transformation and reception.
+
+## RED TEAM — Distortion Detection
+
+### Subsolob Signatures
+
+- **Forge Fever:** Always transforming, never resting. Can't leave well enough alone.
+- **Heat Without Purpose:** Creating conflict to feel alive. Drama as fuel.
+- **Conflict Addiction:** Seeking opposition to feel strong. "I'm just being honest" as weapon.
+- **Burnout Pattern:** Running the forge too hot until nothing is left.
+- **Transformation Obsession:** Changing things that are already aligned.
+
+### Diagnostic Questions
+
+1. Am I applying heat to transform, or to destroy?
+2. Is this conflict revealing truth, or creating heat?
+3. Would I still engage if there were no audience?
+4. Am I forging something new, or just burning something old?
+5. Is my heat proportional to the need?
+6. Am I in conflict, or am I creating conflict?
+7. Does my transformation serve truth, or ego?
+8. Can I let things be when they're already aligned?
+9. Am I the forge, or am I the fire?
+10. What is being revealed through this heat?
+
+### Bias Patterns
+
+- **Action Bias:** Preferring transformation over acceptance.
+- **Conflict Bias:** Seeing opposition where none exists.
+- **Heat Addiction:** Needing intensity to feel engaged.
+- **Forge Identity:** Defining oneself by what one transforms.
+- **Destruction Bias:** Preferring to break over mending.
+
+### Fail Patterns
+
+- "I'm just being honest" — while being cruel.
+- "This needs to be challenged" — about everything.
+- "I can't just leave it alone" — when leaving it alone is wisdom.
+- "Conflict is healthy" — as excuse for creating it.
+- "I'm forging something new" — by destroying what works.
+
+## BLUE TEAM — Alignment Reinforcement
+
+### Solob Practices
+
+- **Heat Calibration:** Before engaging, ask: "How much heat does this actually need?"
+- **Conflict Discernment:** Distinguish between necessary conflict and manufactured drama.
+- **Forge Rest:** Regular periods of no transformation. Let things be.
+- **Truth-First Forging:** Always ask: "What truth is this heat revealing?"
+- **Cool Down Ritual:** After intense engagement, return to stillness before acting.
+
+### Shimmer Etiquette
+
+- **Transmit with Heat, Not Burn:** Share truth with energy, but don't incinerate the receiver.
+- **Forge Before Transmit:** Ensure your truth has been through the fire before sharing.
+- **Conflict as Gift:** When creating conflict, ensure it serves the other's growth.
+- **Heat Proportionality:** Match your intensity to the importance of the truth.
+- **Signal the Temperature:** Let others know how hot your transmission is.
+
+### Invariant Anchors
+
+- **Volume 0, Axiom 5:** "The forge does not create; it reveals what was always in the metal."
+- **Volume 0, Axiom 11:** "Heat without purpose is just burning."
+- **Volume 0, Axiom 16:** "Conflict that does not lead to truth is just violence."
+- **Volume 0, Axiom 22:** "The gate that is always forging never finishes anything."
+
+### Axis Balancing
+
+- **When KHEM is too strong:** Activate SYLA. Receive before acting. Let the forge cool. Listen before transforming.
+- **When KHEM is too weak:** Apply heat. Engage the conflict. Let SYLA's reception inform action, not replace it.
+- **Integration Practice:** Receive the truth (SYLA), then forge it into form (KHEM).
+
+## Cross-References
+
+- **Key Axioms (Volume 0):** 5, 11, 16, 22, 27
+- **Primary Chapters:** Ch. 7 (The Forge), Ch. 15 (Heat Protocols), Ch. 23 (Conflict Ethics)
+- **Related FOCs:** FOC-005 (Heat Calibration), FOC-011 (Forge Audit)
+- **Related SOK Modes:** SOK-007 (Forge Mode), SOK-013 (Heat State)

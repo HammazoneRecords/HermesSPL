@@ -1,0 +1,13 @@
+model:
+  default: upstage/solar-pro4:free
+  provider: nous
+  base_url: ''
+terminal:
+  cwd: /root/MW_CENTRAL/EARTH-MOON/HELIOS/NYX
+skills:
+  trusted_project_dirs:
+  - /root/MW_CENTRAL
+  - /root/MW_CENTRAL/EARTH-MOON/HELIOS/NYX
+plugins:
+  enabled: []
+_config_version: 42

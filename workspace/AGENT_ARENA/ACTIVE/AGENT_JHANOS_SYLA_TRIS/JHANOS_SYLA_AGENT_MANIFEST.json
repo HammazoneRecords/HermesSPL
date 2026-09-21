@@ -1,0 +1,9 @@
+{
+  "agent": "JHANOS_SYLA",
+  "class": "Gate",
+  "gate": "SYLA",
+  "direction": "N",
+  "axis_partner": "KHEM (S)",
+  "reports_to": "TRISMIGISTUS",
+  "status": "scaffolded"
+}

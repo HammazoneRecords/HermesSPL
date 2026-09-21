@@ -1,0 +1,24 @@
+{
+  "agent_id": "TCP_LEGACY",
+  "controller": "TRISMIGISTUS",
+  "role": "Historical",
+  "status": "historical",
+  "authority": "this manifest and explicit Tris task packet only",
+  "components": [
+    "identity.md",
+    "scope.md",
+    "routing.md",
+    "policy.md",
+    "skills/registry.md",
+    "state/current.json"
+  ],
+  "read_rule": "packet-exact paths only",
+  "write_rule": "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/TRISMIGISTUS/COMPONENTS/agents/TCP_LEGACY",
+  "historical_source_root": "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/AGENT_ARENA/ACTIVE/AGENT_TCP_LEGACY_TRIS",
+  "runtime_isolation": "NOT_VERIFIED",
+  "project_local_skills": [
+    "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/.hermes/skills/derived-chat-privacy/SKILL.md"
+  ],
+  "skills_status": "project_local_defined_not_runtime_loaded",
+  "updated_utc": "2026-09-12T16:54:44.681806+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "openai-codex": [
+    "/root/.hermes/profiles/solobility/auth.json",
+    [
+      1789235634833201179,
+      4984
+    ],
+    null,
+    "/root/.hermes/auth.json",
+    [
+      1789235293997049086,
+      17165
+    ],
+    null
+  ],
+  "xai-oauth": [
+    "/root/.hermes/profiles/solobility/auth.json",
+    [
+      1789369692421831362,
+      4983
+    ],
+    null,
+    "/root/.hermes/auth.json",
+    [
+      1789369777831195949,
+      20123
+    ],
+    null
+  ],
+  "anthropic": [
+    "/root/.hermes/profiles/solobility/auth.json",
+    [
+      1789235634833201179,
+      4984
+    ],
+    null,
+    "/root/.hermes/auth.json",
+    [
+      1789235293997049086,
+      17165
+    ],
+    null
+  ]
+}

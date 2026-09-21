@@ -1,0 +1,25 @@
+# HermesFORK additional config — scope enforcement hooks
+# Merge these hooks into your main ~/.hermes/config.yaml under the hooks: section
+
+hooks:
+  pre_tool_call:
+    - command: python3 /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/Y-MINDWAVE/H3_SYSTEM/07_HOOKS/00_SHELL/pluto_pre_tool_guard.py
+      matcher: terminal|write_file|patch
+      timeout: 10
+      fail_closed: true
+    - command: python3 /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/Y-MINDWAVE/H3_SYSTEM/07_HOOKS/00_SHELL/pluto_scope_guard.py
+      matcher: write_file|patch
+      timeout: 10
+      fail_closed: true
+    - command: python3 /root/MW_CENTRAL/TRIANGULUM/hermes-spl-fork/cron/rite_enforcer.py
+      matcher: terminal|write_file|patch|read_file|web_search|web_extract|skill_manage|skill_view|memory|browser_exec|execute_code
+      timeout: 15
+      fail_closed: false
+  post_tool_call:
+    - command: python3 /root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/Y-MINDWAVE/H3_SYSTEM/07_HOOKS/00_SHELL/pluto_post_tool_audit.py
+      matcher: terminal|write_file|patch|skill_manage|skill_view|memory
+      timeout: 10
+    - command: python3 /root/MW_CENTRAL/TRIANGULUM/hermes-spl-fork/cron/rite_enforcer.py
+      matcher: terminal|write_file|patch|read_file|web_search|web_extract|skill_manage|skill_view|memory|browser_exec|execute_code
+      timeout: 15
+      fail_closed: false

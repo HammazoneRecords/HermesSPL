@@ -1,0 +1,13 @@
+{
+  "bundle_hash": "sha256:7cb3c72d89f9c6721bf1dc0f8bb92b113aa89d8c565078e2a2c146fd4ce950fe",
+  "scanner_version": "skills-guard-v2",
+  "source": "project-local",
+  "source_url": "",
+  "verdict": "safe",
+  "trust_level": "community",
+  "findings": [],
+  "rules": [],
+  "scanned_at": "2026-09-15T17:43:42.167715+00:00",
+  "summary": "send-agentmail-email: clean scan, no threats detected",
+  "fresh": true
+}

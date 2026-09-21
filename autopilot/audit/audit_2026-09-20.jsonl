@@ -1,0 +1,4 @@
+{"audit_id": "aud-e4647590c4", "timestamp": "2026-09-20T21:44:57+00:00", "event_type": "SUBMITTED", "item_id": "wi-9364a8ffa753", "stage": "ROUTER", "details": {"priority": "HIGH", "idempotency_key": "50662376715647dfb3a065b9293f1e8a"}}
+{"audit_id": "aud-22e257fa99", "timestamp": "2026-09-20T21:44:57+00:00", "event_type": "DEQUEUED", "item_id": "wi-9364a8ffa753", "stage": "TCP", "details": {"priority": "HIGH", "stage_index": 0}}
+{"audit_id": "aud-1e98a4c3a3", "timestamp": "2026-09-20T21:44:57+00:00", "event_type": "STAGE_NO_HANDLER", "item_id": "wi-9364a8ffa753", "stage": "TCP", "details": {"note": "No handler registered, auto-passing"}}
+{"audit_id": "aud-9118c10168", "timestamp": "2026-09-20T21:44:57+00:00", "event_type": "STAGE_ADVANCE", "item_id": "wi-9364a8ffa753", "stage": "FACTCHECK", "details": {"new_stage_index": 1}}

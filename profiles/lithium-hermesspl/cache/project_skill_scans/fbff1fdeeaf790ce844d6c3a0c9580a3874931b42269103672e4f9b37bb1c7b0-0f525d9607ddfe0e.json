@@ -1,0 +1,13 @@
+{
+  "bundle_hash": "sha256:fbff1fdeeaf790ce844d6c3a0c9580a3874931b42269103672e4f9b37bb1c7b0",
+  "scanner_version": "skills-guard-v2",
+  "source": "project-local",
+  "source_url": "",
+  "verdict": "safe",
+  "trust_level": "community",
+  "findings": [],
+  "rules": [],
+  "scanned_at": "2026-09-12T18:48:41.953419+00:00",
+  "summary": "spinup-agent: clean scan, no threats detected",
+  "fresh": true
+}

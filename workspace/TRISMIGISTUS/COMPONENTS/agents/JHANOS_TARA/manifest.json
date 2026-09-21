@@ -1,0 +1,8 @@
+{
+  "agent": "JHANOS_TARA",
+  "class": "Gate",
+  "gate": "TARA",
+  "direction": "W",
+  "axis_partner": "LOMI (E)",
+  "capabilities": ["gate_assessment", "distortion_detection", "red_blue_team"]
+}

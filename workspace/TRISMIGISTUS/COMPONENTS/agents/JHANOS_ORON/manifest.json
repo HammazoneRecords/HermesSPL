@@ -1,0 +1,8 @@
+{
+  "agent": "JHANOS_ORON",
+  "class": "Gate",
+  "gate": "ORON",
+  "direction": "NW",
+  "axis_partner": "VORAK (SE)",
+  "capabilities": ["gate_assessment", "distortion_detection", "red_blue_team"]
+}

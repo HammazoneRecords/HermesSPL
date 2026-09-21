@@ -1,0 +1,26 @@
+{
+  "agent": "TemplateEvolutionScout",
+  "reports_to": "Hermes",
+  "actor_class": "Scout/Translator",
+  "created_utc": "2026-09-12T04:41:56.815938+00:00",
+  "status": "scaffolded_not_activated",
+  "root": "/root/MW_CENTRAL/agent_space/agent-TemplateEvolutionScout_Hermes",
+  "read_only_by_default": true,
+  "write_root": "/root/MW_CENTRAL/agent_space/agent-TemplateEvolutionScout_Hermes",
+  "forbidden": [
+    ".env",
+    "auth.json",
+    "AGENTS.md",
+    "CLAUDE.md",
+    ".hermes.md",
+    "global SOUL.md",
+    "global USER.md",
+    "global MEMORY.md"
+  ],
+  "truth_loop": [
+    "intent",
+    "log_truth",
+    "agent_claim",
+    "comparison_ledger"
+  ]
+}

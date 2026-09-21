@@ -1,0 +1,27 @@
+{
+  "openai-codex": [
+    "/root/.hermes/profiles/tcp01/auth.json",
+    null,
+    null,
+    "/root/.hermes/auth.json",
+    [
+      1789356760975097764,
+      20046
+    ],
+    null
+  ],
+  "xai-oauth": [
+    "/root/.hermes/profiles/tcp01/auth.json",
+    [
+      1789362691501637561,
+      4994
+    ],
+    null,
+    "/root/.hermes/auth.json",
+    [
+      1789362232927116101,
+      20046
+    ],
+    null
+  ]
+}

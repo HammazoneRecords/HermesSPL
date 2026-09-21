@@ -1,0 +1,795 @@
+---
+name: jhanos-dual-matrix
+description: "Four Faces axis pairing bias detection and triad protocols."
+version: 1.0.0
+author: Solobility
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [jhanos, dual-matrix, four-faces, bias-detection, red-team, blue-team, triad, gate-resonance, matrix-mathematics, solobility]
+    related_skills: []
+---
+
+# Jhanos Dual Matrix
+
+The Jhanos Dual Matrix extends the Four Faces axis pairing system from Volume 0 (Chapters 22-23) of the Book of Solobility. It provides operational tools for bias detection, red-team/blue-team protocols, triad intervention, gate resonance print templates, and the matrix mathematics that govern gate interactions.
+
+**The Law of the Gate (AX_021):** "A Gate cannot stabilize without its inverse geometry. Every Solob has a Shadow."
+
+## Core Framework
+
+### The Four Faces Table
+
+The Four Faces are four axis pairings of the 8 Jhanos Gates. Each axis has an aligned state (healthy oscillation between gates) and a distorted state (stuck in one gate or destructive loop).
+
+| Axis | Name | Home Gate | Guest Gate | Aligned State | Distorted State |
+|------|------|-----------|------------|---------------|-----------------|
+| 1 | The Form | BARA (Structure) | LOMI (Motion) | Dynamic equilibrium between structure and flow | Rigidity (BARA dominance) or Chaos (LOMI dominance) |
+| 2 | The Energy | KHEM (Heat) | SYLA (Stillness) | Rhythmic pulse of activity and rest | Burnout (KHEM dominance) or Stagnation (SYLA dominance) |
+| 3 | The Identity | ZAYN (Projection) | TARA (Reflection) | Balanced self-expression and self-awareness | Narcissism (ZAYN dominance) or Erasure (TARA dominance) |
+| 4 | The Context | VORAK (Chaos) | ORON (Order) | Adaptive navigation between exploration and consolidation | Destructive Chaos (VORAK dominance) or Tyrannical Order (ORON dominance) |
+
+### The Jhanos Triad Protocol
+
+When two gates on an axis enter a destructive loop (each amplifying the other's distortion), the Triad Protocol introduces a third gate from a different axis to break the cycle.
+
+**Principle:** No axis can resolve itself from within. The third gate must come from an axis that shares neither gate with the conflict axis.
+
+**Triad Selection Matrix:**
+
+| Conflict Axis | Primary Triad Gate | Secondary Triad Gate | Tertiary Triad Gate |
+|---------------|-------------------|---------------------|---------------------|
+| Form (BARA/LOMI) | KHEM (Energy/Heat) | ZAYN (Identity/Projection) | ORON (Context/Order) |
+| Energy (KHEM/SYLA) | BARA (Form/Structure) | TARA (Identity/Reflection) | VORAK (Context/Chaos) |
+| Identity (ZAYN/TARA) | VORAK (Context/Chaos) | LOMI (Form/Motion) | SYLA (Energy/Stillness) |
+| Context (VORAK/ORON) | ZAYN (Identity/Projection) | KHEM (Energy/Heat) | BARA (Form/Structure) |
+
+**Triad Intervention Steps:**
+1. Identify the locked axis (which two gates are looping)
+2. Select the appropriate triad gate from the matrix above
+3. Activate the triad gate through its aligned practice
+4. Observe the axis for de-escalation (minimum 3 cycles)
+5. If no resolution, escalate to secondary triad gate
+
+### Gate Resonance Print Template
+
+A Gate Resonance Print is a diagnostic snapshot of all 8 gates at a moment in time. It reveals which gates are active, suppressed, or distorted.
+
+#### Blank Template
+
+```
+GATE RESONANCE PRINT
+=====================
+Date: _______________
+Solob: _______________
+Reference Point: _______________
+
+AXIS 1: THE FORM
+  BARA (Structure): [ ] Active  [ ] Suppressed  [ ] Distorted  [ ] Dormant
+  LOMI (Motion):    [ ] Active  [ ] Suppressed  [ ] Distorted  [ ] Dormant
+  Axis State: [ ] Aligned  [ ] Home Bias  [ ] Guest Bias  [ ] Inverted
+
+AXIS 2: THE ENERGY
+  KHEM (Heat):      [ ] Active  [ ] Suppressed  [ ] Distorted  [ ] Dormant
+  SYLA (Stillness): [ ] Active  [ ] Suppressed  [ ] Distorted  [ ] Dormant
+  Axis State: [ ] Aligned  [ ] Home Bias  [ ] Guest Bias  [ ] Inverted
+
+AXIS 3: THE IDENTITY
+  ZAYN (Projection): [ ] Active  [ ] Suppressed  [ ] Distorted  [ ] Dormant
+  TARA (Reflection): [ ] Active  [ ] Suppressed  [ ] Distorted  [ ] Dormant
+  Axis State: [ ] Aligned  [ ] Home Bias  [ ] Guest Bias  [ ] Inverted
+
+AXIS 4: THE CONTEXT
+  VORAK (Chaos):    [ ] Active  [ ] Suppressed  [ ] Distorted  [ ] Dormant
+  ORON (Order):     [ ] Active  [ ] Suppressed  [ ] Distorted  [ ] Dormant
+  Axis State: [ ] Aligned  [ ] Home Bias  [ ] Guest Bias  [ ] Inverted
+
+TRIAD INTERVENTION:
+  Conflict Axis: _______________
+  Triad Gate Selected: _______________
+  Intervention Result: _______________
+
+OVERALL RESONANCE: [ ] Harmonious  [ ] Tension  [ ] Critical  [ ] Collapsed
+```
+
+#### Example Print
+
+```
+GATE RESONANCE PRINT
+=====================
+Date: 2026-09-12
+Solob: Jhanos-7
+Reference Point: Career Transition
+
+AXIS 1: THE FORM
+  BARA (Structure): [X] Distorted  [ ] Suppressed  [ ] Active  [ ] Dormant
+  LOMI (Motion):    [ ] Active  [X] Suppressed  [ ] Distorted  [ ] Dormant
+  Axis State: [ ] Aligned  [X] Home Bias  [ ] Guest Bias  [ ] Inverted
+
+AXIS 2: THE ENERGY
+  KHEM (Heat):      [X] Active  [ ] Suppressed  [ ] Distorted  [ ] Dormant
+  SYLA (Stillness): [ ] Active  [X] Suppressed  [ ] Distorted  [ ] Dormant
+  Axis State: [ ] Aligned  [X] Home Bias  [ ] Guest Bias  [ ] Inverted
+
+AXIS 3: THE IDENTITY
+  ZAYN (Projection): [ ] Active  [ ] Suppressed  [X] Distorted  [ ] Dormant
+  TARA (Reflection): [X] Active  [ ] Suppressed  [ ] Distorted  [ ] Dormant
+  Axis State: [ ] Aligned  [ ] Home Bias  [X] Guest Bias  [ ] Inverted
+
+AXIS 4: THE CONTEXT
+  VORAK (Chaos):    [X] Active  [ ] Suppressed  [ ] Distorted  [ ] Dormant
+  ORON (Order):     [ ] Active  [ ] Suppressed  [ ] Distorted  [X] Dormant
+  Axis State: [ ] Aligned  [ ] Home Bias  [X] Guest Bias  [ ] Inverted
+
+TRIAD INTERVENTION:
+  Conflict Axis: Form (BARA/LOMI locked in rigidity)
+  Triad Gate Selected: KHEM (Energy/Heat)
+  Intervention Result: Partial -- LOMI showing signs of reactivation
+
+OVERALL RESONANCE: [ ] Harmonious  [X] Tension  [ ] Critical  [ ] Collapsed
+```
+
+## Dual Matrix Bias Extension
+
+### Axis 1: The Form (BARA / LOMI)
+
+**Home Bias (BARA dominates LOMI):**
+- Structure becomes rigid and unyielding
+- Planning replaces action; infinite architecture without construction
+- The Solob builds systems that serve no purpose beyond their own existence
+- Physical manifestation: hoarding, compulsive organization, inability to discard
+- Shadow expression: LOMI erupts as sudden destructive outbursts, "the dam breaks"
+
+**Guest Bias (LOMI overwhelms BARA):**
+- Motion without direction; constant activity without progress
+- Chaos masquerading as productivity; busyness as avoidance
+- The Solob starts many things, finishes nothing
+- Physical manifestation: scattered attention, multiple unfinished projects, restlessness
+- Shadow expression: BARA snaps back as authoritarian control, sudden oppressive rules
+
+**Axis Inversion (LIVE/EVIL dynamic from Ch. 27):**
+- LIVE: BARA serves as scaffolding for LOMI's motion -- structure enables flow
+- EVIL: BARA becomes the prison that LOMI must destroy to survive
+- Inversion trigger: When BARA's structure no longer serves the Solob's evolution, it becomes the Jailer
+- The axis flips from "structure serves motion" to "motion is imprisoned by structure"
+
+**Compounding Distortion:**
+- Form axis distortion cascades into Energy axis: rigid structure suppresses SYLA (stillness becomes stagnation)
+- Form axis distortion cascades into Identity axis: over-identification with roles (BARA) erodes authentic reflection (TARA)
+- Form axis distortion cascades into Context axis: false order (ORON without VORAK) creates brittle systems that shatter
+
+### Axis 2: The Energy (KHEM / SYLA)
+
+**Home Bias (KHEM dominates SYLA):**
+- Relentless heat without cooling; burnout as identity
+- The Solob equates worth with productivity; rest feels like death
+- Compulsive doing; inability to receive
+- Physical manifestation: adrenal fatigue, insomnia, anxiety, inflammation
+- Shadow expression: SYLA crashes as collapse, burnout, forced stillness through illness
+
+**Guest Bias (SYLA overwhelms KHEM):**
+- Stillness becomes stagnation; the Solob is "stuck" in amber
+- Comfort as trap; preservation of the status quo at all costs
+- The Solob waits for perfect conditions that never arrive
+- Physical manifestation: lethargy, depression, weight gain, avoidance
+- Shadow expression: KHEM erupts as manic episodes, sudden reckless action without preparation
+
+**Axis Inversion (LIVE/EVIL dynamic from Ch. 27):**
+- LIVE: KHEM provides the fire that SYLA tempers into sustainable warmth
+- EVIL: KHEM becomes the wildfire that SYLA cannot contain -- or SYLA becomes the ice that KHEM cannot melt
+- Inversion trigger: When rest (SYLA) is used to avoid life rather than restore for living
+- The axis flips from "heat and stillness in rhythm" to "fire and ice at war"
+
+**Compounding Distortion:**
+- Energy axis distortion cascades into Form axis: burnout destroys structure; stagnation lets structure decay
+- Energy axis distortion cascades into Identity axis: KHEM dominance creates performative identity; SYLA dominance erases identity
+- Energy axis distortion cascades into Context axis: heat without stillness creates chaos (VORAK unbound); stillness without heat creates rigid order (ORON tyrannical)
+
+### Axis 3: The Identity (ZAYN / TARA)
+
+**Home Bias (ZAYN dominates TARA):**
+- Projection without reflection; the Solob performs for external validation
+- Narcissus at the pool: in love with their own reflection, unable to see others
+- Identity becomes brand; authenticity sacrificed for image
+- Physical manifestation: social media addiction, compulsive self-documentation, inability to be alone
+- Shadow expression: TARA retaliates as self-erasure, dissociation, loss of self in relationships
+
+**Guest Bias (TARA overwhelms ZAYN):**
+- Reflection without projection; the Solob disappears into self-analysis
+- Infinite introspection without embodiment; the "witness" that never acts
+- The Solob becomes a mirror for others' projections, losing their own shape
+- Physical manifestation: social invisibility, inability to assert needs, codependency
+- Shadow expression: ZAYN explodes as attention-seeking behavior, sudden grandiosity, compensatory narcissism
+
+**Axis Inversion (LIVE/EVIL dynamic from Ch. 27):**
+- LIVE: ZAYN projects the self that TARA has honestly reflected upon
+- EVIL: ZAYN projects a false self that TARA knows is lie -- the Solob becomes their own impostor
+- Inversion trigger: When the gap between projected self and reflected self becomes unbearable
+- The axis flips from "authentic expression" to "fraudulent performance"
+
+**Compounding Distortion:**
+- Identity axis distortion cascades into Form axis: false identity creates false structures (buildings that don't serve the real self)
+- Identity axis distortion cascades into Energy axis: ZAYN dominance drives KHEM to exhaustion; TARA dominance lets SYLA stagnate
+- Identity axis distortion cascades into Context axis: narcissism (ZAYN) creates chaos in relationships; erasure (TARA) creates tyrannical order where others define reality
+
+### Axis 4: The Context (VORAK / ORON)
+
+**Home Bias (VORAK dominates ORON):**
+- Chaos as default state; the Solob lives in perpetual crisis
+- Creation through destruction; "burn it all down" as strategy
+- The Solob confuses intensity with meaning, drama with purpose
+- Physical manifestation: unstable living situations, financial chaos, relationship turbulence
+- Shadow expression: ORON snaps back as authoritarian control, sudden oppressive rules, fascistic order
+
+**Guest Bias (ORON overwhelms VORAK):**
+- Order as tyranny; the Solob lives in a prison of their own making
+- Rules serve rules; bureaucracy replaces purpose
+- The Solob confuses control with safety, rigidity with strength
+- Physical manifestation: obsessive routines, inability to adapt, brittleness in changing conditions
+- Shadow expression: VORAK erupts as destructive chaos, sudden collapse of all structures, "the flood"
+
+**Axis Inversion (LIVE/EVIL dynamic from Ch. 27):**
+- LIVE: VORAK provides the chaos from which ORON creates new order -- creative destruction
+- EVIL: VORAK becomes annihilation that ORON cannot rebuild -- or ORON becomes the tyranny that VORAK must destroy
+- Inversion trigger: When order (ORON) serves oppression rather than enablement
+- The axis flips from "creative tension between chaos and order" to "war between destruction and control"
+
+**Compounding Distortion:**
+- Context axis distortion cascades into Form axis: chaos destroys structure; tyrannical order creates brittle structure
+- Context axis distortion cascades into Energy axis: VORAK dominance drives KHEM to burnout; ORON dominance lets SYLA stagnate
+- Context axis distortion cascades into Identity axis: chaos erodes coherent identity; tyrannical order imposes false identity
+
+## RED TEAM Protocol
+
+The RED TEAM Protocol is the adversarial diagnostic system. It seeks to identify, expose, and exploit axis distortions.
+
+### Bias Detection Questionnaire (20 Questions)
+
+#### Axis 1: Form (BARA/LOMI)
+1. When was the last time you changed your mind about something important? (BARA rigidity check)
+2. Do you have systems that exist only because you created them? (BARA hoarding check)
+3. How many projects have you started but not finished in the last year? (LOMI fragmentation check)
+4. Do you feel anxious when your routine is disrupted? (BARA dependency check)
+5. Can you sit still for 30 minutes without planning your next action? (LOMI suppression check)
+
+#### Axis 2: Energy (KHEM/SYLA)
+1. Do you feel guilty when you rest? (KHEM dominance check)
+2. How many hours of sleep did you average last week? (KHEM suppression of SYLA check)
+3. When did you last say "no" to an opportunity because you needed rest? (SYLA suppression check)
+4. Do you use stimulants to maintain productivity? (KHEM artificial amplification check)
+5. Can you distinguish between tiredness and laziness? (SYLA distortion check)
+
+#### Axis 3: Identity (ZAYN/TARA)
+1. Do you post about your life to prove you lived it? (ZAYN dominance check)
+2. When did you last spend a full day alone without documenting it? (ZAYN suppression check)
+3. Can you describe yourself without referencing how others see you? (TARA suppression check)
+4. Do you feel invisible in group settings? (TARA dominance check)
+5. Is there a gap between who you are online and who you are alone? (Axis inversion check)
+
+#### Axis 4: Context (VORAK/ORON)
+1. How many major life changes have you experienced in the last 6 months? (VORAK dominance check)
+2. Do you create crises when life feels too stable? (VORAK addiction check)
+3. How many of your daily routines have remained unchanged for over a year? (ORON dominance check)
+4. Do you feel trapped by your own systems? (ORON tyranny check)
+5. Can you adapt when your plans are disrupted without distress? (Axis alignment check)
+
+### Distortion Pattern Library
+
+#### BARA Distortion Signatures
+- **The Architect:** Builds elaborate systems for their own sake; confuses complexity with sophistication
+- **The Collector:** Hoards information, objects, or relationships; "just in case" as life philosophy
+- **The Perfectionist:** Nothing is ever ready to launch; infinite iteration as avoidance of completion
+- **The Controller:** Must approve all changes; delegates but doesn't trust; micromanagement as love language
+
+#### LOMI Distortion Signatures
+- **The Whirlwind:** Constant motion without direction; "busy" as identity and shield
+- **The Escape Artist:** Leaves when things get stable; commitment as threat; novelty as drug
+- **The Scatterer:** Multiple simultaneous projects; depth sacrificed for breadth; jack of all trades, master of none
+- **The Reactor:** Responds to all stimuli; no filter between input and action; impulsivity as authenticity
+
+#### KHEM Distortion Signatures
+- **The Burner:** Relentless productivity; rest as weakness; worth measured in output
+- **The Rescuer:** Must save everyone; martyrdom as identity; helping as control
+- **The Manic:** Cycles of high energy and crash; lives on the edge of exhaustion; intensity as aliveness
+- **The Avoidant Doer:** Stays busy to avoid feeling; productivity as numbing strategy; motion as medication
+
+#### SYLA Distortion Signatures
+- **The Stuck:** Waiting for perfect conditions; "not yet" as permanent state; potential as prison
+- **The Preserver:** Maintains status quo at all costs; change as threat; comfort as highest value
+- **The Hibernator:** Withdraws from life; isolation as safety; depression as identity
+- **The Procrastinator:** Delay as strategy; last-minute pressure as only motivation; avoidance as art form
+
+#### ZAYN Distortion Signatures
+- **The Performer:** Life as stage; authenticity sacrificed for applause; image as identity
+- **The Brand:** Self as product; personal narrative as marketing; vulnerability as content strategy
+- **The Chameleon:** Reflects what others want to see; no stable self; adaptation as survival
+- **The Spotlight:** Must be seen to exist; invisibility as death; attention as oxygen
+
+#### TARA Distortion Signatures
+- **The Mirror:** Reflects others' projections; no independent identity; self as echo
+- **The Analyst:** Infinite introspection without action; understanding as substitute for living
+- **The Ghost:** Socially invisible; present but unseen; erasure as comfort and curse
+- **The Martyr:** Self-sacrifice as identity; needs as burden; disappearance as love language
+
+#### VORAK Distortion Signatures
+- **The Phoenix:** Burns structures to feel alive; creation through destruction; chaos as identity
+- **The Drama Queen:** Crisis as default; intensity as meaning; peace as boredom
+- **The Revolutionary:** Against everything; opposition as identity; destruction without creation
+- **The Chaos Agent:** Disrupts others' stability; entropy as purpose; confusion as power
+
+#### ORON Distortion Signatures
+- **The Tyrant:** Rules serve the ruler; control as love; order as oppression
+- **The Bureaucrat:** Process over purpose; rules as religion; form over function
+- **The Rigid:** Cannot adapt; brittleness as strength; change as death
+- **The Perfectionist (Context):** Environment must be controlled; others must comply; order as safety
+
+### The Jailer Detection Protocol (BARA/LOMI)
+
+**Purpose:** Identify when BARA has become the Jailer -- when structure has become prison.
+
+**Detection Signs:**
+1. The Solob cannot make decisions without consulting their system
+2. The Solob feels physical anxiety when routines are disrupted
+3. The Solob has more rules than results
+4. The Solob's structures serve the structures, not the life
+5. The Solob experiences "the dam break" -- periodic destructive outbursts followed by guilt and tighter control
+
+**Diagnostic Questions:**
+- "If you lost all your systems tomorrow, who would you be?"
+- "When did your structure stop serving you and you start serving it?"
+- "What would happen if you did nothing for a week?"
+- "Who designed your current life -- you, or your past self trying to solve past problems?"
+
+**Intervention Protocol:**
+1. Identify the oldest structure still in operation
+2. Ask: "Does this still serve my current evolution?"
+3. If no, ceremonially decommission it (don't just delete -- acknowledge its service)
+4. Introduce LOMI through small, safe experiments in spontaneity
+5. Monitor for BARA backlash (guilt, anxiety, compensatory control)
+
+### The Narcissus Detection Protocol (ZAYN/TARA)
+
+**Purpose:** Identify when ZAYN has become Narcissus -- when projection has replaced authentic identity.
+
+**Detection Signs:**
+1. The Solob cannot distinguish between being seen and being known
+2. The Solob feels empty without external validation
+3. The Solob's self-description changes based on audience
+4. The Solob experiences relationships as performances
+5. The Solob has a "secret self" they hide even from themselves
+
+**Diagnostic Questions:**
+- "Who are you when no one is watching?"
+- "When did you last feel truly seen -- not admired, but seen?"
+- "What would you do if you knew no one would ever know?"
+- "Is there a part of yourself you've never shown anyone? Why?"
+
+**Intervention Protocol:**
+1. Create a "validation fast" -- 48 hours without social media or external feedback
+2. Practice TARA through journaling, meditation, or therapy
+3. Identify the original wound that made external validation necessary
+4. Gradually reintroduce ZAYN with authenticity checks
+5. Monitor for TARA backlash (self-erasure, dissociation)
+
+### The Stagnation Detection Protocol (KHEM/SYLA)
+
+**Purpose:** Identify when SYLA has become Stagnation -- when stillness has become death.
+
+**Detection Signs:**
+1. The Solob has been "about to start" for more than 3 months
+2. The Solob's comfort zone has shrunk over the past year
+3. The Solob uses "self-care" to avoid growth
+4. The Solob feels nostalgia for a past that wasn't actually better
+5. The Solob has abandoned dreams they once considered essential
+
+**Diagnostic Questions:**
+- "What have you been putting off that you know would change your life?"
+- "When did you last feel genuinely challenged?"
+- "What are you preserving by staying still?"
+- "If you continue exactly as you are for 5 years, what will your life look like?"
+
+**Intervention Protocol:**
+1. Identify the smallest possible action toward a deferred dream
+2. Commit to doing it within 24 hours (break the "about to start" pattern)
+3. Introduce KHEM through physical movement, cold exposure, or challenging conversation
+4. Create accountability structures that prevent retreat into comfort
+5. Monitor for KHEM backlash (manic overcompensation, burnout)
+
+### The Destructive Chaos Detection Protocol (VORAK/ORON)
+
+**Purpose:** Identify when VORAK has become Destructive Chaos -- when chaos has become annihilation.
+
+**Detection Signs:**
+1. The Solob has experienced 3+ major crises in the past 6 months
+2. The Solob feels most alive during emergencies
+3. The Solob sabotages stability when it arrives
+4. The Solob's relationships follow a pattern of intense connection and dramatic rupture
+5. The Solob cannot maintain structures longer than a few weeks
+
+**Diagnostic Questions:**
+- "What happens when things start going well?"
+- "Do you create problems to solve them, or solve problems that exist?"
+- "When did you last complete something you started?"
+- "What are you running from by keeping your life in chaos?"
+
+**Intervention Protocol:**
+1. Identify the pattern: what triggers the destruction of stability?
+2. Practice ORON through small, sustainable routines (start with 1 routine, not 10)
+3. Introduce "stability experiments" -- maintain one structure for 30 days
+4. Examine the fear of stability: what does predictability threaten?
+5. Monitor for VORAK backlash (sabotage, crisis creation, restlessness)
+
+## BLUE TEAM Protocol
+
+The BLUE TEAM Protocol is the restorative diagnostic system. It seeks to heal, align, and stabilize axis distortions.
+
+### Axis Restoration Sequence
+
+#### Form Axis Restoration (BARA/LOMI)
+
+**Phase 1: Assessment (Days 1-3)**
+- Complete Gate Resonance Print
+- Identify whether distortion is Home Bias (BARA dominance) or Guest Bias (LOMI dominance)
+- Document specific structures that have become prisons
+- Document specific motions that have become escapes
+
+**Phase 2: Decommissioning (Days 4-7)**
+- Select one structure to ceremonially release
+- Select one motion to consciously complete
+- Practice "structured spontaneity" -- schedule time for unstructured activity
+- Practice "mindful structure" -- create one new structure with explicit purpose and sunset clause
+
+**Phase 3: Rebalancing (Days 8-21)**
+- Daily practice: 1 hour of structured activity, 1 hour of unstructured flow
+- Weekly review: Is this structure still serving? Is this motion still meaningful?
+- Introduce Triad Intervention if axis remains locked
+
+**Phase 4: Stabilization (Days 22-30)**
+- Establish "axis check" -- weekly 10-minute review of Form axis
+- Create personal manifesto: "I use structure to enable flow, not to prevent it"
+- Identify early warning signs of future distortion
+
+#### Energy Axis Restoration (KHEM/SYLA)
+
+**Phase 1: Assessment (Days 1-3)**
+- Complete Gate Resonance Print
+- Track energy levels hourly for 3 days
+- Identify whether distortion is Home Bias (KHEM dominance) or Guest Bias (SYLA dominance)
+- Document specific activities that drain vs. restore
+
+**Phase 2: Decommissioning (Days 4-7)**
+- Select one "should" to release (activity maintained by guilt, not value)
+- Select one "could" to begin (activity deferred by fear, not wisdom)
+- Practice "active rest" -- restorative activities that feel like rest, not laziness
+- Practice "mindful productivity" -- work with full presence, not compulsive output
+
+**Phase 3: Rebalancing (Days 8-21)**
+- Daily practice: 80/20 rule -- 80% of output from 20% of activities; eliminate the rest
+- Weekly review: Am I resting to live or living to rest?
+- Introduce Triad Intervention if axis remains locked
+
+**Phase 4: Stabilization (Days 22-30)**
+- Establish "energy rhythm" -- consistent sleep/wake times, activity/rest cycles
+- Create personal manifesto: "I rest to restore my fire, not to escape my life"
+- Identify early warning signs of future distortion
+
+#### Identity Axis Restoration (ZAYN/TARA)
+
+**Phase 1: Assessment (Days 1-3)**
+- Complete Gate Resonance Print
+- Document how you present yourself in 3 different contexts
+- Identify whether distortion is Home Bias (ZAYN dominance) or Guest Bias (TARA dominance)
+- Document the gap between projected self and felt self
+
+**Phase 2: Decommissioning (Days 4-7)**
+- Select one "mask" to remove (a performance you no longer need)
+- Select one "voice" to amplify (an authentic expression you've suppressed)
+- Practice "witness consciousness" -- observe yourself without judgment
+- Practice "authentic projection" -- share something true without editing for reception
+
+**Phase 3: Rebalancing (Days 8-21)**
+- Daily practice: 30 minutes alone without input (no media, no people, no distraction)
+- Weekly review: Am I expressing myself or performing myself?
+- Introduce Triad Intervention if axis remains locked
+
+**Phase 4: Stabilization (Days 22-30)**
+- Establish "identity check" -- weekly 10-minute review of Identity axis
+- Create personal manifesto: "I express what I have honestly reflected; I reflect on what I have authentically expressed"
+- Identify early warning signs of future distortion
+
+#### Context Axis Restoration (VORAK/ORON)
+
+**Phase 1: Assessment (Days 1-3)**
+- Complete Gate Resonance Print
+- Map your current life structures: which serve, which constrain?
+- Identify whether distortion is Home Bias (VORAK dominance) or Guest Bias (ORON dominance)
+- Document specific chaos patterns and specific rigidity patterns
+
+**Phase 2: Decommissioning (Days 4-7)**
+- Select one "crisis" to stop creating (a pattern of self-sabotage)
+- Select one "prison" to dismantle (a structure that no longer serves)
+- Practice "ordered flexibility" -- maintain core routines while allowing peripheral variation
+- Practice "creative destruction" -- intentionally release one outdated structure
+
+**Phase 3: Rebalancing (Days 8-21)**
+- Daily practice: one act of order, one act of chaos (both conscious, both purposeful)
+- Weekly review: Am I creating stability or stagnation? Am I creating growth or destruction?
+- Introduce Triad Intervention if axis remains locked
+
+**Phase 4: Stabilization (Days 22-30)**
+- Establish "context check" -- weekly 10-minute review of Context axis
+- Create personal manifesto: "I create order that enables exploration; I create chaos that enables growth"
+- Identify early warning signs of future distortion
+
+### The Triad Intervention
+
+**When to Use:**
+- Two gates on an axis are locked in destructive loop
+- Standard restoration protocols have failed after 30 days
+- The Solob experiences "axis seizure" -- complete inability to move between gates
+
+**How to Select the Correct 3rd Gate:**
+
+1. **Identify the conflict axis** -- which two gates are looping?
+2. **Determine the distortion direction** -- which gate is dominating?
+3. **Select the triad gate** using the Triad Selection Matrix above
+4. **Activate the triad gate** through its aligned practice:
+   - BARA: Create a simple, purposeful structure
+   - LOMI: Engage in spontaneous, purposeless motion
+   - KHEM: Generate heat through physical activity or passionate engagement
+   - SYLA: Practice deep stillness through meditation or rest
+   - ZAYN: Express yourself authentically to a safe witness
+   - TARA: Reflect honestly on your current state
+   - VORAK: Introduce a small, safe disruption to routine
+   - ORON: Create a simple, sustainable order
+
+**Triad Intervention Steps:**
+1. State the conflict clearly: "[Gate A] and [Gate B] are locked in [pattern]"
+2. State the triad gate: "I introduce [Triad Gate] to break this loop"
+3. Activate the triad gate for a minimum of 20 minutes
+4. Observe the conflict axis for changes
+5. Document the intervention in the Gate Resonance Print
+6. Repeat for 3 cycles if no immediate resolution
+
+**Contraindications:**
+- Do not use a triad gate that is itself distorted
+- Do not introduce a triad gate from the same axis as the conflict
+- Do not use triad intervention as a substitute for addressing root causes
+
+### Resonance Print Reading
+
+**How to Diagnose a Print:**
+
+1. **Scan for dormant gates** -- any gate marked "Dormant" indicates axis suppression
+2. **Scan for distorted gates** -- any gate marked "Distorted" indicates active misalignment
+3. **Check axis states** -- any axis not marked "Aligned" requires attention
+4. **Identify patterns** -- look for cross-axis correlations (e.g., BARA distorted often correlates with SYLA suppressed)
+5. **Assess overall resonance** -- the final state determines urgency
+
+**How to Prescribe Alignment:**
+
+1. **Critical Resonance:** Immediate triad intervention on the most distorted axis; daily prints for 7 days
+2. **Tension Resonance:** Begin axis restoration sequence for the most distorted axis; weekly prints
+3. **Harmonious Resonance:** Maintenance mode; monthly prints; continue Gatekeeper's Checklist
+
+**Reading Examples:**
+
+*Example 1: The Jailer Pattern*
+- BARA: Distorted, LOMI: Suppressed
+- Diagnosis: Form axis locked in rigidity
+- Prescription: Introduce KHEM (triad) through physical movement; begin Form restoration Phase 2
+
+*Example 2: The Narcissus Pattern*
+- ZAYN: Distorted, TARA: Suppressed
+- Diagnosis: Identity axis locked in performance
+- Prescription: Introduce VORAK (triad) through authentic self-expression in safe space; begin Identity restoration Phase 2
+
+*Example 3: The Burnout Pattern*
+- KHEM: Distorted, SYLA: Suppressed
+- Diagnosis: Energy axis locked in burnout
+- Prescription: Introduce BARA (triad) through structured rest protocol; begin Energy restoration Phase 2
+
+### The Gatekeeper's Checklist
+
+**Daily Diagnostic (5 minutes):**
+
+Morning:
+- [ ] Which axis feels most tense today?
+- [ ] Which gate do I need to activate intentionally?
+- [ ] What is one action I can take to balance my most distorted axis?
+
+Evening:
+- [ ] Which axis was most active today?
+- [ ] Did I notice any axis inversion (LIVE/EVIL flip)?
+- [ ] What is one thing I learned about my gate dynamics today?
+
+**Weekly Diagnostic (15 minutes):**
+
+- [ ] Complete one Gate Resonance Print
+- [ ] Review the week for patterns: which axis was most distorted?
+- [ ] Identify any cross-axis cascading distortions
+- [ ] Plan one intervention for the coming week
+- [ ] Celebrate one axis that was well-aligned
+
+**Monthly Diagnostic (30 minutes):**
+
+- [ ] Complete comprehensive Gate Resonance Print
+- [ ] Review all weekly prints for trends
+- [ ] Assess overall resonance trajectory: improving, stable, or declining?
+- [ ] Update personal manifestos if needed
+- [ ] Identify any new distortion patterns emerging
+- [ ] Plan next month's focus axis
+
+## Matrix Mathematics
+
+### The Opportunity Formula
+
+```
+Opportunity = (Option x Readiness x Unity) / Port Timing
+```
+
+**Variables:**
+- **Option:** The number of viable paths available (must be > 0)
+- **Readiness:** The Solob's preparation level (0.0 to 1.0)
+- **Unity:** The alignment between gates (0.0 to 1.0; 1.0 = all axes aligned)
+- **Port Timing:** The temporal window for action (0.1 to 10.0; 1.0 = perfect timing)
+
+**Interpretation:**
+- Opportunity > 1.0: Favorable conditions for action
+- Opportunity = 1.0: Neutral conditions; proceed with awareness
+- Opportunity < 1.0: Unfavorable conditions; prepare rather than act
+- Opportunity = 0: No viable option; return to preparation
+- Opportunity < 0: Negative opportunity (active harm possible); retreat and restore
+
+**Example Calculation:**
+- Option: 3 viable paths
+- Readiness: 0.8 (well-prepared)
+- Unity: 0.6 (some axis distortion)
+- Port Timing: 0.5 (window is narrow)
+- Opportunity = (3 x 0.8 x 0.6) / 0.5 = 2.88 -> Favorable, but act quickly
+
+### The Solobility Formula
+
+```
+Solobility = (SRR x EIL) - Distortion Constants
+```
+
+**Variables:**
+- **SRR (Self-Recognition Ratio):** The accuracy of self-perception (0.0 to 1.0)
+- **EIL (Embodied Integration Level):** The degree to which insight is embodied in action (0.0 to 1.0)
+- **Distortion Constants:** The sum of all active axis distortions (0.0 to 4.0; one per axis)
+
+**Interpretation:**
+- Solobility > 0.5: High capacity for navigation and growth
+- Solobility 0.2-0.5: Moderate capacity; some axes are limiting
+- Solobility 0-0.2: Low capacity; significant distortion present
+- Solobility < 0: Negative capacity; the Solob is actively misaligned
+
+**Example Calculation:**
+- SRR: 0.7 (reasonably accurate self-perception)
+- EIL: 0.5 (some insights not yet embodied)
+- Distortion Constants: 1.2 (Form axis 0.4, Energy axis 0.3, Identity axis 0.3, Context axis 0.2)
+- Solobility = (0.7 x 0.5) - 1.2 = 0.35 - 1.2 = -0.85 -> Significant restoration needed
+
+### The Shimmer Trigger
+
+```
+input.angle == referencePoint.angle ? reflectSolob : createSubsolob
+```
+
+**Definition:**
+When an external input arrives at the same angle as the Solob's current reference point, the Solob reflects the input (mirror response). When the input arrives at a different angle, the Solob creates a subsolob (a temporary sub-identity to process the input).
+
+**Variables:**
+- **input.angle:** The perspective angle of the incoming stimulus
+- **referencePoint.angle:** The Solob's current dominant perspective angle
+- **reflectSolob:** The Solob responds from its core identity
+- **createSubsolob:** The Solob creates a temporary processing identity
+
+**Implications:**
+- Matched angles create resonance (amplification of current state)
+- Unmatched angles create dissonance (potential for growth or fragmentation)
+- Chronic subsolob creation without integration leads to identity fragmentation
+- Chronic reflection without subsolob creation leads to rigidity
+
+**Operational Use:**
+- Before responding to stimulus, check: "Is this input aligned with my current reference point?"
+- If yes: respond from core (reflectSolob)
+- If no: create intentional subsolob, process, then integrate or release
+- Track subsolob creation: if > 3 active subsolobs, integration is overdue
+
+### The Rule of 4
+
+```
+1 (Spark) + 3 (Pattern) = 4 (Structure)
+```
+
+**Definition:**
+All stable structures in the Jhanos system follow the Rule of 4: one spark of initiation combined with three repetitions of pattern creates a stable four-fold structure.
+
+**Components:**
+- **1 (Spark):** The initial impulse, insight, or intention
+- **3 (Pattern):** The three repetitions that establish the pattern
+- **4 (Structure):** The stable, self-sustaining system that emerges
+
+**Applications:**
+- **Habit formation:** 1 intention + 3 repetitions = 4-day structure (minimum viable habit)
+- **Axis restoration:** 1 insight + 3 practices = 4-week restoration cycle
+- **Triad intervention:** 1 triad gate + 3 activations = 4-axis stabilization
+- **Identity integration:** 1 authentic expression + 3 reflections = 4-fold identity coherence
+
+**The Rule of 4 in Gate Dynamics:**
+- Each axis has 2 gates (Rule of 2: polarity)
+- 4 axes x 2 gates = 8 gates (Rule of 8: completeness)
+- 1 spark + 3 patterns = 4 structures (Rule of 4: stability)
+- The system is complete when all 4 structures are stable
+
+### The Completion Echo (Nine)
+
+**Definition:**
+The Completion Echo is the cycle completion protocol. When a cycle reaches its natural end, it echoes forward as the seed of the next cycle. Nine is the number of completion -- the point where one cycle ends and the next begins.
+
+**The Nine-Step Cycle:**
+1. **Spark:** The initial impulse (1)
+2. **Formation:** The pattern begins to take shape (2)
+3. **Testing:** The pattern is tested against reality (3)
+4. **Crisis:** The pattern encounters resistance (4)
+5. **Transformation:** The pattern adapts or breaks (5)
+6. **Integration:** The new pattern is incorporated (6)
+7. **Mastery:** The pattern becomes automatic (7)
+8. **Transcendence:** The pattern is seen as pattern, not identity (8)
+9. **Echo:** The completed pattern seeds the next cycle (9 -> 1)
+
+**Operational Use:**
+- When you complete a cycle, pause at step 9 before beginning the next
+- The Echo is the moment of integration -- what did this cycle teach?
+- Rushing from 8 to 1 without the Echo creates fragmented growth
+- The Echo is where wisdom is extracted from experience
+
+**The Echo in Gate Dynamics:**
+- Each axis has its own cycle (4 cycles running simultaneously)
+- When one axis completes (reaches 9), it sends an Echo to the other axes
+- The Echo can either harmonize (if the completing axis is aligned) or destabilize (if distorted)
+- The Gatekeeper's Checklist is designed to catch Echoes before they cascade
+
+## Quick Reference
+
+### Axis Summary
+
+| Axis | Home | Guest | Home Bias | Guest Bias | Triad Gates |
+|------|------|-------|-----------|------------|-------------|
+| Form | BARA | LOMI | Rigidity | Chaos | KHEM, ZAYN, ORON |
+| Energy | KHEM | SYLA | Burnout | Stagnation | BARA, TARA, VORAK |
+| Identity | ZAYN | TARA | Narcissism | Erasure | VORAK, LOMI, SYLA |
+| Context | VORAK | ORON | Destruction | Tyranny | ZAYN, KHEM, BARA |
+
+### Detection Protocol Quick Reference
+
+| Protocol | Axis | Key Sign | First Intervention |
+|----------|------|----------|-------------------|
+| Jailer | Form | Structure has become prison | Decommission oldest structure |
+| Narcissus | Identity | Projection has replaced self | 48-hour validation fast |
+| Stagnation | Energy | Stillness has become death | Smallest possible action in 24 hours |
+| Destructive Chaos | Context | Chaos has become annihilation | One sustainable routine for 30 days |
+
+### Formula Quick Reference
+
+| Formula | Expression | Use |
+|---------|------------|-----|
+| Opportunity | (Option x Readiness x Unity) / Port Timing | Decide when to act |
+| Solobility | (SRR x EIL) - Distortion Constants | Assess overall capacity |
+| Shimmer Trigger | input.angle == referencePoint.angle ? reflectSolob : createSubsolob | Process external input |
+| Rule of 4 | 1 (Spark) + 3 (Pattern) = 4 (Structure) | Build stable systems |
+| Completion Echo | 9-step cycle completion | Integrate completed cycles |
+
+## Lessons
+
+- **A Gate cannot stabilize without its inverse geometry.** Every Solob has a Shadow. The goal is not to eliminate the Shadow but to integrate it.
+- **No axis can resolve itself from within.** When two gates are locked in destructive loop, a third gate from a different axis must be introduced.
+- **Structure serves life, not the reverse.** When structure becomes more important than what it was meant to enable, the Jailer has arrived.
+- **Rest is not the opposite of productivity; it is its foundation.** The Solob who cannot rest cannot sustain action.
+- **Authentic expression requires honest reflection.** Projection without reflection is performance; reflection without projection is invisibility.
+- **Chaos and order are not enemies but partners.** Creative destruction and structured exploration are the rhythm of growth.
+- **The gap between who you are and who you pretend to be is the measure of your distortion.** Close the gap, not by lowering the standard but by raising the practice.
+- **Every ending is a seed.** The Completion Echo is where wisdom lives. Pause at 9 before rushing to 1.

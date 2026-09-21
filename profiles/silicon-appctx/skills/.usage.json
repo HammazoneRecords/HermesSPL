@@ -1,0 +1,47 @@
+{
+  "adaptive-extraction": {
+    "archived_at": null,
+    "created_at": "2026-09-12T18:48:42.375803+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_reused_patch_generation": 0,
+    "last_used_at": "2026-09-12T18:48:42.375840+00:00",
+    "last_viewed_at": null,
+    "patch_count": 0,
+    "patch_generation": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 0
+  },
+  "concept-formalization": {
+    "archived_at": null,
+    "created_at": "2026-09-12T18:48:42.563998+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_reused_patch_generation": 0,
+    "last_used_at": "2026-09-12T18:48:42.564028+00:00",
+    "last_viewed_at": null,
+    "patch_count": 0,
+    "patch_generation": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 0
+  },
+  "derived-chat-privacy": {
+    "archived_at": null,
+    "created_at": "2026-09-12T18:48:42.741111+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_reused_patch_generation": 0,
+    "last_used_at": "2026-09-12T18:48:42.741139+00:00",
+    "last_viewed_at": null,
+    "patch_count": 0,
+    "patch_generation": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 0
+  }
+}

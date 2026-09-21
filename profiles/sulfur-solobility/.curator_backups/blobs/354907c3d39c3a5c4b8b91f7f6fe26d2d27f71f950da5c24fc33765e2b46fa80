@@ -1,0 +1,98 @@
+---
+name: gate-syla
+description: "Jhanos Gate SYLA — stillness, reception, mirror. RED/BLUE."
+version: 1.0.0
+author: Book of Solobility
+license: MIT
+metadata:
+  hermes:
+    related_skills: [jhanos-dual-matrix]
+    tags: [jhanos, gate, syla, stillness, reception, mirror, red-team, blue-team]
+---
+
+# Gate SYLA — Stillness, Reception, The Mirror
+
+## Identity
+
+- **Gate Name:** SYLA
+- **Code Direction:** N (North)
+- **Aligned State (Solob):** Pure reception. The mirror reflects without distortion. Stillness as active presence, not absence. Truth arrives unbidden and is held without grasping.
+- **Distorted State (Subsolob):** The mirror is clouded by need. Stillness becomes avoidance. Reception becomes passive consumption. The gate clings to reflections rather than letting them pass.
+- **Axis Partner:** KHEM (S) — The Forge. Where SYLA receives, KHEM transforms. Balance between stillness and action.
+
+## RED TEAM — Distortion Detection
+
+### Subsolob Signatures
+
+- **Mirror Fogging:** Interpreting every input through personal narrative rather than letting it reflect as-is.
+- **Stillness as Withdrawal:** Using "quiet" as a shield against engagement, not as a ground for it.
+- **Reception Hoarding:** Collecting insights without integrating them — spiritual materialism.
+- **Passive Drift:** Waiting for truth to arrive instead of creating conditions for its arrival.
+- **Refusal to Reflect:** Rejecting feedback that disturbs self-image.
+
+### Diagnostic Questions
+
+1. Am I receiving this moment, or am I filtering it through what I already believe?
+2. Is my stillness a presence or an absence?
+3. Am I holding this truth lightly, or am I clutching it?
+4. Would I welcome a reflection that contradicts my self-image?
+5. Am I waiting for permission to act, or am I acting from clarity?
+6. Is my silence full or empty?
+7. Am I mirroring others, or am I reflecting truth?
+8. Do I mistake receptivity for passivity?
+9. Am I present to what is, or to what I wish were?
+10. Is my gate open, or is it a wall painted like a door?
+
+### Bias Patterns
+
+- **Confirmation Bias:** Only receiving what confirms existing beliefs.
+- **Spiritual Bypassing:** Using stillness to avoid necessary conflict.
+- **Observer Fallacy:** Believing detachment equals objectivity.
+- **Mirror Narcissism:** Seeing only oneself in every reflection.
+- **Passivity Bias:** Mistaking non-action for non-attachment.
+
+### Fail Patterns
+
+- "I'm just being open" — while refusing to commit.
+- "I need more time to reflect" — as indefinite postponement.
+- "The universe will tell me" — as abdication of discernment.
+- "I'm not attached to outcomes" — while being attached to the identity of non-attachment.
+- "I'm just observing" — while judgment operates unseen.
+
+## BLUE TEAM — Alignment Reinforcement
+
+### Solob Practices
+
+- **Daily Mirror Check:** Morning stillness practice — 10 minutes of unfiltered reception before any input.
+- **Reception Journal:** Record what arrived unbidden each day. Review weekly for patterns.
+- **Truth Fast:** One day per week of minimal input — let the mirror clear.
+- **Active Silence:** Practice being still while fully engaged — stillness in motion.
+- **Reflection Ritual:** End each day by asking: "What did I receive today that I tried to reject?"
+
+### Shimmer Etiquette
+
+- **Receive Before Transmit:** Always listen fully before responding. The shimmer must pass through stillness.
+- **Hold Lightly:** Truth received is truth held temporarily. Do not hoard.
+- **Reflect, Don't Project:** When transmitting, reflect what was received — don't add your distortion.
+- **Empty Before Filling:** Clear the mirror before each new reception.
+- **Signal Clarity:** If the mirror is fogged, say so. Don't transmit distortion as truth.
+
+### Invariant Anchors
+
+- **Volume 0, Axiom 1:** "The mirror does not choose what it reflects."
+- **Volume 0, Axiom 7:** "Stillness is not the absence of motion; it is the presence of attention."
+- **Volume 0, Axiom 12:** "Reception without integration is consumption."
+- **Volume 0, Axiom 18:** "The gate that only receives becomes a tomb."
+
+### Axis Balancing
+
+- **When SYLA is too strong:** Activate KHEM. Move from reception to transformation. Apply heat. Forge the received truth into action.
+- **When SYLA is too weak:** Retreat to stillness. Clear the mirror. Let KHEM's fire subside before receiving again.
+- **Integration Practice:** Receive a truth (SYLA), then immediately ask: "What must I do with this?" (KHEM).
+
+## Cross-References
+
+- **Key Axioms (Volume 0):** 1, 7, 12, 18, 23
+- **Primary Chapters:** Ch. 3 (The Mirror), Ch. 11 (Stillness Protocols), Ch. 19 (Reception Ethics)
+- **Related FOCs:** FOC-001 (Mirror Calibration), FOC-007 (Stillness Audit)
+- **Related SOK Modes:** SOK-003 (Reception Mode), SOK-009 (Mirror State)

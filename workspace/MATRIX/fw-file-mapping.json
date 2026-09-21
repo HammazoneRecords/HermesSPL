@@ -1,0 +1,1673 @@
+{
+  "FW-N": {
+    "title": "[Short title]",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-001": {
+    "title": "Conversation-tailored version of the Argument Map Framework",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-002": {
+    "title": "LLM Fine-tuning Dataset from Argument Map Framework",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-003": {
+    "title": "AMF as Context Retention and Management System for Deego's LLM",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-004": {
+    "title": "Timestamp / Time-Awareness for Custom Models",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-005": {
+    "title": "LLM Access to Deleted / Edited Pre-Send Messages",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-006": {
+    "title": "Jamaican Patois NLP Dataset",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-007": {
+    "title": "DeepSeek Integration via Continue Plugin (VS Code)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-008": {
+    "title": "Swappable Expressions with [intensity] Tags (Patois Dataset)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-009": {
+    "title": "Mental Readiness Hour (Phase Packs + MW Concept)",
+    "touches": [
+      "KNOWLEDGE_LIBRARY/CONCEPTS/"
+    ]
+  },
+  "FW-010": {
+    "title": "Dependency Headers in Orientation / Key Files",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-012": {
+    "title": "Tags Field in LanceDB Schema",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-013": {
+    "title": "NotebookLM Source Manifest Script",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-011": {
+    "title": "MW_CENTRAL-Specific Tag Expansion for Intake Taxonomy",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-015": {
+    "title": "Writing Style Doc: Linguistic Patterns Section",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-016": {
+    "title": "Formalize 3 Patent Claims into patent_claims_extracted.md",
+    "touches": [
+      "KNOWLEDGE_LIBRARY/CONCEPTS/"
+    ]
+  },
+  "FW-020": {
+    "title": "WebNet (The Lightweb / UCANN)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-023": {
+    "title": "Marcus App: Universal Advancement Query Filter",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-022": {
+    "title": "VPS Multi-App Domain Routing",
+    "touches": [
+      "VPS_MANAGEMENT/"
+    ]
+  },
+  "FW-021": {
+    "title": "Git-Based VPS Deploy Pipeline",
+    "touches": [
+      "VPS_MANAGEMENT/"
+    ]
+  },
+  "FW-019": {
+    "title": "The Patience Agent",
+    "touches": [
+      "AGENT_ARENA/ + profiles"
+    ]
+  },
+  "FW-018": {
+    "title": "Context Window Self-Awareness for Custom Models",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-017": {
+    "title": "Per-Client AI Agents (Deego's Voice + Knowledge, Client-Scoped)",
+    "touches": [
+      "AGENT_ARENA/ + profiles"
+    ]
+  },
+  "FW-024": {
+    "title": "Remove Vercel Connection from Marcus Garvey App",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-025": {
+    "title": "Build typo_review_queue.jsonl pipeline for journal co-work",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-026": {
+    "title": "Build ovando_brown_profile/ folder structure for personal LLM",
+    "touches": [
+      "AGENT_ARENA/ + profiles"
+    ]
+  },
+  "FW-027": {
+    "title": "Connect journal co-work extraction to LanceDB ingest pipeline",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-028": {
+    "title": "Build IMG catalog for journal image backlog",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-029": {
+    "title": "Build tag_index.json and segment store",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-030": {
+    "title": "Build concept_threads.md linkage layer",
+    "touches": [
+      "KNOWLEDGE_LIBRARY/CONCEPTS/"
+    ]
+  },
+  "FW-031": {
+    "title": "Build journal-to-dataset distillation pipeline",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-032": {
+    "title": "Import contact list and cross-reference with people directory",
+    "touches": [
+      "Multiple (cleanup sweep)"
+    ]
+  },
+  "FW-033": {
+    "title": "Add analytics to whatissolob.com",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-034": {
+    "title": "Deploy mindwaveja.com to VPS or Vercel",
+    "touches": [
+      "VPS_MANAGEMENT/"
+    ]
+  },
+  "FW-035": {
+    "title": "Wire premium pack payment gating on mindwaveja.com",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-036": {
+    "title": "Book of Solobility marketing execution",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-037": {
+    "title": "FHCU application review",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-014": {
+    "title": "Force-Reingest for Modified Files in LanceDB",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-038": {
+    "title": "Finalize and re-publish legal page on mindwaveja.com",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-039": {
+    "title": "Wire premium Phase Pack payment gating on mindwaveja.com",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-040": {
+    "title": "WiPay payment gateway integration for mindwaveja.com",
+    "touches": [
+      "ENTROPY_MODEL/ + JHANOS agents"
+    ]
+  },
+  "FW-041": {
+    "title": "Switch Resend EMAIL_FROM to noreply@mindwaveja.com",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-042": {
+    "title": "Add SSH key to GitHub for passwordless VPS deploys",
+    "touches": [
+      "VPS_MANAGEMENT/"
+    ]
+  },
+  "FW-043": {
+    "title": "SEO for mindwaveja.com and all active sites",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-044": {
+    "title": "Time-Check App: Admin time log edit/add",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-045": {
+    "title": "Time-Check App: Auto clock-out cutoff",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-046": {
+    "title": "Time-Check App: Employee dispute/flag workflow",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-047": {
+    "title": "Time-Check App: Strip Replit-specific build plugins + VPS deploy",
+    "touches": [
+      "VPS_MANAGEMENT/"
+    ]
+  },
+  "FW-048": {
+    "title": "Time-Check App: Nightly VPS backup cron",
+    "touches": [
+      "VPS_MANAGEMENT/"
+    ]
+  },
+  "FW-049": {
+    "title": "Local Model Benchmark Harness (S.E.R.T.H. + CCAB runner)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-051": {
+    "title": "Patwah Frontend Rule Engine (patwahConverter.js)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-052": {
+    "title": "OffNet: Offline Internet Archive (Mobile + Peer Sync)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-050": {
+    "title": "Score LLM Compare results retroactively against S.E.R.T.H.",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-053": {
+    "title": "PageVault Wiki AI Assistant",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-054": {
+    "title": "Time-Check: Surface Solobictic Scores in Frontend",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-055": {
+    "title": "Time-Check: Pre-Ship Smoke Tests (Offline + Admin CRUD)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-056": {
+    "title": "Time-Check: Upgrade to Real Better Auth (OAuth, Magic Links, 2FA)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-057": {
+    "title": "PageVault: Polish Pass (Phase 2 \u2014 \"Double the Work\")",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-11-001": {
+    "title": "SSH Deploy Key on VPS for Permanent GitHub Push",
+    "touches": [
+      "VPS_MANAGEMENT/"
+    ]
+  },
+  "FW-2026-05-11-002": {
+    "title": "ffmpeg Compression as Mandatory ADTL Pre-Deploy Step",
+    "touches": [
+      "VPS_MANAGEMENT/"
+    ]
+  },
+  "FW-2026-05-16-001": {
+    "title": "American Dreams: Remove phone number from winner reveal modal",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-16-002": {
+    "title": "American Dreams: Make entries.telephone column nullable in Supabase",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-16-003": {
+    "title": "American Dreams: Rate limiting on winner code lookup",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-11-003": {
+    "title": "Cloudflare CDN for Artist Sites",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-01-001": {
+    "title": "Client Email Provisioning Flow (no phone number required)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-02-002": {
+    "title": "Jahshii Official Site: GitHub Repo + VPS Deploy",
+    "touches": [
+      "VPS_MANAGEMENT/"
+    ]
+  },
+  "FW-2026-05-02-003": {
+    "title": "ADTL JMD Rate: Annual Update Reminder (Jan 1 2027)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-02-001": {
+    "title": "MindWave JA: Add ADTL artist site listings for skengdon.com and tarrusrileyja.com",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-13-001": {
+    "title": "American Dreams: Add localhost to EmailJS allowed origins",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-13-002": {
+    "title": "Claude Web Briefing: keep updated after major sessions",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-16-004": {
+    "title": "MindWave JA: Phase Packs \u2014 Restore when packs are ready",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-17-002": {
+    "title": "MW Journal: Pattern Miner engine (cross-entry)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-17-003": {
+    "title": "MW Journal: Memory Integrator (DWS + SDS)",
+    "touches": [
+      "TRISMIGISTUS/ + MEMORY_CURATOR/"
+    ]
+  },
+  "FW-2026-05-17-004": {
+    "title": "MW Journal: Turing Checkpoint Checker (TCPC)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-17-005": {
+    "title": "MW Journal: Solobic Glyph SVG generator",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-17-006": {
+    "title": "MW Journal: Full shadcn component migration",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-17-007": {
+    "title": "MW Journal: VPS deploy",
+    "touches": [
+      "VPS_MANAGEMENT/"
+    ]
+  },
+  "FW-2026-05-17-008": {
+    "title": "MW Journal: API key out of client bundle",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-17-009": {
+    "title": "MW Journal: Initialize git repo + push to GitHub",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-17-010": {
+    "title": "MW Journal: Fix MoodCharts.tsx TS strict errors",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-17-011": {
+    "title": "MW Journal: Port Jhanos Gates trajectory feature from V0.1",
+    "touches": [
+      "ENTROPY_MODEL/ + JHANOS agents"
+    ]
+  },
+  "FW-2026-05-17-001": {
+    "title": "Research Paper: Integrate Solobic GPT Responses",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-02-004": {
+    "title": "Jahshii Site: Scroll Snap + Shake Effect (full implementation)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-18-001": {
+    "title": "Pack Renovation: Add Zip Rebuild Step to Session Close Protocol",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-18-002": {
+    "title": "Pack Renovation: Remaining 7 Packs (pp-001, pp-018, pp-049, pp-052, pp-053, pp-054, pp-063)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-18-003": {
+    "title": "mindwaveja.com Site: Rural Variant Filter UI",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-19-001": {
+    "title": "Instagram Ad Concepts: Phase Pack Series",
+    "touches": [
+      "KNOWLEDGE_LIBRARY/CONCEPTS/"
+    ]
+  },
+  "FW-2026-05-19-002": {
+    "title": "Google Ads: Jamaican Business Keyword Strategy",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-19-003": {
+    "title": "Funding & Partners Map",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-19-004": {
+    "title": "Email Subscriber List: Export and CRM Integration",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-19-005": {
+    "title": "ADTL: Purchase Flow + Contract (Pre-Launch Gate)",
+    "touches": [
+      "ENTROPY_MODEL/ + JHANOS agents"
+    ]
+  },
+  "FW-2026-05-19-006": {
+    "title": "Ad Creative: Hook Series Reels (Per Pack Category)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-19-007": {
+    "title": "JBDC Grant Application",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-19-008": {
+    "title": "Phase Packs Paid Tier (Top 4 Renovated Packs)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-19-009": {
+    "title": "TPDCo Partnership Outreach",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-19-010": {
+    "title": "Renovate pp-049, pp-053, pp-054 to InvariantScore 13",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-19-011": {
+    "title": "\"To My Son\" Pre-Order Page",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-19-012": {
+    "title": "Book of Solobility Vol 1 Pre-Order Infrastructure",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-19-013": {
+    "title": "Time-Check Public Waitlist Page",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-19-014": {
+    "title": "Melissa Relief Index: Self-Submission Flow",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-19-015": {
+    "title": "Artist Site Organic Ad Content (One Post Per Site Per Week)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-20-001": {
+    "title": "Privacy Policy one-pager per site",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-20-002": {
+    "title": "Produce merch designs from prompt library + Printify uploads",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-21-001": {
+    "title": "MDM Performance: Product Images + Hero Video",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-21-002": {
+    "title": "MDM Performance: About + Contact Section Content",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-21-003": {
+    "title": "Malie Donn Site: Deploy to VPS (port 7009)",
+    "touches": [
+      "VPS_MANAGEMENT/"
+    ]
+  },
+  "FW-2026-05-22-001": {
+    "title": "MWJournal: \"This Day\" Trajectory Feature (Dashboard)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-22-002": {
+    "title": "MWJournal: PWA \u2192 Windows App + Android App (Capacitor path)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-22-003": {
+    "title": "MWJournal: Song Mode Full Implementation",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-22-004": {
+    "title": "MWJournal: Voice Capture (Deferred \u2014 Patois Lab Gate)",
+    "touches": [
+      "ENTROPY_MODEL/ + JHANOS agents"
+    ]
+  },
+  "FW-2026-05-25-001": {
+    "title": "Rapper Pipeline: Run Signal Type 8 on a Real Journal Entry [in-progress]",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-25-002": {
+    "title": "Alkaline: GEMINI-PROMPTS.md Entry Missing",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-25-003": {
+    "title": "Karnage Site: Full Build Needed",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-26-001": {
+    "title": "EchoBox: PTOI / Archetype Collision Matrix",
+    "touches": [
+      "ENTROPY_MODEL/ + JHANOS agents",
+      "MATRIX/"
+    ]
+  },
+  "FW-2026-05-26-002": {
+    "title": "EchoBox: Archetype Variant Engine",
+    "touches": [
+      "ENTROPY_MODEL/ + JHANOS agents"
+    ]
+  },
+  "FW-2026-05-26-003": {
+    "title": "EchoBox: Patwah Dataset Export Endpoint",
+    "touches": [
+      "ENTROPY_MODEL/ + JHANOS agents"
+    ]
+  },
+  "FW-2026-05-26-004": {
+    "title": "EchoBox: Journal Import UI Tab",
+    "touches": [
+      "ENTROPY_MODEL/ + JHANOS agents"
+    ]
+  },
+  "FW-2026-05-25-004": {
+    "title": "Black Revelationz Site + Merch Prompts",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-24-001": {
+    "title": "MWJournalX: Complete Remaining Theme Violations",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-24-002": {
+    "title": "MWJournalX: ZeroFrequency Word Cloud Upgrade",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-24-003": {
+    "title": "MWJournalX: Zero Retrieval Phrases \u2192 Drayl Search",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-05-26-005": {
+    "title": "RAAS Interest-Capture System (multi-session backend buildout)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-058": {
+    "title": "Hermaphrodite Realization + Cambrian thought-thread (capture next session)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-059": {
+    "title": "Solob Wrapper: True Two-Pass Response Linter",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-060": {
+    "title": "Add Behavioral Constraint to drayl_orientation.md Governance Section",
+    "touches": [
+      "AGENTS.md + .hermes.md"
+    ]
+  },
+  "FW-061": {
+    "title": "RAAS Owner + Admin Dashboard",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-062": {
+    "title": "RAAS API: Create GitHub Repo + Move to Git-Pull Workflow",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-063": {
+    "title": "Wire RAAS Interest Capture to Remaining ADTL Artist Sites",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-01-001": {
+    "title": "Pop Booth: Sellable Mobile Beauty Station Kit",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-01-002": {
+    "title": "Skatta Select: Riddim Submission & Vote Platform (Brand Extension)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-01-003": {
+    "title": "ADTL Artist GitHub Repos \u2014 Remaining Artists",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-01-004": {
+    "title": "ADTL Milestone Log: Sites Live",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-02-001": {
+    "title": "Skengergy Hero HTML \u2014 Polish + Use as Live Hero",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-02-002": {
+    "title": "Elaine Thompson Site \u2014 VPS Deploy (Merch Section)",
+    "touches": [
+      "VPS_MANAGEMENT/"
+    ]
+  },
+  "FW-2026-06-03-001": {
+    "title": "Teejay Hero Video Replacement",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-03-002": {
+    "title": "Domain Registrations: Nhance, Teejay, Valiant",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-03-003": {
+    "title": "Jah Vinci Domain \u2014 Link to Oreluva Build",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-03-004": {
+    "title": "Brand Extensions: Nhance + Teejay (Define + Build)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-03-005": {
+    "title": "Hero Images: RajahWild + Ding Dong",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-03-006": {
+    "title": "Grung Gaad Site \u2014 Build (deferred)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-03-007": {
+    "title": "Push Nhance + Teejay to GitHub (repos pending)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-03-008": {
+    "title": "Ding Dong Doorbell \u2014 Smart Doorbell Brand Extension",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-03-009": {
+    "title": "APPS.md + VPS Deploy \u2014 DNS Added for New Sites",
+    "touches": [
+      "VPS_MANAGEMENT/"
+    ]
+  },
+  "FW-2026-06-03-010": {
+    "title": "majormarketing.com + officialtravelandtours.com \u2014 New Sites to Build",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-04-001": {
+    "title": "officialtours.com \u2014 Co-worker travel & tours site",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-04-002": {
+    "title": "Deploy mindwaveja.com video/poster fix to VPS",
+    "touches": [
+      "VPS_MANAGEMENT/"
+    ]
+  },
+  "FW-2026-06-04-003": {
+    "title": "Cloudflare setup for mindwaveja.com",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-04-004": {
+    "title": "majormarketingja-next VPS deployment",
+    "touches": [
+      "VPS_MANAGEMENT/"
+    ]
+  },
+  "FW-2026-06-04-005": {
+    "title": "Ding Dong site VPS deployment",
+    "touches": [
+      "VPS_MANAGEMENT/"
+    ]
+  },
+  "FW-2026-06-04-006": {
+    "title": "ovandobrown.com \u2014 review current state and define next steps",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-04-007": {
+    "title": "ovandobrown.com \u2014 pick design, push to GitHub, deploy to VPS",
+    "touches": [
+      "VPS_MANAGEMENT/"
+    ]
+  },
+  "FW-2026-06-04-008": {
+    "title": "ovandobrown.com \u2014 wire AI query route (DeepSeek via ark.local)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-04-009": {
+    "title": "ovandobrown.com \u2014 real assets (music file, photos)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-04-010": {
+    "title": "RUNNING_FILE.md \u2014 file 11 artist DNA profiles",
+    "touches": [
+      "AGENT_ARENA/ + profiles"
+    ]
+  },
+  "FW-2026-06-08-001": {
+    "title": "Create a new MindWave website",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-04-011": {
+    "title": "Favicons for all artist sites",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-04-012": {
+    "title": "Add Umami tracking to all existing artist sites",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-08-002": {
+    "title": "Self-hosted cloud storage for obblog (images + files)",
+    "touches": [
+      "TRISMIGISTUS/ + MEMORY_CURATOR/"
+    ]
+  },
+  "FW-2026-06-09-001": {
+    "title": "ovandobrown.com \u2014 Deego / Sky Boss Mode Toggle",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-09-002": {
+    "title": "mindwaveja-v2 \u2014 Offering Bubbles: Round + Detailed",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-09-003": {
+    "title": "mindwaveja-v2 \u2014 Full Vite+React+TS Build",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-09-004": {
+    "title": "MarcusGarvey-App-WWMD: Marcus's Voice Phrases for Prompt",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-09-005": {
+    "title": "Personal Money Runway Tracker (mobile-first PWA)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-10-001": {
+    "title": "Public-facing forwarding email/number for downloadable resume",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-10-002": {
+    "title": "ovandobrown.com: Resume page (view + download)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-10-003": {
+    "title": "AI Infrastructure Build-Out ($50K plan, 14WEST grant application)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-10-004": {
+    "title": "mindwaveja-v2: Launch with 9 Phase Packs, rest \"coming soon\" + upvote feature",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-10-005": {
+    "title": "earn.mindwaveja.com: simplify intake + 3-minute transcription test",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-10-006": {
+    "title": "Contractor agreement/contract template for transcription workers",
+    "touches": [
+      "AGENT_ARENA/ (all agents)"
+    ]
+  },
+  "FW-2026-06-10-007": {
+    "title": "Patois corpus: initial data source = Deego's journal + brainstorms",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-11-001": {
+    "title": "Pull confirmed Patois entries from voice_corpus.jsonl into mw_patois_dictionary.json",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-11-002": {
+    "title": "Patwah Lab UI: Review Tool for Extraction Pipeline Output",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-11-003": {
+    "title": "Weekly review cadence for journal extraction batches",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-11-004": {
+    "title": "\"Side Effects of Life\" book idea",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-11-005": {
+    "title": "Video game consciousness concept",
+    "touches": [
+      "KNOWLEDGE_LIBRARY/CONCEPTS/"
+    ]
+  },
+  "FW-2026-06-11-006": {
+    "title": "Patois somatic layer",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-11-007": {
+    "title": "Mobile research reader built on the wrong (flawed) dataset",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-12-001": {
+    "title": "Re-run the 8-Model Solobic Intelligence Assessment with screenshots",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-12-002": {
+    "title": "People alias-lookup subclaude (C08)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-12-003": {
+    "title": "Subclaude-style trigger/recognition system for `active_apps/`",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-14-001": {
+    "title": "Research curiosity: Why is Rome named Rome?",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-15-001": {
+    "title": "Patois LLM training-data collection from friends (WhatsApp/email)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-15-002": {
+    "title": "Push 2026-06-15 EchoBox queue batch into the lab + dictionary log-back",
+    "touches": [
+      "ENTROPY_MODEL/ + JHANOS agents"
+    ]
+  },
+  "FW-2026-06-15-003": {
+    "title": "Analyze Deego's sentence structuring (voice/grammar profile)",
+    "touches": [
+      "AGENT_ARENA/ + profiles"
+    ]
+  },
+  "FW-2026-06-15-004": {
+    "title": "Love Ref: resume when VPS DB slot + Cloudflare ready",
+    "touches": [
+      "VPS_MANAGEMENT/"
+    ]
+  },
+  "FW-2026-06-16-001": {
+    "title": "Creative Jamaican prompt taxonomy \u2014 7 formula types for the Yardie LLM",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-16-002": {
+    "title": "Speaker archetype prompt guidance + per-archetype sub-datasets",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-16-003": {
+    "title": "English\u2192Patois translation flow (3rd forge dataset type)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-16-004": {
+    "title": "Affective charge annotation layer for dataset rows",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-066": {
+    "title": "Forge Extension: Contradictions / Factual Negative Examples",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-65": {
+    "title": "Side Effects of Life (Book / Forge Framework)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-64": {
+    "title": "Patois Programming Language",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-067": {
+    "title": "Forge Training-Data Architecture: 3-Axis Schema + Diagnostic Traceability",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-068": {
+    "title": "Forge Agent Autopilot: self-synthesis + self-review + human-rates-the-reviewer loop",
+    "touches": [
+      "AGENT_ARENA/ + profiles"
+    ]
+  },
+  "FW-2026-06-17-001": {
+    "title": "Complete DOM-001 Extraction: Add PAIR ANGLE + Review + Append",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-17-002": {
+    "title": "Remaining 20 Domain Extractions (DOM-002 through DOM-021)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-20-003": {
+    "title": "Procedure Step Validation / Audit Trail",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-20-002": {
+    "title": "Procedure / Framework Language Spec",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-20-014": {
+    "title": "RITE Pre-Check: UserPromptSubmit Hook (Option A)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-20-001": {
+    "title": "RITE Pipeline Pre-Check on Every Message",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-19-005": {
+    "title": "scripts/check_compression_metadata.py",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-19-004": {
+    "title": "Mine Claude Session Transcripts for Patois Corpus",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-19-003": {
+    "title": "Multi-IDE Parallel Agent Architecture",
+    "touches": [
+      "AGENT_ARENA/ + profiles"
+    ]
+  },
+  "FW-2026-06-19-002": {
+    "title": "Patois Phrase Registry",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-19-001": {
+    "title": "Build Stack Troubleshooting Guides",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-20-004": {
+    "title": "Plan-Execute-Verify (PEV) Execution Loop",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-20-013": {
+    "title": "pev_stage.py auto-mirror fires before the edit (compares old to old)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-24-001": {
+    "title": "procedures/vape-check.md needs restructuring to procedure-spec format",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-21-001": {
+    "title": "Add AGENTS.md to canonical file list",
+    "touches": [
+      "AGENT_ARENA/ + profiles",
+      "AGENTS.md + .hermes.md"
+    ]
+  },
+  "FW-2026-06-20-012": {
+    "title": "mirror staging verdict filenames need HHMMSS precision (not HHMM)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-20-011": {
+    "title": "pev_status.py [OV] false positive in get_mirror_indicator()",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-20-009": {
+    "title": "Rotate leaked API keys (DeepSeek x2, Resend, Grok, RunPod)",
+    "touches": [
+      "RUNPOD_PROTOCOLS/ + ENTROPY_MODEL/"
+    ]
+  },
+  "FW-2026-06-20-010": {
+    "title": "Validate external mirror with live DeepSeek key (post-rotation)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-20-008": {
+    "title": "PEV: Confirmed-at Timestamp Doesn't Insert in Plan.md (regex too narrow)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-20-007": {
+    "title": "PEV: pev_edit.py snapshot field placement bug (FIXED IN-SESSION)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-20-006": {
+    "title": "PEV Verifier: Failed Counter Should Decrement on Retry",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-20-005": {
+    "title": "Runtime Parallel/Sequential Enforcement (When Execution Interception Available)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-17-003": {
+    "title": "Move domain_keyword_map.py from C:\\tmp into the Repo",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-23-006": {
+    "title": "Chat2Cash: Domain Purchase Before Launch",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-23-005": {
+    "title": "Chat2Cash: Voice Notes Pipeline (Phase 2 Product)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-23-004": {
+    "title": "Chat2Cash: Live Tally Stats Card",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-23-003": {
+    "title": "Chat2Cash: WiPay Currency Conversions on Payout Display",
+    "touches": [
+      "PROJECT_SKILLS/"
+    ]
+  },
+  "FW-2026-06-23-002": {
+    "title": "Earn.mindwaveja.com: Lead Capture Overlay + Payout Doubling",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-23-001": {
+    "title": "AI Handoff Procedure / Skill",
+    "touches": [
+      "MATRIX/"
+    ]
+  },
+  "FW-2026-06-22-001": {
+    "title": "Vape Check System: Extend to All Active Apps",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-22-002": {
+    "title": "Chat2App: Self-Hosted Privacy Architecture",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-22-003": {
+    "title": "MW Truth Tree: Automated Variable Discovery Tool",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-22-004": {
+    "title": "FIFA App: Correct Score Odds Scraping (Phase 2)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-24-002": {
+    "title": "Build a \"features\" Claude skill + update post-app-change procedure",
+    "touches": [
+      "MATRIX/"
+    ]
+  },
+  "FW-2026-06-25-001": {
+    "title": "Red Team / Blue Team Security Session",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-26-001": {
+    "title": "Forge Studio: DeepSeek API Key Renewal for Real Generation",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-26-002": {
+    "title": "Forge Studio: Quality Filter for Short/Citation-Only Answers",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-26-003": {
+    "title": "Forge Studio: Regenerate T2 Entity QA with Entity-Org Resolver",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-06-26-004": {
+    "title": "Forge Studio: Multi-Source Answer Enrichment",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-07-01-001": {
+    "title": "Mindwave Music Charts (MWMC) MVP",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-07-01-002": {
+    "title": "Sunset CLAUDE.md: Migrate Rules to Active Context Files",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-07-01-003": {
+    "title": "AI-Native Search Engine (Feasibility Study)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-07-14-001": {
+    "title": "ADTL price sync across marketplace/store",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-07-14-002": {
+    "title": "FAQ section on home page",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-07-14-003": {
+    "title": "Dancehall Data dedicated domain",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-07-14-004": {
+    "title": "Store & marketplace content differentiation",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-07-14-005": {
+    "title": "Artist count sync (18 in data, \"20\" in copy)",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-07-20-001": {
+    "title": "Artist-site dependency advisory cleanup",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-07-20-002": {
+    "title": "VPS GitHub deployment authentication and repository reconciliation",
+    "touches": [
+      "VPS_MANAGEMENT/"
+    ]
+  },
+  "FW-2026-07-20-003": {
+    "title": "Complete MindWave Admin operator checks",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-07-27-001": {
+    "title": "Scraper Control Room as civic-data operations standard",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-07-29-001": {
+    "title": "Jamaica civic corpus full-coverage and update provenance",
+    "touches": [
+      "TRISMIGISTUS/ + MEMORY_CURATOR/"
+    ]
+  },
+  "FW-2026-08-13-001": {
+    "title": "User-directed anonymization correction before Chat2Cash submission",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-08-13-002": {
+    "title": "Chat2Cash privacy-safe analytics and identity hardening programme",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-08-14-001": {
+    "title": "Cross-app launch operations and playground graduation audit",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-08-24-001": {
+    "title": "Two-format app walkthrough-video rollout",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-09-02-001": {
+    "title": "Desktop surface for agent-space entities",
+    "touches": [
+      "AGENT_ARENA/ + profiles"
+    ]
+  },
+  "FW-2026-09-13-001": {
+    "title": "Scope-root naming signal guard for cleanup/move operations",
+    "touches": [
+      "AGENTS.md + .hermes.md"
+    ]
+  },
+  "FW-2026-09-13-002": {
+    "title": "Naming-sense standardization across the workspace",
+    "touches": [
+      "AGENTS.md + .hermes.md"
+    ]
+  },
+  "FW-2026-09-13-003": {
+    "title": "Create gem_registry.md and seed with first gems from processed entries",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-09-13-004": {
+    "title": "Add Sections VII\u2013XI to General_archetype_profile.md",
+    "touches": [
+      "AGENT_ARENA/ + profiles"
+    ]
+  },
+  "FW-2026-09-13-008": {
+    "title": "Fix Cline adapter gaps + build Codex AGENTS.md",
+    "touches": [
+      "AGENT_ARENA/ + profiles",
+      "AGENTS.md + .hermes.md"
+    ]
+  },
+  "FW-2026-09-13-009": {
+    "title": "Session Parser: Log Everything Deego Says with Timestamp",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-09-13-010": {
+    "title": "Arbelos \u00d7 Tetractys \u00d7 Jainism/manji \u2014 solobic number-theory exploration",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-09-13-011": {
+    "title": "Memory/USER.md componentization + retrieval layer",
+    "touches": [
+      "TRISMIGISTUS/ + MEMORY_CURATOR/"
+    ]
+  },
+  "FW-2026-09-13-012": {
+    "title": "While-hook for in-loop evidence, confidence, and route correction",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-09-14-001": {
+    "title": "image_deScriber RAG experiment",
+    "touches": [
+      "TRISMIGISTUS/ + MEMORY_CURATOR/"
+    ]
+  },
+  "FW-2026-09-15-001": {
+    "title": "Agent \u00d7 Skill \u00d7 Usage Matrix Expansion (Live Tracking)",
+    "touches": [
+      "AGENT_ARENA/ + profiles",
+      "MATRIX/"
+    ]
+  },
+  "FW-2026-09-15-002": {
+    "title": "USER.md Per-Profile Capsules",
+    "touches": [
+      "AGENT_ARENA/ + profiles"
+    ]
+  },
+  "FW-2026-09-15-003": {
+    "title": "MEMORY.md Per-Profile Capsules",
+    "touches": [
+      "AGENT_ARENA/ + profiles",
+      "TRISMIGISTUS/ + MEMORY_CURATOR/"
+    ]
+  },
+  "FW-2026-09-15-004": {
+    "title": "Curator Runner Cron Scheduling",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-09-15-005": {
+    "title": "8 Partial Agents Bring-Up",
+    "touches": [
+      "AGENT_ARENA/ + profiles"
+    ]
+  },
+  "FW-2026-09-15-006": {
+    "title": "Curator Runner Merge/Split Detection",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-09-15-007": {
+    "title": "Agent Operationality Standard Enforcement",
+    "touches": [
+      "AGENT_ARENA/ + profiles"
+    ]
+  },
+  "FW-2026-09-15-008": {
+    "title": "Cross-Profile Memory Contradiction Detection",
+    "touches": [
+      "AGENT_ARENA/ + profiles",
+      "TRISMIGISTUS/ + MEMORY_CURATOR/"
+    ]
+  },
+  "FW-2026-09-15-009": {
+    "title": "Curator Evidence Format Validation",
+    "touches": [
+      "Unknown \u2014 needs manual mapping"
+    ]
+  },
+  "FW-2026-09-15-010": {
+    "title": "Sealed Baseline Backup Root",
+    "touches": [
+      "VPS_MANAGEMENT/",
+      "BACKUP_ROOT/ (not yet created)"
+    ]
+  },
+  "FW-2026-09-15-011": {
+    "title": "Plaintext Reference Full Sanitation",
+    "touches": [
+      "Multiple (cleanup sweep)"
+    ]
+  },
+  "FW-2026-09-15-012": {
+    "title": "Project Skill Conversion (Remaining Apps)",
+    "touches": [
+      "MATRIX/",
+      "PROJECT_SKILLS/"
+    ]
+  },
+  "FW-2026-09-15-013": {
+    "title": "RunPod Entropy Model (70B Uncensored)",
+    "touches": [
+      "ENTROPY_MODEL/ + JHANOS agents",
+      "RUNPOD_PROTOCOLS/ + ENTROPY_MODEL/"
+    ]
+  },
+  "FW-2026-09-15-014": {
+    "title": "RAG Prefrontal Memory System",
+    "touches": [
+      "TRISMIGISTUS/ + MEMORY_CURATOR/"
+    ]
+  },
+  "FW-2026-09-15-015": {
+    "title": "18 Formal Concepts Resolution",
+    "touches": [
+      "KNOWLEDGE_LIBRARY/CONCEPTS/"
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "updated": "2026-09-15",
+    "description": "Canonical document map with update groups and charge levels. Charge: CRITICAL > HIGH > MEDIUM > LOW"
+  },
+  "governance": {
+    "charge": "CRITICAL",
+    "description": "Workspace authority \u2014 changing these ripples everywhere",
+    "canonical_files": {
+      "root_authority": "/root/MW_CENTRAL/AGENTS.md",
+      "hermes_context": "/root/MW_CENTRAL/.hermes.md",
+      "pluto_hermes": "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/.hermes.md",
+      "plan_types": "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/.hermes/plans/plan-types-and-chain.md",
+      "plan_ledger": "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/.hermes/plans/PLAN_EVOLUTION_LEDGER.md",
+      "fw_registry": "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/TRISMIGISTUS/COMPONENTS/controller/registry/fw-registry.md",
+      "fw_toc": "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/TRISMIGISTUS/COMPONENTS/controller/registry/fw-toc.md",
+      "folder_map": "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/TRISMIGISTUS/COMPONENTS/controller/registry/workspace-folder-map.md",
+      "component_direction": "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/TRISMIGISTUS/COMPONENTS/controller/registry/component-direction-map.md",
+      "agent_standard": "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/TRISMIGISTUS/COMPONENTS/controller/policy/full-agent-standard.md",
+      "identity_clarifications": "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/TRISMIGISTUS/COMPONENTS/controller/policy/agent-identity-clarifications.md",
+      "purpose_analysis": "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/TRISMIGISTUS/COMPONENTS/controller/policy/agent-layer-purpose-analysis.md",
+      "historical_source": "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/TRISMIGISTUS/COMPONENTS/controller/policy/historical-source-policy.md",
+      "authority_timeline": "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/TRISMIGISTUS/COMPONENTS/controller/policy/authority-evolution-timeline.md",
+      "authority_flowchart": "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/TRISMIGISTUS/COMPONENTS/controller/policy/workspace-evolution.html",
+      "naming_skill": "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/.hermes/skills/file-naming/SKILL.md"
+    },
+    "update_groups": {
+      "authority_chain": [
+        "/root/MW_CENTRAL/AGENTS.md",
+        "/root/MW_CENTRAL/.hermes.md",
+        "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/.hermes.md"
+      ],
+      "plan_system": [
+        "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/.hermes/plans/plan-types-and-chain.md",
+        "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/.hermes/plans/PLAN_EVOLUTION_LEDGER.md"
+      ],
+      "agent_definition": [
+        "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/TRISMIGISTUS/COMPONENTS/controller/policy/full-agent-standard.md",
+        "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/TRISMIGISTUS/COMPONENTS/controller/policy/agent-identity-clarifications.md",
+        "/root/MW_CENTRAL/TRIANGULUM/HELIOS/NYX/TRISMIGISTUS/COMPONENTS/controller/policy/agent-layer-purpose-analysis.md"
+      ]
+    }
+  },
+  "agent_components": {
+    "charge": "HIGH",
+    "description": "TRIS agent identity, scope, policy \u2014 one per agent",
+    "canonical_files": {},
+    "update_groups": {
+      "per_agent_triple": "Each agent has 3 files that must stay in sync: TRIS identity.md + agent-space SOUL.md + Hermes profile SOUL.md",
+      "jhanos_family": [
+        "TRISMIGISTUS/COMPONENTS/agents/JHANOS_BARA/",
+        "TRISMIGISTUS/COMPONENTS/agents/JHANOS_KHEM/",
+        "TRISMIGISTUS/COMPONENTS/agents/JHANOS_LOMI/",
+        "TRISMIGISTUS/COMPONENTS/agents/JHANOS_ORON/",
+        "TRISMIGISTUS/COMPONENTS/agents/JHANOS_SYLA/",
+        "TRISMIGISTUS/COMPONENTS/agents/JHANOS_TARA/",
+        "TRISMIGISTUS/COMPONENTS/agents/JHANOS_VORAK/",
+        "TRISMIGISTUS/COMPONENTS/agents/JHANOS_ZAYN/",
+        "TRISMIGISTUS/COMPONENTS/agents/JHANOS_ASSESSOR/",
+        "TRISMIGISTUS/COMPONENTS/agents/JHANOS_ECHO/"
+      ],
+      "curator_system": [
+        "TRISMIGISTUS/COMPONENTS/agents/MEMORY_CURATOR/policy/curator-autonomy-tiers.md",
+        "TRISMIGISTUS/COMPONENTS/agents/MEMORY_CURATOR/scripts/curator_runner.py",
+        "TRISMIGISTUS/COMPONENTS/controller/routing/memory-review-flow.md"
+      ]
+    }
+  },
+  "jhanos_gates": {
+    "charge": "HIGH",
+    "description": "Book of Solobility gate definitions \u2014 canonical in gate skills",
+    "canonical_files": {
+      "gate_bara": "ANDROMALIUS/ENTROPY_MODEL/REVIEW_PACKAGE/gate-skills/gate-bara-SKILL.md",
+      "gate_khem": "ANDROMALIUS/ENTROPY_MODEL/REVIEW_PACKAGE/gate-skills/gate-khem-SKILL.md",
+      "gate_lomi": "ANDROMALIUS/ENTROPY_MODEL/REVIEW_PACKAGE/gate-skills/gate-lomi-SKILL.md",
+      "gate_oron": "ANDROMALIUS/ENTROPY_MODEL/REVIEW_PACKAGE/gate-skills/gate-oron-SKILL.md",
+      "gate_syla": "ANDROMALIUS/ENTROPY_MODEL/REVIEW_PACKAGE/gate-skills/gate-syla-SKILL.md",
+      "gate_tara": "ANDROMALIUS/ENTROPY_MODEL/REVIEW_PACKAGE/gate-skills/gate-tara-SKILL.md",
+      "gate_vorak": "ANDROMALIUS/ENTROPY_MODEL/REVIEW_PACKAGE/gate-skills/gate-vorak-SKILL.md",
+      "gate_zayn": "ANDROMALIUS/ENTROPY_MODEL/REVIEW_PACKAGE/gate-skills/gate-zayn-SKILL.md",
+      "entropy_matrix": "ANDROMALIUS/ENTROPY_MODEL/jhanos-entropy-matrix-extended.md",
+      "dual_matrix": "ANDROMALIUS/ENTROPY_MODEL/REVIEW_PACKAGE/jhanos-dual-matrix-skill.md"
+    },
+    "update_groups": {
+      "gate_definition": "When a gate skill changes, update: agent-space SOUL + TRIS identity + Hermes profile SOUL for that gate",
+      "four_faces": "BARA/LOMI, TARA/ZAYN, KHEM/SYLA, VORAK/ORON are dualities \u2014 changes to one affect its axis partner",
+      "triad_protocol": "KHEM+SYLA\u2192ZAYN, VORAK+ORON\u2192TARA \u2014 synthesis gates inherit from duality partners",
+      "entropy_outputs": "ANDROMALIUS/ENTROPY_MODEL/RUNPOD_OUTPUTS/ (4 files) depend on gate skill definitions"
+    }
+  },
+  "knowledge_evidence": {
+    "charge": "HIGH",
+    "description": "Knowledge library + evidence + receipts",
+    "canonical_files": {
+      "concepts": "ANDROMALIUS/KNOWLEDGE_LIBRARY/CONCEPTS/",
+      "digests": "ANDROMALIUS/KNOWLEDGE_LIBRARY/DIGESTS/",
+      "fact_checks": "ANDROMALIUS/KNOWLEDGE_LIBRARY/FACT_CHECK/",
+      "quarantine": "ANDROMALIUS/KNOWLEDGE_LIBRARY/QUARANTINE/",
+      "receipts": "ANDROMALIUS/KNOWLEDGE_LIBRARY/RECEIPTS/",
+      "schemas": "ANDROMALIUS/KNOWLEDGE_LIBRARY/SCHEMAS/"
+    },
+    "update_groups": {
+      "curator_pipeline": "KNOWLEDGE_LIBRARY/QUARANTINE/ \u2192 MEMORY_CURATOR \u2192 KNOWLEDGE_LIBRARY/CONCEPTS/ + DIGESTS/",
+      "factcheck_chain": "FACT_CHECK/ \u2194 TRIS \u2194 FACTCHECK agent receipts"
+    }
+  },
+  "active_apps": {
+    "charge": "MEDIUM",
+    "description": "Live applications \u2014 each has its own context doc",
+    "canonical_files": {},
+    "update_groups": {
+      "appctx_staging": "APPCTX agent gathers facts \u2192 stages updates for app docs",
+      "solob_portal": "earth/ACTIVE_APPS/Book-of-Solobility/solob-portal/",
+      "timecheck": "earth/PROJECTS IN MOTION/Time-Check-App/",
+      "marcus": "earth/PROJECTS IN MOTION/MarcusGarvey App WWMD/",
+      "melissa": "earth/ACTIVE_APPS/melissa ledger/",
+      "earn": "earth/PROJECTS IN MOTION/earn-mindwaveja/",
+      "love_ref": "earth/PROJECTS IN MOTION/love-ref/"
+    }
+  },
+  "projects_motion": {
+    "charge": "MEDIUM",
+    "description": "Projects in development",
+    "canonical_files": {},
+    "update_groups": {
+      "three_app_family": "love-ref, sieve, pact \u2014 shared referee engine",
+      "artist_sites": "15 domains, single multi-tenant app",
+      "mw_journal": "MWJournalX, MWOctopus, MINDWAVE ZERO, mindwave concept shell"
+    }
+  },
+  "drayl_personal": {
+    "charge": "LOW",
+    "description": "Personal journals, ideas, brainstorms \u2014 lowest external dependency",
+    "canonical_files": {
+      "journals": "earth/H1_CANON/drayl-t2/drayl_brainstorms/",
+      "profile": "earth/H1_CANON/drayl-t2/drayl_profile/",
+      "axioms": "earth/H1_CANON/MIndwaVe_Ja/axioms/",
+      "invariants": "earth/H1_CANON/MIndwaVe_Ja/mw_invariants/",
+      "books": "earth/H1_CANON/my_books/",
+      "solob_source": "earth/H1_CANON/my_books/Book Of Solobility-volume0/"
+    },
+    "update_groups": {
+      "drayl_extraction": "drayl_brainstorms/ \u2192 CHAT_EXCAVATION_SCOUT \u2192 KNOWLEDGE_LIBRARY/",
+      "book_pipeline": "my_books/Book Of Solobility-volume0/ \u2192 SOLOBILITY agent + gate skills",
+      "axioms_concepts": "axioms/ + mw_invariants/ \u2192 KNOWLEDGE_LIBRARY/CONCEPTS/"
+    }
+  },
+  "infrastructure": {
+    "charge": "CRITICAL",
+    "description": "VPS, backups, deploy \u2014 breaking these breaks everything",
+    "canonical_files": {
+      "vps_facts": "ANDROMALIUS/VPS_MANAGEMENT/",
+      "runpod_protocols": "ANDROMALIUS/RUNPOD_PROTOCOLS/",
+      "runpod_ledger": "ANDROMALIUS/RUNPOD_PROTOCOLS/runpod-session-ledger-20260914-entropy-generation.md",
+      "runpod_outputs": "ANDROMALIUS/ENTROPY_MODEL/RUNPOD_OUTPUTS/",
+      "entropy_model": "ANDROMALIUS/ENTROPY_MODEL/entropy-model-modelfile-v2.md"
+    },
+    "update_groups": {
+      "runpod_spend": "runpod-session-ledger \u2194 ENTROPY_MODEL/ \u2194 JHANOS_ECHO (entropy assessment)",
+      "backup_chain": "sealed backup root \u2192 captures all of ANDROMALIUS + earth + Hermes profiles"
+    }
+  }
+}

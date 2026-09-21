@@ -1,0 +1,98 @@
+---
+name: gate-tara
+description: "Jhanos Gate TARA — nurturance, reflection. RED/BLUE."
+version: 1.0.0
+author: Book of Solobility
+license: MIT
+metadata:
+  hermes:
+    related_skills: [jhanos-dual-matrix]
+    tags: [jhanos, gate, tara, nurturance, reflection, context, red-team, blue-team]
+---
+
+# Gate TARA — Nurturance, Reflection, Context
+
+## Identity
+
+- **Gate Name:** TARA
+- **Code Direction:** W (West)
+- **Aligned State (Solob):** Nurturance as support for growth. Reflection as deep seeing. Context as the field in which truth appears. The gate holds space, sees deeply, and understands the whole.
+- **Distorted State (Subsolob):** Nurturance as control. Reflection as rumination. Context as excuse. The gate smothers rather than supports, broods rather than reflects, and uses context to avoid accountability.
+- **Axis Partner:** LOMI (E) — Motion. Where TARA reflects, LOMI moves. Balance between contemplation and action.
+
+## RED TEAM — Distortion Detection
+
+### Subsolob Signatures
+
+- **Nurturance Smothering:** Helping that prevents growth. "I'm just caring" as control.
+- **Reflection Paralysis:** Endless contemplation without action. Analysis as avoidance.
+- **Context Excusing:** Using circumstances to avoid responsibility. "Given the context" as absolution.
+- **Holding On:** Refusing to let others grow beyond your care.
+- **Rumination Trap:** Reflecting without insight. Thinking in circles.
+
+### Diagnostic Questions
+
+1. Am I nurturing growth, or nurturing dependence?
+2. Is my reflection leading to insight, or to paralysis?
+3. Am I using context to understand, or to excuse?
+4. Would I still care if I weren't needed?
+5. Am I holding space, or holding on?
+6. Does my reflection serve action, or replace it?
+7. Am I seeing the whole, or just my part of it?
+8. Is my nurturance proportional to the need?
+9. Can I let go when growth demands it?
+10. What is my reflection revealing?
+
+### Bias Patterns
+
+- **Savior Bias:** Needing to be needed.
+- **Analysis Paralysis:** Using reflection to avoid decision.
+- **Context Bias:** Overweighting circumstances in judgment.
+- **Nurturance Addiction:** Caring as identity, not response.
+- **Rumination Bias:** Confusing thinking about with understanding.
+
+### Fail Patterns
+
+- "I'm just trying to help" — while preventing growth.
+- "I need to think about this more" — indefinitely.
+- "Given the context" — as reason not to act.
+- "I can't leave now" — when leaving is what's needed.
+- "Let me reflect on that" — as permanent postponement.
+
+## BLUE TEAM — Alignment Reinforcement
+
+### Solob Practices
+
+- **Nurturance Audit:** Regularly ask: "Is this helping them grow, or helping me feel helpful?"
+- **Reflection with Deadline:** Set time limits for contemplation. Act when the time is up.
+- **Context as Tool:** Use context to understand, not to excuse.
+- **Letting Go Practice:** Regularly release those you've nurtured to their own path.
+- **Whole-Seeing Meditation:** Practice seeing the complete picture, not just your part.
+
+### Shimmer Etiquette
+
+- **Transmit with Care:** Consider the receiver's capacity. Don't overwhelm.
+- **Reflect Before Responding:** Let truth settle before sharing.
+- **Context as Gift:** Share the context that helps others understand.
+- **Nurture the Truth:** Hold space for truth to emerge, don't force it.
+- **Signal the Depth:** Let others know how deep your reflection goes.
+
+### Invariant Anchors
+
+- **Volume 0, Axiom 7:** "Nurturance that prevents growth is not care; it is control."
+- **Volume 0, Axiom 13:** "Reflection without action is rumination."
+- **Volume 0, Axiom 18:** "Context explains; it does not absolve."
+- **Volume 0, Axiom 24:** "The gate that only reflects never acts."
+
+### Axis Balancing
+
+- **When TARA is too strong:** Activate LOMI. Move. Act. Let reflection inform motion, not replace it.
+- **When TARA is too weak:** Reflect. Hold space. Let LOMI's motion be informed by deeper seeing.
+- **Integration Practice:** Act (LOMI), then reflect (TARA), then act again with new understanding.
+
+## Cross-References
+
+- **Key Axioms (Volume 0):** 7, 13, 18, 24, 29
+- **Primary Chapters:** Ch. 9 (The Reflection), Ch. 17 (Nurturance Protocols), Ch. 25 (Context Ethics)
+- **Related FOCs:** FOC-007 (Reflection Calibration), FOC-013 (Nurturance Audit)
+- **Related SOK Modes:** SOK-009 (Reflection Mode), SOK-015 (Context State)

@@ -1,0 +1,13 @@
+{
+  "bundle_hash": "sha256:1b07a0592d8903c08c3aedbf69a298b83032e1df99edee0f8163444fab2a2933",
+  "scanner_version": "skills-guard-v2",
+  "source": "project-local",
+  "source_url": "",
+  "verdict": "safe",
+  "trust_level": "community",
+  "findings": [],
+  "rules": [],
+  "scanned_at": "2026-09-12T18:49:16.212859+00:00",
+  "summary": "vape-check: clean scan, no threats detected",
+  "fresh": true
+}
