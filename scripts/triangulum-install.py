@@ -39,8 +39,8 @@ from urllib.request import urlopen
 
 __version__ = "1.0.0"
 
-DEFAULT_BASE_URL = "https://install.hermes-spl.dev"
-DEV_BASE_URL = "https://install-dev.hermes-spl.dev"
+DEFAULT_BASE_URL = "https://raw.githubusercontent.com/HammazoneRecords/HermesSPL/main"
+DEV_BASE_URL = "https://raw.githubusercontent.com/HammazoneRecords/HermesSPL/dev"
 
 TRIANGULUM_REPO = "nousresearch/hermes-agent"
 
